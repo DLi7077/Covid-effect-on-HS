@@ -1,9 +1,13 @@
-from numpy import extract
 import pandas as pd
 import covidData as Covid
 import highschoolData as hs
-import json
+import re
 
+
+filter_cols= ["school_name","borocode", "language_classes",
+"advancedplacement_courses","location","subway","bus",
+"total_students","start_time","end_time","psal_sports_boys","psal_sports_girls","psal_sports_coed",
+"graduation_rate","attendance_rate","college_career_rate"]
 # takes a year btwn 2017 and 2021 to analyze
 # returns a dictionary that maps each borough symbol to a df
 def analyzeHighschool(year)-> dict:
@@ -23,13 +27,20 @@ def analyzeHighschool(year)-> dict:
   
   return hs.createDataFrame(file_name)
 
-hs2020= analyzeHighschool(2020)
-m2020= hs.schoolBoro(hs2020,'brooklyn')
+# hs2020= analyzeHighschool(2020)
+# m2020= hs.schoolBoro(hs2020,'brooklyn')
 # print(m2020)
 # print(m2020['bus'])
 # print(m2020['subway'])
 # print(hs.avgBusRoutes(m2020))
 # print(hs.popularBusRoutes(m2020))
 # print(hs.getSubwayFreq(m2020))
-text ='2, 3, 4, 5 to Borough Hall; A, C, F, R to Jay St-MetroTech; B, Q to DeKalb Ave; G to Hoyt & Schermerhorn'
-print(hs.extractTrains(text))
+
+def analyzeCovid():
+  file_name= 'data\COVID-19_Daily_Counts_of_Cases__Hospitalizations__and_Deaths.csv'
+  df = pd.read_csv(file_name)
+  bronx= Covid.boroCovidData(df,'bronx')
+  BX2019Cases= Covid.casesOfSchoolYear(bronx,2019)
+  print(bronx)
+
+analyzeCovid()

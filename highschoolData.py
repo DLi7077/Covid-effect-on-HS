@@ -11,6 +11,7 @@ graduation_rate, attendance_rate, college_career_rate
 create dataframe to only those columns,
 drop schools without reported graduation rates
 """
+
 def createDataFrame(file_name) -> pd.DataFrame:
     df= pd.read_csv(file_name)
     df= df.rename(columns={"boro": "borocode"})
@@ -39,7 +40,11 @@ def schoolBoro(df, boro) -> pd.DataFrame:
     }
     return df.loc[df['borocode']==boroMap[boro]].reset_index()
 
-#---- BUS FUNCTIONS---
+# Given a school term dataframe, return the average Graduation Rate
+def avgGraduationRate(df) -> float:
+    return df['graduation_rate'].mean()
+
+#----------- BUS FUNCTIONS -----------
 # get dictionary of buses and the amount of schools they're near
 def getBusFreq(df: pd.DataFrame) -> dict:
     busFreq:dict = {}
