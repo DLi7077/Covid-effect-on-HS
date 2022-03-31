@@ -1,7 +1,11 @@
+from tracemalloc import start
 import pandas as pd
 import covidData as Covid
 import highschoolData as hs
+import numpy as np
 import re
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 
 filter_cols= ["school_name","borocode", "language_classes",
@@ -26,7 +30,6 @@ def analyzeHighschool(year)-> dict:
   print('-'* (offset//2),st,'-'* (offset//2),'\n\n')
   
   return hs.createDataFrame(file_name)
-
 # hs2020= analyzeHighschool(2020)
 # m2020= hs.schoolBoro(hs2020,'brooklyn')
 # print(m2020)
@@ -36,11 +39,27 @@ def analyzeHighschool(year)-> dict:
 # print(hs.popularBusRoutes(m2020))
 # print(hs.getSubwayFreq(m2020))
 
-def analyzeCovid():
+
+def analyzeCovid()-> pd.DataFrame:
   file_name= 'data\COVID-19_Daily_Counts_of_Cases__Hospitalizations__and_Deaths.csv'
   df = pd.read_csv(file_name)
-  bronx= Covid.boroCovidData(df,'bronx')
-  BX2019Cases= Covid.casesOfSchoolYear(bronx,2019)
-  print(bronx)
+  return df
 
-analyzeCovid()
+def graphCovid(df)-> None:
+  df['days']=pd.to_datetime(df['DATE_OF_INTEREST'])
+  
+  startingDate= df['days'].iloc[0]
+  df['days']=(df['days']-startingDate).dt.days
+
+  sns.lmplot(x='days', y='CASE_COUNT', data= df, fit_reg=False)
+  plt.title('Historical Covid Data')
+  plt.show()
+
+  return
+
+
+# pd.set_option('display.max_columns',None)
+# pd.set_option('display.max_rows',None)
+
+covid2020 =analyzeCovid()
+graphCovid(covid2020)

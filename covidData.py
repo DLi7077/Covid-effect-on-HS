@@ -36,7 +36,7 @@ def boroCovidData(df: pd.DataFrame, boro: str)-> pd.DataFrame:
 #   the amount of cases at the end of the given school year
 # instead of ending at 12-21-XXXX, it will end at June-27-XXXX
 # 2022 Term Calendar: https://www.schools.nyc.gov/about-us/news/2021-2022-school-year-calendar
-def casesOfSchoolYear(df: pd.DataFrame, year: int)-> int:
+def covidSchoolYear(df: pd.DataFrame, year: int)-> int:
     year= int(year)
     if(int(year)<2019): # no cases prior to 2020
         print('NOTE: Covid-19 Cases appeared in 2020')
@@ -47,8 +47,8 @@ def casesOfSchoolYear(df: pd.DataFrame, year: int)-> int:
     upperBound_date= (str(year) + '-6-27')
     
     # extract case count
-    dates= pd.to_datetime(df['DATE_OF_INTEREST'])
-    schoolTerm = df[(dates>= lowerBound_date) & (dates< upperBound_date)]
+    df['DATE_OF_INTEREST']= pd.to_datetime(df['DATE_OF_INTEREST'])
+    schoolTerm = df[(df['DATE_OF_INTEREST']>= lowerBound_date) 
+                & (df['DATE_OF_INTEREST']< upperBound_date)]
     
-    return schoolTerm['BX_CASE_COUNT'].sum()
-
+    return schoolTerm
