@@ -1,4 +1,12 @@
-from tracemalloc import start
+"""
+Resources:
+https://stackoverflow.com/questions/42128467/matplotlib-plot-multiple-columns-of-pandas-data-frame-on-the-bar-chart
+https://stackoverflow.com/questions/43214978/seaborn-barplot-displaying-values
+https://stackoverflow.com/questions/33227473/how-to-set-the-range-of-y-axis-for-a-seaborn-boxplot
+https://stackabuse.com/rotate-axis-labels-in-matplotlib/
+
+"""
+
 import pandas as pd
 import covidData as Covid
 import highschoolData as hs
@@ -6,6 +14,7 @@ import numpy as np
 import re
 import matplotlib.pyplot as plt
 import seaborn as sns
+import boroughs
 
 
 filter_cols= ["school_name","borocode", "language_classes",
@@ -23,13 +32,8 @@ def analyzeHighschool(year)-> dict:
     print('-', year, 'is not between 2017 - 2021')
     print('-'* offset)
     quit()
-  file_name='data/0000_DOE_High_School_Directory.csv'
-  file_name= file_name.replace('0000',str(year))
-  highschool= hs.createDataFrame(file_name)
-  st=file_name[5:9]
-  print('-'* (offset//2),st,'-'* (offset//2),'\n\n')
   
-  return hs.createDataFrame(file_name)
+  return hs.createDataFrame(year)
 # hs2020= analyzeHighschool(2020)
 # m2020= hs.schoolBoro(hs2020,'brooklyn')
 # print(m2020)
@@ -39,27 +43,39 @@ def analyzeHighschool(year)-> dict:
 # print(hs.popularBusRoutes(m2020))
 # print(hs.getSubwayFreq(m2020))
 
+def highschoolGraph(df,boro):
+  graph= df.plot(x='year',y=boro, kind= 'bar', width= .7)
+  graph.bar_label(graph.containers[0])
+  graph.bar_label(graph.containers[1])
+  graph.bar_label(graph.containers[2])
+  graph.bar_label(graph.containers[3])
+  graph.bar_label(graph.containers[4])
+  plt.ylim(.65,1)
+  plt.title('Highschool Graduation Rates by Borough')
+  graph.tick_params(axis='x', labelrotation = 0)
+  return graph
 
-def analyzeCovid()-> pd.DataFrame:
+def CovidDF()-> pd.DataFrame:
   file_name= 'data\COVID-19_Daily_Counts_of_Cases__Hospitalizations__and_Deaths.csv'
   df = pd.read_csv(file_name)
   return df
 
-def graphCovid(df)-> None:
-  df['days']=pd.to_datetime(df['DATE_OF_INTEREST'])
-  
-  startingDate= df['days'].iloc[0]
-  df['days']=(df['days']-startingDate).dt.days
+def covidGraph(df,boros)-> None:
+  # df['days']=pd.to_datetime(df['school_year'])
+  # startingDate= df['days'].iloc[0]
+  # df['days']=(df['days']-startingDate).dt.days
 
-  sns.lmplot(x='days', y='CASE_COUNT', data= df, fit_reg=False)
+  graph= df.plot(x='school_year', y=boros, kind= 'bar')
   plt.title('Historical Covid Data')
-  plt.show()
-
-  return
-
+  return graph
 
 # pd.set_option('display.max_columns',None)
 # pd.set_option('display.max_rows',None)
 
-covid2020 =analyzeCovid()
-graphCovid(covid2020)
+hsGradRates= highschoolGraph(hs.graduationDf(), boroughs.boros)
+
+covidCases= (Covid.covidSummaryDF())
+covidplot = covidGraph(covidCases, boroughs.boros)
+
+
+plt.show()

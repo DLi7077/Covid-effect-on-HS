@@ -1,6 +1,6 @@
 import pandas as pd
 import re
-    
+import boroughs
 """
 given a highschool csv file with the columns: 
 school name, borocode, language_classes, advanced placement courses,
@@ -12,9 +12,11 @@ create dataframe to only those columns,
 drop schools without reported graduation rates
 """
 
-def createDataFrame(file_name) -> pd.DataFrame:
-    df= pd.read_csv(file_name)
+# createDataFrame (constructor)
+def createDataFrame(year:int) -> pd.DataFrame:
+    df= pd.read_csv(f'data/{year}_DOE_High_School_Directory.csv')
     df= df.rename(columns={"boro": "borocode"})
+    
     filter_cols= ["school_name","borocode", "language_classes",
     "advancedplacement_courses","location","subway","bus",
     "total_students","start_time","end_time","psal_sports_boys","psal_sports_girls","psal_sports_coed",
@@ -34,15 +36,36 @@ def schoolBoro(df, boro) -> pd.DataFrame:
     boroMap= {
         'bronx':'X',
         'brooklyn': 'K',
-        'staten island': 'S',
+        'staten island': 'R',
         'manhattan': 'M',
         'queens': 'Q'
     }
     return df.loc[df['borocode']==boroMap[boro]].reset_index()
 
+
+# creates df that contains the graduation rate for each year
+def graduationDf():
+    df= pd.DataFrame()
+    # append yearly data, given a yearly dataframe
+    def annualGR(yearlyDF,year):
+        newRow:dict= {'year':year}
+        for b in boroughs.boros:
+            avgGR= avgGraduationRate(schoolBoro(yearlyDF,b))
+            newRow[b]=round(avgGR,2)
+        # print(newRow)
+        return pd.DataFrame(newRow, index=[year-2017])
+    
+    # add every year to new DF
+    for i in range(2017, 2022):
+        yearDF= annualGR(createDataFrame(i),i)
+        df= pd.concat([df,yearDF])
+    return df
+    
+
 # Given a school term dataframe, return the average Graduation Rate
 def avgGraduationRate(df) -> float:
     return df['graduation_rate'].mean()
+
 
 #----------- BUS FUNCTIONS -----------
 # get dictionary of buses and the amount of schools they're near
