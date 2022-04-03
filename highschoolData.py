@@ -59,6 +59,7 @@ def graduationDf():
     for i in range(2017, 2022):
         yearDF= annualGR(createDataFrame(i),i)
         df= pd.concat([df,yearDF])
+        
     return df
     
 

@@ -4,7 +4,8 @@ https://stackoverflow.com/questions/42128467/matplotlib-plot-multiple-columns-of
 https://stackoverflow.com/questions/43214978/seaborn-barplot-displaying-values
 https://stackoverflow.com/questions/33227473/how-to-set-the-range-of-y-axis-for-a-seaborn-boxplot
 https://stackabuse.com/rotate-axis-labels-in-matplotlib/
-
+https://www.pythontutorial.net/python-basics/python-filter-list/
+https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.merge.html
 """
 
 import pandas as pd
@@ -43,39 +44,77 @@ def analyzeHighschool(year)-> dict:
 # print(hs.popularBusRoutes(m2020))
 # print(hs.getSubwayFreq(m2020))
 
-def highschoolGraph(df,boro):
-  graph= df.plot(x='year',y=boro, kind= 'bar', width= .7)
+def highschoolGraph(df,boros):
+  # filter only boroughs
+  boros= list(filter(lambda b: b in boroughs.boros, boros))
+  graph= df.plot(x='year',y=boros, kind= 'bar', width= .7)
   graph.bar_label(graph.containers[0])
-  graph.bar_label(graph.containers[1])
-  graph.bar_label(graph.containers[2])
-  graph.bar_label(graph.containers[3])
-  graph.bar_label(graph.containers[4])
   plt.ylim(.65,1)
-  plt.title('Highschool Graduation Rates by Borough')
+  title= boros[0].title() if len(boros)==1 else "All Boroughs"
+  plt.title(f'{title}: Highschool Graduation Rates')
+  plt.legend(loc='upper left')
   graph.tick_params(axis='x', labelrotation = 0)
   return graph
 
 def CovidDF()-> pd.DataFrame:
   file_name= 'data\COVID-19_Daily_Counts_of_Cases__Hospitalizations__and_Deaths.csv'
-  df = pd.read_csv(file_name)
+  df = pd.read_csv(file_name) 
   return df
 
 def covidGraph(df,boros)-> None:
-  # df['days']=pd.to_datetime(df['school_year'])
-  # startingDate= df['days'].iloc[0]
-  # df['days']=(df['days']-startingDate).dt.days
-
-  graph= df.plot(x='school_year', y=boros, kind= 'bar')
-  plt.title('Historical Covid Data')
+  # filter only boroughs
+  boros= list(filter(lambda b: b in boroughs.boros, boros))
+  title= boros[0].title() if len(boros)==1 else "All Boroughs"
+  graph= df.plot(x='school_year', y=boros, kind= 'line')
+  plt.ylim(0,400000)
+  plt.legend(loc='upper left')
+  plt.title(f'{title}: New Covid Cases by School Year')
   return graph
 
 # pd.set_option('display.max_columns',None)
 # pd.set_option('display.max_rows',None)
 
-hsGradRates= highschoolGraph(hs.graduationDf(), boroughs.boros)
+# provided covidDF and graduationDF, return a df such that:
+# the df shall contain cols: ['school_year','case_count','graduation_rate']
+# params: covidDF-> contains ['school_year','case_count',...boros]
+#         graduationDF->     ['year','graduation_rate',...boros]
 
-covidCases= (Covid.covidSummaryDF())
-covidplot = covidGraph(covidCases, boroughs.boros)
+def mergeData(covidDF: pd.DataFrame, graduationDF: pd.DataFrame)-> pd.DataFrame:
+  # confirm parameters are in right order
+  if ('school_year' not in covidDF.columns):
+    print("first parameter doesn't have school_year as column")
+    quit()
+  df= pd.merge(covidDF, graduationDF,
+               left_on= 'school_year',
+               right_on='year')
+  df= df.dropna()
+  return df
 
+def filterBoroughs(df:pd.DataFrame,boro: str)-> pd.DataFrame:
+  cols=['school_year']
+  for colName in df.columns:
+    if(boro in colName):
+      cols.append(colName)
+  return df[cols]
 
-plt.show()
+# plot data for each borough 
+covidCases= Covid.covidSummaryDF()
+highschoolGradDF=hs.graduationDf()
+
+merged= mergeData(covidCases,highschoolGradDF)
+# for b in boroughs.boros:
+#   hsGradplot= highschoolGraph(highschoolGradDF, [b])
+#   covidplot = covidGraph(covidCases, [b])
+#   plt.show()
+
+# scatterplot
+# plots covid_cases as X and graduation rate as y
+for boro in boroughs.boros:
+  filtered= filterBoroughs(merged,boro)
+  covid_x= sns.scatterplot(x=boro+'_x', y=boro+'_y', data=filtered)
+  covid_x.set(ylim=(.6,1))
+  
+  year_x= sns.scatterplot(x='school_year', y=boro+'_y', data=filtered)
+  
+  plt.show()
+

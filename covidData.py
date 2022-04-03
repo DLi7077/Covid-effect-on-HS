@@ -1,3 +1,4 @@
+from tempfile import tempdir
 import pandas as pd
 import re
 import boroughs
@@ -9,7 +10,7 @@ def createDataFrame():
     df = pd.read_csv(file_name)
     return df
 # Borough filters: return df
-def boroCovidData(df: pd.DataFrame, boro: str)-> pd.DataFrame:
+def boroFilter(df: pd.DataFrame, boro: str)-> pd.DataFrame:
     boro = boro.lower() #lowercase so its not case sensitive
     boroList=['bronx','brooklyn','staten island','manhattan','queens']
     
@@ -36,6 +37,7 @@ def boroCovidData(df: pd.DataFrame, boro: str)-> pd.DataFrame:
     return df[boroColumns]
 
 # get the totalCaseCount of a given covid df
+# returns a df with: ['year']
 def totalCaseCount(df: pd.DataFrame)-> int:
     caseCountCols=[]
     regex= r'.+CASE_COUNT' # to match columns that contain cases
@@ -99,7 +101,7 @@ def covidSummaryDF():
 		newRow:dict= {'school_year': year}
 		# add each borough to newRow
 		for b in boroughs.boros:
-			yearlyData= boroCovidData(yearlyDF,b)
+			yearlyData= boroFilter(yearlyDF,b)
 			# add new col to row
 			newRow[b]=totalCaseCount(yearlyData)
    
@@ -110,7 +112,20 @@ def covidSummaryDF():
 	for year in range(2017,2023):
 		yearAsRow= annualCovid(covidbySchoolYear(data,year), year)
 		df= pd.concat([df,yearAsRow])
-
+  
 	return df
 
-    
+
+#converts the covidSummary into multiple df's separated by year
+def BoroDatabyYear(year:int):
+    summary= covidSummaryDF()
+    i=0
+    boroDict= {'boro_name':[],
+               'Cases':[]
+            }
+    for boro in boroughs.boros:
+        cases= summary[boro].iloc[year-2017]
+        boroDict['boro_name'].append(boro.title())
+        boroDict['Cases'].append(cases)
+    df = pd.DataFrame(boroDict)
+    return df
