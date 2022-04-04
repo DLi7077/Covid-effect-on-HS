@@ -6,8 +6,10 @@ https://stackoverflow.com/questions/33227473/how-to-set-the-range-of-y-axis-for-
 https://stackabuse.com/rotate-axis-labels-in-matplotlib/
 https://www.pythontutorial.net/python-basics/python-filter-list/
 https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.merge.html
+https://cmdlinetips.com/2019/04/how-to-make-scatter-plot-in-python/
 """
 
+from tkinter import X
 import pandas as pd
 import covidData as Covid
 import highschoolData as hs
@@ -16,6 +18,7 @@ import re
 import matplotlib.pyplot as plt
 import seaborn as sns
 import boroughs
+from model_accuracy_plot import compute_lin_reg
 
 
 filter_cols= ["school_name","borocode", "language_classes",
@@ -109,12 +112,36 @@ merged= mergeData(covidCases,highschoolGradDF)
 
 # scatterplot
 # plots covid_cases as X and graduation rate as y
-for boro in boroughs.boros:
-  filtered= filterBoroughs(merged,boro)
-  covid_x= sns.scatterplot(x=boro+'_x', y=boro+'_y', data=filtered)
-  covid_x.set(ylim=(.6,1))
+def Covidscatterplot()-> None:
+  for boro in boroughs.boros:
+    filtered= filterBoroughs(merged,boro)
+    covid_x= sns.scatterplot(x=boro+'_x',y=boro+'_y', data=filtered)
+    x= np.array(filtered[boro+'_x'])
+    coeff= filtered[boro+'_x'].corr(filtered[boro+'_y'])
   
-  year_x= sns.scatterplot(x='school_year', y=boro+'_y', data=filtered)
-  
-  plt.show()
+    b,m= compute_lin_reg(filtered[boro+'_x'], filtered[boro+'_y'])
+    plt.plot(x, m*x +b)
+    plt.title(f'{boro} Graduation Rates vs Covid\nr ={coeff}')
+    plt.xlabel('covid cases')
+    plt.ylabel('graduation rate')
+    plt.show()
+    
 
+# scatterplot
+# plots years as X and graduation rate as y
+def yearScatterPlot()->None:
+  for boro in boroughs.boros:
+    filtered= filterBoroughs(merged,boro)
+    print(filtered)
+    year_x= sns.scatterplot(x='school_year',y=boro+'_y', data=filtered)
+    x= np.array(filtered['school_year'])
+    coeff= filtered['school_year'].corr(filtered[boro+'_y'])
+    b,m= compute_lin_reg(filtered['school_year'], filtered[boro+'_y'])
+    plt.plot(x, m*x +b)
+    plt.title(f'{boro} Graduation Rates vs Year\n r ={coeff}')
+    plt.xlabel('school_year')
+    plt.ylabel('graduation rate')
+    plt.show()
+
+Covidscatterplot()
+# yearScatterPlot()

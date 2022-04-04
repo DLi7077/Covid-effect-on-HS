@@ -101,7 +101,6 @@ def popularBusRoutes(df, limit =5) -> list:
         popular.append(busMap[i])
     return popular
 
-
 #-----------TRAIN FUNCTIONS-----------
 
 # use regex expressions to extract train routes
