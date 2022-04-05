@@ -11,7 +11,6 @@ print(casesin2020)
 
 boro_geo ='Borough Boundaries.geojson'
 
-bins = list(casesin2020["Cases"].quantile([0, .25,.5,.75,1]))
 
 map =folium.Map(location= [40.7831, -73.9712],zoom_start=10)
 Area= folium.Choropleth(
@@ -22,9 +21,11 @@ Area= folium.Choropleth(
   fill_color="BuGn",
   fill_opacity=.1,
   line_opacity=1,
-  threshold_scale= [0,20,50,70,100],
-  bins=0,
+  # threshold_scale= [0,20,50,70,1000000],
   highlight=True
 ).add_to(map)
 
 map.save(outfile= 'boroughs.html')
+
+# thasnia
+# tasnia
