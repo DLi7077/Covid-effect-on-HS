@@ -1,7 +1,7 @@
 boros= [
-    'bronx',
-    'brooklyn',
-    'staten island',
-    'manhattan',
-    'queens'
+    'Bronx',
+    'Brooklyn',
+    'Staten Island',
+    'Manhattan',
+    'Queens'
 ]
