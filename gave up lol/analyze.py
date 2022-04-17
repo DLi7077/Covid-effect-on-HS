@@ -112,7 +112,7 @@ merged= mergeData(covidCases,highschoolGradDF)
 
 # scatterplot
 # plots covid_cases as X and graduation rate as y
-def Covidscatterplot()-> None:
+def Covidscatterplot()-> None: 
   for boro in boroughs.boros:
     filtered= filterBoroughs(merged,boro)
     covid_x= sns.scatterplot(x=boro+'_x',y=boro+'_y', data=filtered)
