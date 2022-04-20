@@ -10,6 +10,7 @@ https://pandas.pydata.org/docs/reference/api/pandas.to_numeric.html
 
 import pandas as pd
 from pyparsing import col
+from sklearn.utils import column_or_1d
 from boroughs import boroughList as boroList
 import re
 
@@ -135,8 +136,7 @@ def ugly2021(df):
 
 # create dataframes and merge them
 # first big dataframe:
-schoolAttendanceDf= createDataFrame()
-
+saDF= createDataFrame()
 
 # create other monthly dataframes:
 monthList = ['01','02','03','04','05','09','10']
@@ -157,10 +157,81 @@ for month in monthList:
     df['Month']= int(date[0])
     
     # add the extra data
-    schoolAttendanceDf= pd.concat([schoolAttendanceDf,df])
+    saDF= pd.concat([saDF,df])
+    
 
-#
+# rearrange the dataframe
+# new cols will be [boro0,boro1,boro2,... date, months]
+
 
 from cleanDate import cleanDate
+saDF['Months']= (saDF['Month']-9 + 12*(saDF['Year'] -2018))
 
-schoolAttendanceDf= cleanDate(schoolAttendanceDf)
+saDF= cleanDate(saDF)
+
+# print(saDF)
+
+saDF= saDF.sort_values(by=['Months','Borough'])
+AttendanceDf= pd.DataFrame()
+for idx in range(0,len(saDF),5):
+    
+    rowEntry= saDF.iloc[idx:idx+5].reset_index()
+    cols = rowEntry['Borough'].tolist()
+    attendance= rowEntry['Attendance%'].tolist()
+    
+    newRow= {}
+    for i in range(len(cols)):
+        newRow[f'{cols[i]} Attendance%']= attendance[i]
+        
+    newRow['Month']= saDF.iloc[idx,2]
+    newRow['Date'] =saDF.iloc[idx,3]
+    newRow= pd.DataFrame(newRow,index=[idx])
+    
+    AttendanceDf=pd.concat([AttendanceDf,newRow])
+
+AttendanceDf=AttendanceDf.reset_index()
+
+import numpy as np
+
+monthSet= set(np.arange(38))
+# append missing months
+prevMonth =-1
+for i,row in AttendanceDf['Month'].iteritems():
+  if(row in monthSet):
+    monthSet.remove(row)
+
+from pandas.tseries.offsets import MonthEnd
+# to add the missing months
+for m in monthSet:
+  # i =0
+  # for b in boroughList:
+  #   actualMonth= (m+9)%12
+  #   if(actualMonth==0): actualMonth= 12
+  #   actualYear= 2018+(m+9)//12
+  #   tempRow= pd.DataFrame({
+  #     'Borough': b,
+  #     'Attendance%': 0,
+  #     'Date': pd.to_datetime(f'{actualYear}-{actualMonth}', format= '%Y-%m')+MonthEnd(1),
+  #     'Months': m
+  #   }, index=[m+i])
+  #   i+=1
+  #   # print(tempRow)
+  #   attendanceDF= pd.concat([attendanceDF, tempRow])
+  newRow = {}
+  for b in boroList:
+    newRow[f'{b} Attendance%']=0
+    
+  newRow['Month']=m
+  actualMonth= (m+9)%12
+  if(actualMonth==0): actualMonth= 12
+  actualYear= 2018+(m+9)//12
+  newRow['Date']= pd.to_datetime(f'{actualYear}-{actualMonth}', format= '%Y-%m')+MonthEnd(1)
+  newRow= pd.DataFrame(newRow, index= [m])
+  AttendanceDf= pd.concat([AttendanceDf,newRow])
+
+AttendanceDf=AttendanceDf.drop(columns=['index'])
+AttendanceDf= AttendanceDf.sort_values(by= ['Month','Date'])
+
+
+# pd.options.display.max_rows= None
+# print(AttendanceDf)

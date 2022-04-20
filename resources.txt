@@ -1,0 +1,17 @@
+saving plot cuts off labels
+https://stackoverflow.com/questions/6774086/how-to-adjust-padding-with-cutoff-or-overlapping-labels
+
+saving plot as image
+https://www.marsja.se/how-to-save-a-seaborn-plot-as-a-file-e-g-png-pdf-eps-tiff/
+
+customizing plot
+https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Python_Seaborn_Cheat_Sheet.pdf
+
+add text to seaborn plot
+https://stackoverflow.com/questions/41511334/adding-text-to-each-subplot-in-seaborn
+
+pie chart
+https://www.delftstack.com/howto/seaborn/seaborn-pie-chart/
+
+hue histplots
+https://seaborn.pydata.org/generated/seaborn.histplot.html
