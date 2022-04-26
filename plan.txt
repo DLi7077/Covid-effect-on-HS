@@ -13,3 +13,5 @@
 
 
 4) publish on webpage using reactjs
+
+which boroughs got affected the most?

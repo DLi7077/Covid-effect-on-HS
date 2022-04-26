@@ -1,9 +1,8 @@
 import time
 import pandas as pd
-from sklearn import linear_model
 
 start = time.time()
-
+changes =[0,0]
 def charToBoro(dbn:str):
   boroMap = {
     'K': 'Brooklyn',
@@ -19,7 +18,7 @@ def createDataframe(file_name,year:int):
   df = pd.read_csv(file_name)
   df= df.dropna(subset=['graduation_rate','attendance_rate','total_students'])
   df['Borough']= df['dbn'].apply(charToBoro)
-  cols= ['attendance_rate','graduation_rate','Borough','total_students']
+  cols= ['school_name','attendance_rate','graduation_rate','Borough','total_students']
   df = df[cols]
   df['year'] = str(year)
   return df.sort_values(by='Borough')
@@ -66,7 +65,7 @@ def plotGraduation(data:pd.DataFrame,year):
   gr.text(
     0.31,# x location
     30, # y location
-    f'\nMean:{mean}\nMedian:{median}\nSample Dev:{std}\nStudent Count: {studentCount}\nAVG student Count: {avgStudentCount}',
+    f'\nMean:{mean}\nMedian:{median}\nStandard Dev:{std}\nStudent Count: {studentCount}\nAVG student Count: {avgStudentCount}',
     size='large'
   )
   sns.move_legend(gr, "upper right",bbox_to_anchor=(1.1, 1))
@@ -112,7 +111,7 @@ def plotAttendance(data:pd.DataFrame,year):
   ar.text(
     0.51,# x location
     30, # y location
-    f'\nMean:{mean}\nMedian:{median}\nSample Dev:{std}\nStudent Count: {studentCount}\nAVG student Count: {avgStudentCount}',
+    f'\nMean:{mean}\nMedian:{median}\nStandard Dev:{std}\nStudent Count: {studentCount}\nAVG student Count: {avgStudentCount}',
     size='large'
   )
   
@@ -149,6 +148,29 @@ def plotScatter(
   scatterPlot.set_ylabel("Graduation Rate", fontsize = 20)
   
   sns.move_legend(scatterPlot, "lower right")
+  
+  # get regression line 
+  from statModels import computeLinearReg
+  slope, intercept= computeLinearReg(df,xCol,yCol)
+  
+  #plot regression line
+  xVals= np.array(range(100))
+  transform= lambda x: x*slope +intercept
+  yVals= transform(xVals)
+  plt.plot(xVals,yVals)
+  changes[0] = intercept- changes[0]
+  changes[1] = slope- changes[1]
+  if(changes[0]==intercept):
+    changes[0]=0
+    changes[1]=0
+  plt.text(
+    .61,0.75,
+    f'Slope: {round(slope,4)}'
+    +f'\n Change: {round(changes[1],4)}\n'
+    +f'\n Change: {round(changes[0],4)}\n'
+  )
+  changes[0]= intercept
+  changes[1]= slope
   
   plt.savefig(
     f"graphs/AttenvGrad{year}.png",
@@ -204,42 +226,13 @@ for data in hsData.values():
   studentPieChart(data,year)
   year+=1
 
-
-
-
 # overall Graduation and Attendance
 totalData= pd.DataFrame()
 for data in hsData.values():
   totalData= pd.concat([totalData,data])
 
-totalData= totalData.reset_index().drop(columns=['index'])
-
+totalData= totalData.reset_index(drop=True)
 print(totalData)
-print(studentPieChart(totalData,2020))
-
-# randomArray= np.random.randint(2004,size=250)
-# print(randomArray)
-# # print(totalData)
-# # total time taken
-# plotScatter(totalData.iloc[randomArray],hueCol='year')
-
-# plt.show()
-
-# def LinearRegModel(x_train,y_train):
-#   linearReg= linear_model.LinearRegression()
-#   linearReg.fit(x_train,y_train)
-#   return linearReg
-
-# from sklearn.preprocessing import PolynomialFeatures
-# def transform_numeric_cols(df_num, degree_num=2) -> np.ndarray:
-#   polyPredict= PolynomialFeatures(degree=degree_num, include_bias=False)
-#   npValues= polyPredict.fit_transform(df_num)
-#   return npValues
-
-# from sklearn.model_selection import train_test_split
-
-
-# x_train,x_test,y_train,y_test = train_test_split(totalData,totalData)
 
 
 end = time.time()

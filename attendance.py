@@ -8,11 +8,15 @@ to_numeric
 https://pandas.pydata.org/docs/reference/api/pandas.to_numeric.html
 """
 
+"""_summary_
+generates avg attendance per school month for each boro
+"""
 import pandas as pd
-from pyparsing import col
-from sklearn.utils import column_or_1d
 from boroughs import boroughList as boroList
 import re
+import numpy as np
+from pandas.tseries.offsets import MonthEnd
+from cleanDate import cleanDate
 
 def schoolBoro(boro:str)->str:
     boroMap= {
@@ -39,7 +43,7 @@ def createDataFrame()-> pd.DataFrame:
     df= df.groupby(['Year','Month','Borough']).sum()
     df['Attendance%'] = 100*(df['Present']/(df['Present']+df['Absent']+df['Released']))
     df= df.drop(columns= ['Enrolled','Present','Absent','Released'])
-    return df.reset_index()
+    return df.reset_index(drop= True)
 # district to borough
 # https://data.nysed.gov/profile.php?instid=7889678368
 
@@ -91,7 +95,7 @@ def data2021(df):
     df= df[['Borough','Attendance%']]
     df= df.groupby('Borough').mean()
     
-    return df.reset_index()
+    return df.reset_index(drop= True)
 
 def isDistrict(unit:str):
     return 'District' in unit
@@ -121,117 +125,88 @@ def ugly2021(df):
 
     # merge boroughs
     df= df.groupby('Borough').mean()
-    df= df.reset_index()
+    df= df.reset_index(drop= True)
     
     # done
     return df
 
+def createAttendanceDF():
+    # create dataframes and merge them
+    # first big dataframe:
+    saDF= createDataFrame()
 
-# TODO: create a function that loops through all the data
-# and combines it to 1 dataframe, one for each borough
-# graph the results
-# consider the impact and implications
+    # create other monthly dataframes:
+    monthList = ['01','02','03','04','05','09','10']
 
-
-
-# create dataframes and merge them
-# first big dataframe:
-saDF= createDataFrame()
-
-# create other monthly dataframes:
-monthList = ['01','02','03','04','05','09','10']
-
-# append the extra months
-for month in monthList:
-    file_name= f'attendance/{month}_2021.csv'
-    df = pd.read_csv(file_name)
-    if('DBN' in df.columns):
-        df = data2021(df)
-    else:
-        df= ugly2021(df)
+    # append the extra months
+    for month in monthList:
+        file_name= f'attendance/{month}_2021.csv'
+        df = pd.read_csv(file_name)
+        if('DBN' in df.columns):
+            df = data2021(df)
+        else:
+            df= ugly2021(df)
+        # figure out the date
+        regex= r'/.+\.'
+        date= (re.findall(regex,file_name)[0][1:-1]).split('_')
+        df['Year']= int(date[1])
+        df['Month']= int(date[0])
         
-    # figure out the date
-    regex= r'/.+\.'
-    date= (re.findall(regex,file_name)[0][1:-1]).split('_')
-    df['Year']= int(date[1])
-    df['Month']= int(date[0])
-    
-    # add the extra data
-    saDF= pd.concat([saDF,df])
-    
-
-# rearrange the dataframe
-# new cols will be [boro0,boro1,boro2,... date, months]
-
-
-from cleanDate import cleanDate
-saDF['Months']= (saDF['Month']-9 + 12*(saDF['Year'] -2018))
-
-saDF= cleanDate(saDF)
-
-# print(saDF)
-
-saDF= saDF.sort_values(by=['Months','Borough'])
-AttendanceDf= pd.DataFrame()
-for idx in range(0,len(saDF),5):
-    
-    rowEntry= saDF.iloc[idx:idx+5].reset_index()
-    cols = rowEntry['Borough'].tolist()
-    attendance= rowEntry['Attendance%'].tolist()
-    
-    newRow= {}
-    for i in range(len(cols)):
-        newRow[f'{cols[i]} Attendance%']= attendance[i]
+        # add the extra data
+        saDF= pd.concat([saDF,df])
         
-    newRow['Month']= saDF.iloc[idx,2]
-    newRow['Date'] =saDF.iloc[idx,3]
-    newRow= pd.DataFrame(newRow,index=[idx])
-    
-    AttendanceDf=pd.concat([AttendanceDf,newRow])
+    # rearrange the dataframe
+    # new cols will be [boro0,boro1,boro2,... date, months]
 
-AttendanceDf=AttendanceDf.reset_index()
+    saDF['Months']= (saDF['Month']-9 + 12*(saDF['Year'] -2018))
+    saDF= cleanDate(saDF)
 
-import numpy as np
+    saDF= saDF.sort_values(by=['Months','Borough'])
 
-monthSet= set(np.arange(38))
-# append missing months
-prevMonth =-1
-for i,row in AttendanceDf['Month'].iteritems():
-  if(row in monthSet):
-    monthSet.remove(row)
+    # create attendance column for each borough
+    AttendanceDf= pd.DataFrame()
 
-from pandas.tseries.offsets import MonthEnd
-# to add the missing months
-for m in monthSet:
-  # i =0
-  # for b in boroughList:
-  #   actualMonth= (m+9)%12
-  #   if(actualMonth==0): actualMonth= 12
-  #   actualYear= 2018+(m+9)//12
-  #   tempRow= pd.DataFrame({
-  #     'Borough': b,
-  #     'Attendance%': 0,
-  #     'Date': pd.to_datetime(f'{actualYear}-{actualMonth}', format= '%Y-%m')+MonthEnd(1),
-  #     'Months': m
-  #   }, index=[m+i])
-  #   i+=1
-  #   # print(tempRow)
-  #   attendanceDF= pd.concat([attendanceDF, tempRow])
-  newRow = {}
-  for b in boroList:
-    newRow[f'{b} Attendance%']=0
-    
-  newRow['Month']=m
-  actualMonth= (m+9)%12
-  if(actualMonth==0): actualMonth= 12
-  actualYear= 2018+(m+9)//12
-  newRow['Date']= pd.to_datetime(f'{actualYear}-{actualMonth}', format= '%Y-%m')+MonthEnd(1)
-  newRow= pd.DataFrame(newRow, index= [m])
-  AttendanceDf= pd.concat([AttendanceDf,newRow])
+    for idx in range(0,len(saDF),5):
+        
+        rowEntry= saDF.iloc[idx:idx+5].reset_index(drop= True)
+        cols = rowEntry['Borough'].tolist()
+        attendance= rowEntry['Attendance%'].tolist()
+        
+        newRow= {}
+        for i in range(len(cols)):
+            newRow[f'{cols[i]} Attendance%']= attendance[i]
+            
+        newRow['Month']= saDF.iloc[idx,2]
+        newRow['Date'] = saDF.iloc[idx,3]
+        newRow= pd.DataFrame(newRow,index=[0])
+        
+        AttendanceDf=pd.concat([AttendanceDf,newRow])
 
-AttendanceDf=AttendanceDf.drop(columns=['index'])
-AttendanceDf= AttendanceDf.sort_values(by= ['Month','Date'])
+    AttendanceDf=AttendanceDf.reset_index(drop= True)
+
+    # append missing months
+    monthSet= set(np.arange(38))
+    for i,row in AttendanceDf['Month'].iteritems():
+        if(row in monthSet):
+            monthSet.remove(row)
 
 
-# pd.options.display.max_rows= None
-# print(AttendanceDf)
+    # Add the missing months (during summer vacation)
+    for m in monthSet:
+        newRow = {}
+        for b in boroList:
+            newRow[f'{b} Attendance%']=0
+        
+        newRow['Month']=m
+        actualMonth= (m+9)%12
+        if(actualMonth==0): actualMonth= 12
+        actualYear= 2018+(m+9)//12
+        newRow['Date']= pd.to_datetime(f'{actualYear}-{actualMonth}', format= '%Y-%m')+MonthEnd(1)
+        newRow= pd.DataFrame(newRow, index= [m])
+        AttendanceDf= pd.concat([AttendanceDf,newRow])
+    AttendanceDf= AttendanceDf.reset_index(drop= True)
+    AttendanceDf= AttendanceDf.sort_values(by= ['Month','Date'])
+    return AttendanceDf
+
+AttendanceDF= createAttendanceDF()
+print(AttendanceDF)

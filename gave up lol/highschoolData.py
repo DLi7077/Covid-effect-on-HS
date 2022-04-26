@@ -40,7 +40,7 @@ def schoolBoro(df, boro) -> pd.DataFrame:
         'manhattan': 'M',
         'queens': 'Q'
     }
-    return df.loc[df['borocode']==boroMap[boro]].reset_index()
+    return df.loc[df['borocode']==boroMap[boro]].reset_index(drop= True)
 
 
 # creates df that contains the graduation rate for each year
