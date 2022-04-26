@@ -3,48 +3,56 @@ compares cases with boro attendance on a scatter plot. saves graphs as png image
 """
 
 import pandas as pd
-from attendance import AttendanceDf, data2021
-from covidData import cases
+from attendance import AttendanceDf
+from covidData import *
 from statModels import computeLinearReg
+from cleanDate import *
+from boroughs import *
 import numpy as np
 
 # merge the covid and cases dataframe
 AttendanceDf= AttendanceDf.drop(columns=['Month'])
-AvC= pd.merge(AttendanceDf,cases, how= 'outer', on ='Date')
-AvC= AvC.fillna(0)
+monthlyCases= cleanDate(monthlyData(covidCases))
+# print(monthlyCases)
+AvC= pd.merge(AttendanceDf,monthlyCases, how= 'outer', on ='Date')
+
+# impute missing values
+AvC= AvC.fillna(0).sort_values(by='Date').reset_index(drop=True)
+print(AvC)
 # collective covid and avg attendance cases per month
 
-from boroughs import bList
 import seaborn as sns
 import matplotlib.pyplot as plt
-# modify the cols 
 
-df= pd.DataFrame()
-for b in bList:
+
+# to make dataframe easier to work with
+# we'll create a borough category
+# manually place each borough's data as a row entry
+covidAttendance= pd.DataFrame()
+
+for b in boroList:
   att = (AvC[f'{b} Attendance%']).tolist()
   dates= (AvC['Date']).tolist()
   covidCases= (AvC[b]).tolist()
-  
   
   for i in range(len(att)):
     row=pd.DataFrame({
       'Borough': b,
       'Attendance%': att[i],
       'Date':dates[i],
-      'cases':covidCases[i]
+      'Cases':covidCases[i]
     },index= [0])
-    df = pd.concat([df,row])
-df= df.reset_index(drop= True)
+    covidAttendance = pd.concat([covidAttendance,row])
+covidAttendance= covidAttendance.reset_index(drop= True)
   
+# Attendance Timeline
+covidAttendance= covidAttendance.dropna()
+covidAttendance= covidAttendance.loc[covidAttendance['Attendance%']!=0]
+print(covidAttendance)
 
 plt.figure()
-
-# Attendance Timeline
-df= df.dropna()
-df= df.loc[ df['Attendance%']!=0]
-print(df)
 Att= sns.scatterplot(
-  data= df,
+  data= covidAttendance,
   x= 'Date',
   y= 'Attendance%',
   hue= 'Borough'
@@ -54,29 +62,32 @@ Att.set(
 )
 Att.set_xlabel('Date', fontsize=20)
 Att.set_ylabel('Attendance Rates', fontsize=20)
-
 plt.legend()
-plt.show()
+plt.savefig(
+  f"graphs/AttendanceTimeline.png",
+  bbox_inches="tight",
+  dpi=300,
+  transparent=True
+)
+# plt.show()
+plt.close()
 
 # covid vs attendance rate scatterplot
 def covidScatter(covidDf,extraText:str= "withPrev"):
+  # plot data for all boroughs
   plt.figure()
   cases= sns.scatterplot(
     data= covidDf,
-    x='cases',
+    x='Cases',
     y='Attendance%',
     hue= 'Borough'
-    # ,
-    # x_jitter=200,
-    # scatter_kws={'alpha':0.5},
-    # fit_reg=False
   )
   cases.set(
     xlim=(-1000,45000),
     ylim=(50, 100),
   )
   plt.legend(loc='lower left')
-  slope, intercept = computeLinearReg(covidDf,'cases','Attendance%')
+  slope, intercept = computeLinearReg(covidDf,'Cases','Attendance%')
 
   xVals= np.array(range(-1000,45000))
   transform= lambda x: x*slope +intercept
@@ -86,32 +97,33 @@ def covidScatter(covidDf,extraText:str= "withPrev"):
     30000,60,
     f'Slope: {round(slope,4)}\nY-Intercept: {round(intercept,4)}'
   )
-  plt.title( f"All Boroughs\nr= {round(covidDf['cases'].corr(covidDf['Attendance%']),4)}")
+  plt.title( f"All Boroughs\nr= {round(covidDf['Cases'].corr(covidDf['Attendance%']),4)}")
   plt.savefig(
     f"graphs/covidAttendanceAll{extraText}.png",
     bbox_inches="tight",
     dpi=300,
     transparent=True
   )
+  # plt.show()
   plt.close()
-  from boroughs import boroColor
-  for b in bList:
+  
+  # plot each borough
+  for b in boroList:
     plt.figure()
     boroData= covidDf.loc[covidDf['Borough']==b]
     cases= sns.regplot(
       data= boroData,
-      x='cases',
+      x='Cases',
       y='Attendance%',
       color=boroColor[b],
       x_jitter=500,
       scatter_kws={'alpha':0.5}
     )
-    # plt.scatter(boroData['cases'], boroData['Attendance%'], c=boroColor[b])
     cases.set(
     xlim= (-1000, 45000),
     ylim=(50, 100),
     )
-    slope, intercept = computeLinearReg(boroData,'cases','Attendance%')
+    slope, intercept = computeLinearReg(boroData,'Cases','Attendance%')
     
     xVals= np.array(range(-1000,45000))
     transform= lambda x: x*slope +intercept
@@ -121,7 +133,7 @@ def covidScatter(covidDf,extraText:str= "withPrev"):
       0,60,
       f'Slope: {round(slope,4)}\nY-Intercept: {round(intercept,4)}'
     )
-    plt.title(f"{b}\n r ={round(boroData['cases'].corr(boroData['Attendance%']),4)}")
+    plt.title(f"{b}\n r ={round(boroData['Cases'].corr(boroData['Attendance%']),4)}")
     
     plt.savefig(
       f"graphs/covidAttendance{b}{extraText}.png",
@@ -132,7 +144,8 @@ def covidScatter(covidDf,extraText:str= "withPrev"):
     # plt.show()
     plt.close()
 
-covidScatter(df)
+covidScatter(covidAttendance)
 
-covidDf= df.loc[df['cases']!=0]
+covidDf= covidAttendance.loc[covidAttendance['Cases']!=0]
+# print(covidDf)
 covidScatter(covidDf, "")

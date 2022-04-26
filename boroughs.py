@@ -1,11 +1,11 @@
-boroughList={
+boroSet={
     'Bronx',
     'Brooklyn',
     'Staten Island',
     'Manhattan',
     'Queens'
 }
-bList=[
+boroList=[
     'Bronx',
     'Brooklyn',
     'Staten Island',

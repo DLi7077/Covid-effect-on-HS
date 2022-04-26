@@ -5,7 +5,7 @@ compares caseCount with
 import pandas as pd
 from attenVSgraduation import createDataframe
 from covidData import caseDF
-from boroughs import bList
+from boroughs import *
 # Last day= June 27 (for 2022)
 # every date that's before 6-27-year and after 6-27-(year-1)
 # - shall be labeled as (year)
@@ -20,7 +20,7 @@ for year in range(2020,2022):
   # extract case count
   dates= pd.to_datetime(caseDF['Date'])
   schoolTerm = caseDF[(dates>= lowerBound_date) & (dates< upperBound_date)]
-  for boro in bList:
+  for boro in boroList:
     boroCases= schoolTerm.loc[schoolTerm['Borough']==boro]
     
     totalCases= boroCases['Cases'].sum()

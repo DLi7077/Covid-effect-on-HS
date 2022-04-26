@@ -5,17 +5,11 @@ import pandas as pd
 from pandas.tseries.offsets import MonthEnd # for end of month date
 def cleanDate(df):
     copy= df
-    boroughs=[
-    'Bronx',
-    'Brooklyn',
-    'Staten Island',
-    'Manhattan',
-    'Queens']
     ser= pd.to_datetime(
         copy[['Year','Month']].assign(DAY=1)
     )
     copy['Date']= pd.to_datetime(
-        ser,format='%Y%m'
+        ser,format='%Y-%m'
         ) +MonthEnd(1)
     
     return copy.drop(columns = ['Year','Month'])
