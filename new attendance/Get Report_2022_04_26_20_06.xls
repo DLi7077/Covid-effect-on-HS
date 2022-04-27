@@ -1,0 +1,3207 @@
+<div>
+	<table cellspacing="0" rules="all" border="1" style="border-collapse:collapse;">
+		<tr>
+			<th scope="col">SCHOOL</th><th scope="col">SCHOOL NAME</th><th scope="col">ATTD DATE</th><th scope="col">%ATTD</th>
+		</tr><tr>
+			<td>01M015</td><td>P.S. 015 ROBERTO CLEMENTE</td><td>4/26/2022 12:00:00 AM</td><td>83.42</td>
+		</tr><tr>
+			<td>01M019</td><td>P.S. 019 ASHER LEVY</td><td>4/26/2022 12:00:00 AM</td><td>86.33</td>
+		</tr><tr>
+			<td>01M020</td><td>P.S. 020 ANNA SILVER</td><td>4/26/2022 12:00:00 AM</td><td>87.68</td>
+		</tr><tr>
+			<td>01M034</td><td>P.S. 034 FRANKLIN D. ROOSEVELT</td><td>4/26/2022 12:00:00 AM</td><td>84.09</td>
+		</tr><tr>
+			<td>01M063</td><td>THE STAR ACADEMY   P.S.63</td><td>4/26/2022 12:00:00 AM</td><td>86.81</td>
+		</tr><tr>
+			<td>01M064</td><td>P.S. 064 ROBERT SIMON</td><td>4/26/2022 12:00:00 AM</td><td>87.92</td>
+		</tr><tr>
+			<td>01M110</td><td>P.S. 110 FLORENCE NIGHTINGALE</td><td>4/26/2022 12:00:00 AM</td><td>95.25</td>
+		</tr><tr>
+			<td>01M134</td><td>P.S. 134 HENRIETTA SZOLD</td><td>4/26/2022 12:00:00 AM</td><td>86.81</td>
+		</tr><tr>
+			<td>01M140</td><td>P.S. 140 NATHAN STRAUS</td><td>4/26/2022 12:00:00 AM</td><td>85.58</td>
+		</tr><tr>
+			<td>01M142</td><td>P.S. 142 AMALIA CASTRO</td><td>4/26/2022 12:00:00 AM</td><td>91.64</td>
+		</tr><tr>
+			<td>01M184</td><td>P.S. 184M SHUANG WEN</td><td>4/26/2022 12:00:00 AM</td><td>95.69</td>
+		</tr><tr>
+			<td>01M188</td><td>P.S. 188 THE ISLAND SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>94.65</td>
+		</tr><tr>
+			<td>01M292</td><td>ORCHARD COLLEGIATE ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>83.33</td>
+		</tr><tr>
+			<td>01M315</td><td>THE EAST VILLAGE COMMUNITY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>94.80</td>
+		</tr><tr>
+			<td>01M332</td><td>UNIVERSITY NEIGHBORHOOD MIDDLE SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>84.04</td>
+		</tr><tr>
+			<td>01M361</td><td>THE CHILDREN S WORKSHOP SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>89.78</td>
+		</tr><tr>
+			<td>01M363</td><td>NEIGHBORHOOD SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>88.47</td>
+		</tr><tr>
+			<td>01M364</td><td>EARTH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>90.75</td>
+		</tr><tr>
+			<td>01M378</td><td>SCHOOL FOR GLOBAL LEADERS</td><td>4/26/2022 12:00:00 AM</td><td>92.85</td>
+		</tr><tr>
+			<td>01M448</td><td>UNIVERSITY NEIGHBORHOOD HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>80.03</td>
+		</tr><tr>
+			<td>01M450</td><td>EAST SIDE COMMUNITY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>100.00</td>
+		</tr><tr>
+			<td>01M458</td><td>FORSYTH SATELLITE ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>NS</td>
+		</tr><tr>
+			<td>01M515</td><td>LOWER EAST SIDE PREPARATORY HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>63.92</td>
+		</tr><tr>
+			<td>01M539</td><td>NEW EXPLORATIONS INTO SCIENCE, TECHNOLOGY AND MATH</td><td>4/26/2022 12:00:00 AM</td><td>93.61</td>
+		</tr><tr>
+			<td>01M650</td><td>CASCADES HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>38.40</td>
+		</tr><tr>
+			<td>01M696</td><td>BARD HIGH SCHOOL EARLY COLLEGE</td><td>4/26/2022 12:00:00 AM</td><td>84.95</td>
+		</tr><tr>
+			<td>01M839</td><td>TOMPKINS SQUARE MIDDLE SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>92.98</td>
+		</tr><tr>
+			<td>02M001</td><td>P.S. 001 ALFRED E. SMITH</td><td>4/26/2022 12:00:00 AM</td><td>94.36</td>
+		</tr><tr>
+			<td>02M002</td><td>P.S. 002 MEYER LONDON</td><td>4/26/2022 12:00:00 AM</td><td>94.39</td>
+		</tr><tr>
+			<td>02M003</td><td>P.S. 003 CHARRETTE SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>90.76</td>
+		</tr><tr>
+			<td>02M006</td><td>P.S. 006 LILLIE D. BLAKE</td><td>4/26/2022 12:00:00 AM</td><td>95.27</td>
+		</tr><tr>
+			<td>02M011</td><td>P.S. 011 WILLIAM T. HARRIS</td><td>4/26/2022 12:00:00 AM</td><td>93.13</td>
+		</tr><tr>
+			<td>02M033</td><td>P.S. 033 CHELSEA PREP</td><td>4/26/2022 12:00:00 AM</td><td>92.64</td>
+		</tr><tr>
+			<td>02M040</td><td>P.S. 040 AUGUSTUS SAINT GAUDENS</td><td>4/26/2022 12:00:00 AM</td><td>95.99</td>
+		</tr><tr>
+			<td>02M041</td><td>P.S. 041 GREENWICH VILLAGE</td><td>4/26/2022 12:00:00 AM</td><td>93.54</td>
+		</tr><tr>
+			<td>02M042</td><td>P.S. 042 BENJAMIN ALTMAN</td><td>4/26/2022 12:00:00 AM</td><td>95.42</td>
+		</tr><tr>
+			<td>02M047</td><td>47 THE AMERICAN SIGN LANGUAGE AND ENGLISH SECONDAR</td><td>4/26/2022 12:00:00 AM</td><td>80.43</td>
+		</tr><tr>
+			<td>02M051</td><td>P.S. 051 ELIAS HOWE</td><td>4/26/2022 12:00:00 AM</td><td>92.18</td>
+		</tr><tr>
+			<td>02M059</td><td>P.S. 059 BEEKMAN HILL INTERNATIONAL</td><td>4/26/2022 12:00:00 AM</td><td>92.35</td>
+		</tr><tr>
+			<td>02M077</td><td>P.S. 77 LOWER LAB SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>95.63</td>
+		</tr><tr>
+			<td>02M089</td><td>P.S. 89</td><td>4/26/2022 12:00:00 AM</td><td>96.18</td>
+		</tr><tr>
+			<td>02M104</td><td>J.H.S. 104 SIMON BARUCH</td><td>4/26/2022 12:00:00 AM</td><td>94.91</td>
+		</tr><tr>
+			<td>02M111</td><td>P.S. 111 ADOLPH S. OCHS</td><td>4/26/2022 12:00:00 AM</td><td>93.55</td>
+		</tr><tr>
+			<td>02M114</td><td>EAST SIDE MIDDLE SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>96.42</td>
+		</tr><tr>
+			<td>02M116</td><td>P.S. 116 MARY LINDLEY MURRAY</td><td>4/26/2022 12:00:00 AM</td><td>93.89</td>
+		</tr><tr>
+			<td>02M124</td><td>P.S. 124 YUNG WING</td><td>4/26/2022 12:00:00 AM</td><td>97.97</td>
+		</tr><tr>
+			<td>02M126</td><td>P.S. 126 JACOB AUGUST RIIS</td><td>4/26/2022 12:00:00 AM</td><td>95.29</td>
+		</tr><tr>
+			<td>02M130</td><td>P.S. 130 HERNANDO DE SOTO</td><td>4/26/2022 12:00:00 AM</td><td>96.73</td>
+		</tr><tr>
+			<td>02M131</td><td>M.S. 131</td><td>4/26/2022 12:00:00 AM</td><td>94.66</td>
+		</tr><tr>
+			<td>02M135</td><td>THE URBAN ASSEMBLY SCHOOL FOR EMERGENCY MANAGEMENT</td><td>4/26/2022 12:00:00 AM</td><td>84.36</td>
+		</tr><tr>
+			<td>02M139</td><td>STEPHEN T. MATHER BUILDING ARTS   CRAFTSMANSHIP HI</td><td>4/26/2022 12:00:00 AM</td><td>72.60</td>
+		</tr><tr>
+			<td>02M150</td><td>P.S. 150</td><td>4/26/2022 12:00:00 AM</td><td>92.25</td>
+		</tr><tr>
+			<td>02M151</td><td>YORKVILLE COMMUNITY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>93.27</td>
+		</tr><tr>
+			<td>02M158</td><td>P.S. 158 BAYARD TAYLOR</td><td>4/26/2022 12:00:00 AM</td><td>94.91</td>
+		</tr><tr>
+			<td>02M167</td><td>J.H.S. 167 ROBERT F. WAGNER</td><td>4/26/2022 12:00:00 AM</td><td>96.49</td>
+		</tr><tr>
+			<td>02M177</td><td>YORKVILLE EAST MIDDLE SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>94.54</td>
+		</tr><tr>
+			<td>02M183</td><td>P.S. 183 ROBERT L. STEVENSON</td><td>4/26/2022 12:00:00 AM</td><td>96.45</td>
+		</tr><tr>
+			<td>02M198</td><td>P.S. 198 ISADOR E. IDA STRAUS</td><td>4/26/2022 12:00:00 AM</td><td>93.34</td>
+		</tr><tr>
+			<td>02M212</td><td>P.S. 212 MIDTOWN WEST</td><td>4/26/2022 12:00:00 AM</td><td>96.87</td>
+		</tr><tr>
+			<td>02M217</td><td>P.S. I.S. 217 ROOSEVELT ISLAND</td><td>4/26/2022 12:00:00 AM</td><td>93.18</td>
+		</tr><tr>
+			<td>02M225</td><td>ELLA BAKER SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>89.43</td>
+		</tr><tr>
+			<td>02M234</td><td>P.S. 234 INDEPENDENCE SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>94.29</td>
+		</tr><tr>
+			<td>02M255</td><td>M.S. 255 SALK SCHOOL OF SCIENCE</td><td>4/26/2022 12:00:00 AM</td><td>94.98</td>
+		</tr><tr>
+			<td>02M260</td><td>THE CLINTON SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>92.93</td>
+		</tr><tr>
+			<td>02M267</td><td>EAST SIDE ELEMENTARY SCHOOL, PS 267</td><td>4/26/2022 12:00:00 AM</td><td>94.75</td>
+		</tr><tr>
+			<td>02M276</td><td>BATTERY PARK CITY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>93.82</td>
+		</tr><tr>
+			<td>02M281</td><td>THE RIVER SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>93.23</td>
+		</tr><tr>
+			<td>02M282</td><td>URBAN ASSEMBLY MAKER ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>81.23</td>
+		</tr><tr>
+			<td>02M288</td><td>FOOD AND FINANCE HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>66.34</td>
+		</tr><tr>
+			<td>02M289</td><td>I.S. 289</td><td>4/26/2022 12:00:00 AM</td><td>96.56</td>
+		</tr><tr>
+			<td>02M290</td><td>P.S. 290 MANHATTAN NEW SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>93.49</td>
+		</tr><tr>
+			<td>02M294</td><td>ESSEX STREET ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>81.95</td>
+		</tr><tr>
+			<td>02M296</td><td>HIGH SCHOOL OF HOSPITALITY MANAGEMENT</td><td>4/26/2022 12:00:00 AM</td><td>77.35</td>
+		</tr><tr>
+			<td>02M297</td><td>M.S. 297</td><td>4/26/2022 12:00:00 AM</td><td>91.75</td>
+		</tr><tr>
+			<td>02M298</td><td>PACE HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>80.18</td>
+		</tr><tr>
+			<td>02M300</td><td>URBAN ASSEMBLY SCHOOL OF DESIGN AND CONSTRUCTION,</td><td>4/26/2022 12:00:00 AM</td><td>84.16</td>
+		</tr><tr>
+			<td>02M303</td><td>FACING HISTORY SCHOOL, THE</td><td>4/26/2022 12:00:00 AM</td><td>74.09</td>
+		</tr><tr>
+			<td>02M305</td><td>URBAN ASSEMBLY ACADEMY OF GOVERNMENT AND LAW, THE</td><td>4/26/2022 12:00:00 AM</td><td>73.98</td>
+		</tr><tr>
+			<td>02M308</td><td>LOWER MANHATTAN ARTS ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>63.12</td>
+		</tr><tr>
+			<td>02M312</td><td>NEW YORK CITY LAB MIDDLE SCHOOL FOR COLLABORATIVE</td><td>4/26/2022 12:00:00 AM</td><td>97.74</td>
+		</tr><tr>
+			<td>02M313</td><td>JAMES BALDWIN SCHOOL, THE: A SCHOOL FOR EXPEDITION</td><td>4/26/2022 12:00:00 AM</td><td>47.10</td>
+		</tr><tr>
+			<td>02M316</td><td>URBAN ASSEMBLY SCHOOL OF BUSINESS FOR YOUNG WOMEN,</td><td>4/26/2022 12:00:00 AM</td><td>75.00</td>
+		</tr><tr>
+			<td>02M340</td><td>SIXTH AVENUE ELEMENTARY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>94.67</td>
+		</tr><tr>
+			<td>02M343</td><td>THE PECK SLIP SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>93.51</td>
+		</tr><tr>
+			<td>02M347</td><td>THE 47 AMERICAN SIGN LANGUAGE   ENGLISH LOWER SCHO</td><td>4/26/2022 12:00:00 AM</td><td>NS</td>
+		</tr><tr>
+			<td>02M374</td><td>GRAMERCY ARTS HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>82.31</td>
+		</tr><tr>
+			<td>02M376</td><td>NYC ISCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>89.67</td>
+		</tr><tr>
+			<td>02M391</td><td>DISTRICT 2 PRE K CENTER</td><td>4/26/2022 12:00:00 AM</td><td>87.69</td>
+		</tr><tr>
+			<td>02M392</td><td>MANHATTAN BUSINESS ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>79.32</td>
+		</tr><tr>
+			<td>02M393</td><td>BUSINESS OF SPORTS SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>NS</td>
+		</tr><tr>
+			<td>02M394</td><td>EMMA LAZARUS HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>83.50</td>
+		</tr><tr>
+			<td>02M397</td><td>SPRUCE STREET SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>94.89</td>
+		</tr><tr>
+			<td>02M399</td><td>THE HIGH SCHOOL FOR LANGUAGE AND DIPLOMACY</td><td>4/26/2022 12:00:00 AM</td><td>NS</td>
+		</tr><tr>
+			<td>02M400</td><td>HIGH SCHOOL FOR ENVIRONMENTAL STUDIES</td><td>4/26/2022 12:00:00 AM</td><td>74.62</td>
+		</tr><tr>
+			<td>02M407</td><td>INSTITUTE FOR COLLABORATIVE EDUCATION</td><td>4/26/2022 12:00:00 AM</td><td>96.94</td>
+		</tr><tr>
+			<td>02M408</td><td>PROFESSIONAL PERFORMING ARTS HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>81.90</td>
+		</tr><tr>
+			<td>02M411</td><td>BARUCH COLLEGE CAMPUS HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>91.64</td>
+		</tr><tr>
+			<td>02M412</td><td>N.Y.C. LAB SCHOOL FOR COLLABORATIVE STUDIES</td><td>4/26/2022 12:00:00 AM</td><td>93.62</td>
+		</tr><tr>
+			<td>02M413</td><td>SCHOOL OF THE FUTURE HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>94.68</td>
+		</tr><tr>
+			<td>02M414</td><td>N.Y.C. MUSEUM SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>91.18</td>
+		</tr><tr>
+			<td>02M416</td><td>ELEANOR ROOSEVELT HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>95.90</td>
+		</tr><tr>
+			<td>02M418</td><td>MILLENNIUM HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>93.95</td>
+		</tr><tr>
+			<td>02M419</td><td>LANDMARK HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>71.60</td>
+		</tr><tr>
+			<td>02M420</td><td>HIGH SCHOOL FOR HEALTH PROFESSIONS AND HUMAN SERVI</td><td>4/26/2022 12:00:00 AM</td><td>80.55</td>
+		</tr><tr>
+			<td>02M422</td><td>QUEST TO LEARN</td><td>4/26/2022 12:00:00 AM</td><td>78.87</td>
+		</tr><tr>
+			<td>02M425</td><td>LEADERSHIP AND PUBLIC SERVICE HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>79.77</td>
+		</tr><tr>
+			<td>02M427</td><td>MANHATTAN ACADEMY FOR ARTS   LANGUAGE</td><td>4/26/2022 12:00:00 AM</td><td>79.72</td>
+		</tr><tr>
+			<td>02M432</td><td>MURRAY HILL ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>71.48</td>
+		</tr><tr>
+			<td>02M437</td><td>HUDSON HIGH SCHOOL OF LEARNING TECHNOLOGIES</td><td>4/26/2022 12:00:00 AM</td><td>68.25</td>
+		</tr><tr>
+			<td>02M438</td><td>INTERNATIONAL HIGH SCHOOL AT UNION SQUARE</td><td>4/26/2022 12:00:00 AM</td><td>86.34</td>
+		</tr><tr>
+			<td>02M439</td><td>MANHATTAN VILLAGE ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>94.06</td>
+		</tr><tr>
+			<td>02M442</td><td>BALLET TECH, NYC PUBLIC SCHOOL FOR DANCE</td><td>4/26/2022 12:00:00 AM</td><td>96.80</td>
+		</tr><tr>
+			<td>02M449</td><td>VANGUARD HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>73.71</td>
+		</tr><tr>
+			<td>02M459</td><td>MANHATTAN INTERNATIONAL HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>87.42</td>
+		</tr><tr>
+			<td>02M475</td><td>STUYVESANT HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>94.91</td>
+		</tr><tr>
+			<td>02M489</td><td>HIGH SCHOOL OF ECONOMICS AND FINANCE</td><td>4/26/2022 12:00:00 AM</td><td>83.02</td>
+		</tr><tr>
+			<td>02M500</td><td>UNITY CENTER FOR URBAN TECHNOLOGIES</td><td>4/26/2022 12:00:00 AM</td><td>73.11</td>
+		</tr><tr>
+			<td>02M507</td><td>URBAN ASSEMBLY GATEWAY SCHOOL FOR TECHNOLOGY</td><td>4/26/2022 12:00:00 AM</td><td>88.51</td>
+		</tr><tr>
+			<td>02M519</td><td>TALENT UNLIMITED HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>82.78</td>
+		</tr><tr>
+			<td>02M520</td><td>MURRY BERGTRAUM HIGH SCHOOL FOR BUSINESS CAREERS</td><td>4/26/2022 12:00:00 AM</td><td>56.36</td>
+		</tr><tr>
+			<td>02M527</td><td>P.S. 527   EAST SIDE SCHOOL FOR SOCIAL ACTION</td><td>4/26/2022 12:00:00 AM</td><td>93.43</td>
+		</tr><tr>
+			<td>02M529</td><td>JACQUELINE KENNEDY ONASSIS HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>78.92</td>
+		</tr><tr>
+			<td>02M531</td><td>REPERTORY COMPANY HIGH SCHOOL FOR THEATRE ARTS</td><td>4/26/2022 12:00:00 AM</td><td>84.97</td>
+		</tr><tr>
+			<td>02M533</td><td>UNION SQUARE ACADEMY FOR HEALTH SCIENCES</td><td>4/26/2022 12:00:00 AM</td><td>62.20</td>
+		</tr><tr>
+			<td>02M534</td><td>HARVEST COLLEGIATE HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>67.15</td>
+		</tr><tr>
+			<td>02M542</td><td>MANHATTAN BRIDGES HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>85.38</td>
+		</tr><tr>
+			<td>02M543</td><td>NEW DESIGN HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>82.08</td>
+		</tr><tr>
+			<td>02M544</td><td>INDEPENDENCE HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>33.44</td>
+		</tr><tr>
+			<td>02M545</td><td>HIGH SCHOOL FOR DUAL LANGUAGE AND ASIAN STUDIES</td><td>4/26/2022 12:00:00 AM</td><td>95.67</td>
+		</tr><tr>
+			<td>02M546</td><td>ACADEMY FOR SOFTWARE ENGINEERING</td><td>4/26/2022 12:00:00 AM</td><td>81.43</td>
+		</tr><tr>
+			<td>02M550</td><td>LIBERTY HIGH SCHOOL ACADEMY FOR NEWCOMERS</td><td>4/26/2022 12:00:00 AM</td><td>83.65</td>
+		</tr><tr>
+			<td>02M551</td><td>URBAN ASSEMBLY NEW YORK HARBOR SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>83.46</td>
+		</tr><tr>
+			<td>02M560</td><td>HIGH SCHOOL M560   CITY AS SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>16.85</td>
+		</tr><tr>
+			<td>02M565</td><td>URBAN ACADEMY LABORATORY HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>81.63</td>
+		</tr><tr>
+			<td>02M570</td><td>SATELLITE ACADEMY HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>35.48</td>
+		</tr><tr>
+			<td>02M575</td><td>MANHATTAN COMPREHENSIVE NIGHT AND DAY HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>NS</td>
+		</tr><tr>
+			<td>02M580</td><td>RICHARD R. GREEN HIGH SCHOOL OF TEACHING</td><td>4/26/2022 12:00:00 AM</td><td>81.94</td>
+		</tr><tr>
+			<td>02M586</td><td>HARVEY MILK HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>63.49</td>
+		</tr><tr>
+			<td>02M600</td><td>THE HIGH SCHOOL OF FASHION INDUSTRIES</td><td>4/26/2022 12:00:00 AM</td><td>80.12</td>
+		</tr><tr>
+			<td>02M605</td><td>HUMANITIES PREPARATORY ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>82.03</td>
+		</tr><tr>
+			<td>02M615</td><td>CHELSEA CAREER AND TECHNICAL EDUCATION HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>73.28</td>
+		</tr><tr>
+			<td>02M630</td><td>ART AND DESIGN HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>85.15</td>
+		</tr><tr>
+			<td>02M655</td><td>THE HIGH SCHOOL FOR CLIMATE JUSTICE</td><td>4/26/2022 12:00:00 AM</td><td>63.69</td>
+		</tr><tr>
+			<td>02M896</td><td>LOWER MANHATTAN COMMUNITY MIDDLE SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>90.54</td>
+		</tr><tr>
+			<td>02M933</td><td>CITY KNOLL MIDDLE SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>84.67</td>
+		</tr><tr>
+			<td>03M009</td><td>P.S. 009 SARAH ANDERSON</td><td>4/26/2022 12:00:00 AM</td><td>94.52</td>
+		</tr><tr>
+			<td>03M054</td><td>J.H.S. 054 BOOKER T. WASHINGTON</td><td>4/26/2022 12:00:00 AM</td><td>94.54</td>
+		</tr><tr>
+			<td>03M075</td><td>P.S. 075 EMILY DICKINSON</td><td>4/26/2022 12:00:00 AM</td><td>89.89</td>
+		</tr><tr>
+			<td>03M076</td><td>P.S. 076 A. PHILIP RANDOLPH</td><td>4/26/2022 12:00:00 AM</td><td>88.78</td>
+		</tr><tr>
+			<td>03M084</td><td>P.S. 084 LILLIAN WEBER</td><td>4/26/2022 12:00:00 AM</td><td>92.62</td>
+		</tr><tr>
+			<td>03M087</td><td>P.S. 087 WILLIAM SHERMAN</td><td>4/26/2022 12:00:00 AM</td><td>94.70</td>
+		</tr><tr>
+			<td>03M145</td><td>P.S. 145, THE BLOOMINGDALE SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>90.76</td>
+		</tr><tr>
+			<td>03M149</td><td>P.S. 149 SOJOURNER TRUTH</td><td>4/26/2022 12:00:00 AM</td><td>87.36</td>
+		</tr><tr>
+			<td>03M163</td><td>P.S. 163 ALFRED E. SMITH</td><td>4/26/2022 12:00:00 AM</td><td>90.64</td>
+		</tr><tr>
+			<td>03M165</td><td>P.S. 165 ROBERT E. SIMON</td><td>4/26/2022 12:00:00 AM</td><td>91.09</td>
+		</tr><tr>
+			<td>03M166</td><td>P.S. 166 THE RICHARD RODGERS SCHOOL OF THE ARTS AN</td><td>4/26/2022 12:00:00 AM</td><td>95.93</td>
+		</tr><tr>
+			<td>03M180</td><td>P.S. 180 HUGO NEWMAN</td><td>4/26/2022 12:00:00 AM</td><td>91.04</td>
+		</tr><tr>
+			<td>03M185</td><td>THE LOCKE SCHOOL OF ARTS AND ENGINEERING</td><td>4/26/2022 12:00:00 AM</td><td>88.73</td>
+		</tr><tr>
+			<td>03M191</td><td>THE RIVERSIDE SCHOOL FOR MAKERS AND ARTISTS</td><td>4/26/2022 12:00:00 AM</td><td>87.32</td>
+		</tr><tr>
+			<td>03M199</td><td>P.S. 199 JESSIE ISADOR STRAUS</td><td>4/26/2022 12:00:00 AM</td><td>94.01</td>
+		</tr><tr>
+			<td>03M241</td><td>STEM INSTITUTE OF MANHATTAN</td><td>4/26/2022 12:00:00 AM</td><td>92.30</td>
+		</tr><tr>
+			<td>03M242</td><td>P.S. 242   THE YOUNG DIPLOMATS MAGNET ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>85.93</td>
+		</tr><tr>
+			<td>03M243</td><td>M.S. 243 CENTER SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>96.51</td>
+		</tr><tr>
+			<td>03M245</td><td>M.S. M245 THE COMPUTER SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>95.10</td>
+		</tr><tr>
+			<td>03M247</td><td>M.S. M247 DUAL LANGUAGE MIDDLE SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>95.69</td>
+		</tr><tr>
+			<td>03M250</td><td>M.S. 250 WEST SIDE COLLABORATIVE MIDDLE SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>74.46</td>
+		</tr><tr>
+			<td>03M256</td><td>LAFAYETTE ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>94.70</td>
+		</tr><tr>
+			<td>03M258</td><td>COMMUNITY ACTION SCHOOL   MS 258</td><td>4/26/2022 12:00:00 AM</td><td>92.39</td>
+		</tr><tr>
+			<td>03M291</td><td>WEST END SECONDARY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>90.05</td>
+		</tr><tr>
+			<td>03M299</td><td>THE MAXINE GREENE HS FOR IMAGINATIVE INQUIRY</td><td>4/26/2022 12:00:00 AM</td><td>74.19</td>
+		</tr><tr>
+			<td>03M307</td><td>URBAN ASSEMBLY SCHOOL FOR MEDIA STUDIES, THE</td><td>4/26/2022 12:00:00 AM</td><td>75.77</td>
+		</tr><tr>
+			<td>03M333</td><td>P.S. 333 MANHATTAN SCHOOL FOR CHILDREN</td><td>4/26/2022 12:00:00 AM</td><td>88.17</td>
+		</tr><tr>
+			<td>03M334</td><td>THE ANDERSON SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>98.03</td>
+		</tr><tr>
+			<td>03M402</td><td>THE URBAN ASSEMBLY SCHOOL FOR GREEN CAREERS</td><td>4/26/2022 12:00:00 AM</td><td>74.90</td>
+		</tr><tr>
+			<td>03M403</td><td>THE GLOBAL LEARNING COLLABORATIVE</td><td>4/26/2022 12:00:00 AM</td><td>81.95</td>
+		</tr><tr>
+			<td>03M404</td><td>INNOVATION DIPLOMA PLUS</td><td>4/26/2022 12:00:00 AM</td><td>37.14</td>
+		</tr><tr>
+			<td>03M415</td><td>WADLEIGH SECONDARY SCHOOL FOR THE PERFORMING   VIS</td><td>4/26/2022 12:00:00 AM</td><td>82.21</td>
+		</tr><tr>
+			<td>03M417</td><td>FRANK MCCOURT HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>83.58</td>
+		</tr><tr>
+			<td>03M421</td><td>WEST PREP ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>93.08</td>
+		</tr><tr>
+			<td>03M452</td><td>P.S. 452</td><td>4/26/2022 12:00:00 AM</td><td>94.23</td>
+		</tr><tr>
+			<td>03M479</td><td>BEACON HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>NS</td>
+		</tr><tr>
+			<td>03M485</td><td>FIORELLO H. LAGUARDIA HIGH SCHOOL OF MUSIC   ART A</td><td>4/26/2022 12:00:00 AM</td><td>87.71</td>
+		</tr><tr>
+			<td>03M492</td><td>HIGH SCHOOL FOR LAW, ADVOCACY AND COMMUNITY JUSTIC</td><td>4/26/2022 12:00:00 AM</td><td>73.38</td>
+		</tr><tr>
+			<td>03M494</td><td>HIGH SCHOOL OF ARTS AND TECHNOLOGY</td><td>4/26/2022 12:00:00 AM</td><td>66.74</td>
+		</tr><tr>
+			<td>03M505</td><td>EDWARD A. REYNOLDS WEST SIDE HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>45.10</td>
+		</tr><tr>
+			<td>03M541</td><td>MANHATTAN   HUNTER SCIENCE HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>92.80</td>
+		</tr><tr>
+			<td>03M859</td><td>SPECIAL MUSIC SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>91.40</td>
+		</tr><tr>
+			<td>03M860</td><td>FREDERICK DOUGLASS ACADEMY II SECONDARY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>84.57</td>
+		</tr><tr>
+			<td>03M862</td><td>MOTT HALL II</td><td>4/26/2022 12:00:00 AM</td><td>93.61</td>
+		</tr><tr>
+			<td>04M007</td><td>P.S. 007 SAMUEL STERN</td><td>4/26/2022 12:00:00 AM</td><td>82.16</td>
+		</tr><tr>
+			<td>04M012</td><td>TAG YOUNG SCHOLARS</td><td>4/26/2022 12:00:00 AM</td><td>94.89</td>
+		</tr><tr>
+			<td>04M037</td><td>RIVER EAST ELEMENTARY</td><td>4/26/2022 12:00:00 AM</td><td>91.16</td>
+		</tr><tr>
+			<td>04M038</td><td>P.S. 38 ROBERTO CLEMENTE</td><td>4/26/2022 12:00:00 AM</td><td>100.00</td>
+		</tr><tr>
+			<td>04M057</td><td>JAMES WELDON JOHNSON</td><td>4/26/2022 12:00:00 AM</td><td>93.12</td>
+		</tr><tr>
+			<td>04M072</td><td>THE LEXINGTON ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>82.72</td>
+		</tr><tr>
+			<td>04M083</td><td>P.S. 083 LUIS MUNOZ RIVERA</td><td>4/26/2022 12:00:00 AM</td><td>92.74</td>
+		</tr><tr>
+			<td>04M096</td><td>P.S. 096 JOSEPH LANZETTA</td><td>4/26/2022 12:00:00 AM</td><td>90.46</td>
+		</tr><tr>
+			<td>04M102</td><td>P.S. 102 JACQUES CARTIER</td><td>4/26/2022 12:00:00 AM</td><td>91.97</td>
+		</tr><tr>
+			<td>04M108</td><td>P.S. 108 ASSEMBLYMAN ANGELO DEL TORO EDUCATIONAL C</td><td>4/26/2022 12:00:00 AM</td><td>83.10</td>
+		</tr><tr>
+			<td>04M112</td><td>P.S. 112 JOSE CELSO BARBOSA</td><td>4/26/2022 12:00:00 AM</td><td>86.14</td>
+		</tr><tr>
+			<td>04M146</td><td>P.S. 146 ANN M. SHORT</td><td>4/26/2022 12:00:00 AM</td><td>92.19</td>
+		</tr><tr>
+			<td>04M155</td><td>P.S. 155 WILLIAM PACA</td><td>4/26/2022 12:00:00 AM</td><td>92.89</td>
+		</tr><tr>
+			<td>04M171</td><td>P.S. 171 PATRICK HENRY</td><td>4/26/2022 12:00:00 AM</td><td>93.23</td>
+		</tr><tr>
+			<td>04M182</td><td>THE BILINGUAL BICULTURAL SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>93.52</td>
+		</tr><tr>
+			<td>04M206</td><td>P.S. 206 JOSE CELSO BARBOSA</td><td>4/26/2022 12:00:00 AM</td><td>93.89</td>
+		</tr><tr>
+			<td>04M224</td><td>M.S. 224 MANHATTAN EAST SCHOOL FOR ARTS   ACADEMIC</td><td>4/26/2022 12:00:00 AM</td><td>91.01</td>
+		</tr><tr>
+			<td>04M310</td><td>THE JUDITH S. KAYE SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>48.07</td>
+		</tr><tr>
+			<td>04M372</td><td>ESPERANZA PREPARATORY ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>86.46</td>
+		</tr><tr>
+			<td>04M375</td><td>MOSAIC PREPARATORY ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>86.02</td>
+		</tr><tr>
+			<td>04M377</td><td>RENAISSANCE SCHOOL OF THE ARTS</td><td>4/26/2022 12:00:00 AM</td><td>95.58</td>
+		</tr><tr>
+			<td>04M435</td><td>MANHATTAN CENTER FOR SCIENCE AND MATHEMATICS</td><td>4/26/2022 12:00:00 AM</td><td>83.68</td>
+		</tr><tr>
+			<td>04M495</td><td>PARK EAST HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>91.06</td>
+		</tr><tr>
+			<td>04M497</td><td>CENTRAL PARK EAST I</td><td>4/26/2022 12:00:00 AM</td><td>92.56</td>
+		</tr><tr>
+			<td>04M555</td><td>CENTRAL PARK EAST HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>92.61</td>
+		</tr><tr>
+			<td>04M610</td><td>YOUNG WOMEN S LEADERSHIP SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>66.07</td>
+		</tr><tr>
+			<td>04M680</td><td>HERITAGE SCHOOL, THE</td><td>4/26/2022 12:00:00 AM</td><td>78.42</td>
+		</tr><tr>
+			<td>04M825</td><td>ISAAC NEWTON MIDDLE SCHOOL FOR MATH   SCIENCE</td><td>4/26/2022 12:00:00 AM</td><td>96.44</td>
+		</tr><tr>
+			<td>04M964</td><td>CENTRAL PARK EAST II</td><td>4/26/2022 12:00:00 AM</td><td>85.02</td>
+		</tr><tr>
+			<td>05M030</td><td>P.S. 030 HERNANDEZ HUGHES</td><td>4/26/2022 12:00:00 AM</td><td>85.55</td>
+		</tr><tr>
+			<td>05M036</td><td>P.S. 036 MARGARET DOUGLAS</td><td>4/26/2022 12:00:00 AM</td><td>87.63</td>
+		</tr><tr>
+			<td>05M046</td><td>P.S. 046 ARTHUR TAPPAN</td><td>4/26/2022 12:00:00 AM</td><td>88.69</td>
+		</tr><tr>
+			<td>05M092</td><td>P.S. 092 MARY MCLEOD BETHUNE</td><td>4/26/2022 12:00:00 AM</td><td>90.73</td>
+		</tr><tr>
+			<td>05M123</td><td>P.S. 123 MAHALIA JACKSON</td><td>4/26/2022 12:00:00 AM</td><td>90.02</td>
+		</tr><tr>
+			<td>05M125</td><td>P.S. 125 RALPH BUNCHE</td><td>4/26/2022 12:00:00 AM</td><td>90.33</td>
+		</tr><tr>
+			<td>05M129</td><td>P.S. 129 JOHN H. FINLEY</td><td>4/26/2022 12:00:00 AM</td><td>84.98</td>
+		</tr><tr>
+			<td>05M133</td><td>P.S. 133 FRED R MOORE</td><td>4/26/2022 12:00:00 AM</td><td>90.24</td>
+		</tr><tr>
+			<td>05M148</td><td>EAGLE ACADEMY FOR YOUNG MEN OF HARLEM</td><td>4/26/2022 12:00:00 AM</td><td>86.95</td>
+		</tr><tr>
+			<td>05M154</td><td>P.S. 154 HARRIET TUBMAN</td><td>4/26/2022 12:00:00 AM</td><td>90.39</td>
+		</tr><tr>
+			<td>05M157</td><td>THE URBAN ASSEMBLY SCHOOL FOR GLOBAL COMMERCE</td><td>4/26/2022 12:00:00 AM</td><td>70.05</td>
+		</tr><tr>
+			<td>05M161</td><td>P.S. 161 PEDRO ALBIZU CAMPOS</td><td>4/26/2022 12:00:00 AM</td><td>89.35</td>
+		</tr><tr>
+			<td>05M175</td><td>P.S. 175 HENRY H GARNET</td><td>4/26/2022 12:00:00 AM</td><td>93.72</td>
+		</tr><tr>
+			<td>05M194</td><td>P.S. 194 COUNTEE CULLEN</td><td>4/26/2022 12:00:00 AM</td><td>87.73</td>
+		</tr><tr>
+			<td>05M197</td><td>P.S. 197 JOHN B. RUSSWURM</td><td>4/26/2022 12:00:00 AM</td><td>88.20</td>
+		</tr><tr>
+			<td>05M200</td><td>P.S. 200  THE JAMES MCCUNE SMITH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>84.59</td>
+		</tr><tr>
+			<td>05M285</td><td>HARLEM RENAISSANCE HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>36.00</td>
+		</tr><tr>
+			<td>05M286</td><td>URBAN ASSEMBLY ACADEMY FOR FUTURE LEADERS</td><td>4/26/2022 12:00:00 AM</td><td>87.80</td>
+		</tr><tr>
+			<td>05M304</td><td>MOTT HALL HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>71.50</td>
+		</tr><tr>
+			<td>05M318</td><td>THURGOOD MARSHALL ACADEMY LOWER SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>92.69</td>
+		</tr><tr>
+			<td>05M362</td><td>COLUMBIA SECONDARY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>91.83</td>
+		</tr><tr>
+			<td>05M369</td><td>URBAN ASSEMBLY SCHOOL FOR THE PERFORMING ARTS</td><td>4/26/2022 12:00:00 AM</td><td>72.61</td>
+		</tr><tr>
+			<td>05M371</td><td>SCHOOL OF EARTH EXPLORATION AND DISCOVERY HARLEM</td><td>4/26/2022 12:00:00 AM</td><td>NS</td>
+		</tr><tr>
+			<td>05M499</td><td>FREDERICK DOUGLASS ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>81.28</td>
+		</tr><tr>
+			<td>05M514</td><td>NEW DESIGN MIDDLE SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>NS</td>
+		</tr><tr>
+			<td>05M517</td><td>TEACHERS COLLEGE COMMUNITY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>93.82</td>
+		</tr><tr>
+			<td>05M670</td><td>THURGOOD MARSHALL ACADEMY FOR LEARNING AND SOCIAL</td><td>4/26/2022 12:00:00 AM</td><td>70.57</td>
+		</tr><tr>
+			<td>05M692</td><td>HIGH SCHOOL FOR MATHEMATICS, SCIENCE AND ENGINEERI</td><td>4/26/2022 12:00:00 AM</td><td>91.45</td>
+		</tr><tr>
+			<td>06M004</td><td>P.S. 004 DUKE ELLINGTON</td><td>4/26/2022 12:00:00 AM</td><td>92.27</td>
+		</tr><tr>
+			<td>06M005</td><td>P.S. 005 ELLEN LURIE</td><td>4/26/2022 12:00:00 AM</td><td>87.47</td>
+		</tr><tr>
+			<td>06M008</td><td>P.S. 008 LUIS BELLIARD</td><td>4/26/2022 12:00:00 AM</td><td>89.91</td>
+		</tr><tr>
+			<td>06M018</td><td>P.S. 018 PARK TERRACE</td><td>4/26/2022 12:00:00 AM</td><td>90.94</td>
+		</tr><tr>
+			<td>06M028</td><td>P.S. 028 WRIGHT BROTHERS</td><td>4/26/2022 12:00:00 AM</td><td>88.61</td>
+		</tr><tr>
+			<td>06M048</td><td>P.S. 048 P.O. MICHAEL J. BUCZEK</td><td>4/26/2022 12:00:00 AM</td><td>90.21</td>
+		</tr><tr>
+			<td>06M052</td><td>HAROLD O. LEVY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>90.95</td>
+		</tr><tr>
+			<td>06M098</td><td>P.S. 098 SHORAC KAPPOCK</td><td>4/26/2022 12:00:00 AM</td><td>91.81</td>
+		</tr><tr>
+			<td>06M103</td><td>DOS PUENTES ELEMENTARY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>95.35</td>
+		</tr><tr>
+			<td>06M115</td><td>P.S. 115 ALEXANDER HUMBOLDT</td><td>4/26/2022 12:00:00 AM</td><td>94.17</td>
+		</tr><tr>
+			<td>06M128</td><td>P.S. 128 AUDUBON</td><td>4/26/2022 12:00:00 AM</td><td>90.77</td>
+		</tr><tr>
+			<td>06M132</td><td>P.S. 132 JUAN PABLO DUARTE</td><td>4/26/2022 12:00:00 AM</td><td>92.94</td>
+		</tr><tr>
+			<td>06M143</td><td>J.H.S. 143 ELEANOR ROOSEVELT</td><td>4/26/2022 12:00:00 AM</td><td>98.54</td>
+		</tr><tr>
+			<td>06M152</td><td>P.S. 152 DYCKMAN VALLEY</td><td>4/26/2022 12:00:00 AM</td><td>91.15</td>
+		</tr><tr>
+			<td>06M153</td><td>P.S. 153 ADAM CLAYTON POWELL</td><td>4/26/2022 12:00:00 AM</td><td>90.46</td>
+		</tr><tr>
+			<td>06M173</td><td>P.S. 173</td><td>4/26/2022 12:00:00 AM</td><td>89.34</td>
+		</tr><tr>
+			<td>06M178</td><td>PROFESSOR JUAN BOSCH PUBLIC SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>93.65</td>
+		</tr><tr>
+			<td>06M187</td><td>P.S. I.S. 187 HUDSON CLIFFS</td><td>4/26/2022 12:00:00 AM</td><td>91.86</td>
+		</tr><tr>
+			<td>06M189</td><td>P.S. 189</td><td>4/26/2022 12:00:00 AM</td><td>90.00</td>
+		</tr><tr>
+			<td>06M192</td><td>P.S. 192 JACOB H. SCHIFF</td><td>4/26/2022 12:00:00 AM</td><td>92.12</td>
+		</tr><tr>
+			<td>06M209</td><td>HAMILTON GRANGE MIDDLE SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>NS</td>
+		</tr><tr>
+			<td>06M210</td><td>P.S. I.S. 210   TWENTY FIRST CENTURY ACADEMY FOR C</td><td>4/26/2022 12:00:00 AM</td><td>98.29</td>
+		</tr><tr>
+			<td>06M211</td><td>INWOOD EARLY COLLEGE FOR HEALTH AND INFORMATION TE</td><td>4/26/2022 12:00:00 AM</td><td>74.53</td>
+		</tr><tr>
+			<td>06M223</td><td>THE MOTT HALL SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>85.08</td>
+		</tr><tr>
+			<td>06M278</td><td>PAULA HEDBAVNY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>94.59</td>
+		</tr><tr>
+			<td>06M293</td><td>CITY COLLEGE ACADEMY OF THE ARTS</td><td>4/26/2022 12:00:00 AM</td><td>77.00</td>
+		</tr><tr>
+			<td>06M311</td><td>AMISTAD DUAL LANGUAGE SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>95.92</td>
+		</tr><tr>
+			<td>06M314</td><td>MUSCOTA</td><td>4/26/2022 12:00:00 AM</td><td>92.14</td>
+		</tr><tr>
+			<td>06M319</td><td>M.S. 319   MARIA TERESA</td><td>4/26/2022 12:00:00 AM</td><td>99.63</td>
+		</tr><tr>
+			<td>06M322</td><td>MIDDLE SCHOOL 322</td><td>4/26/2022 12:00:00 AM</td><td>94.52</td>
+		</tr><tr>
+			<td>06M324</td><td>M.S. 324   PATRIA MIRABAL</td><td>4/26/2022 12:00:00 AM</td><td>90.84</td>
+		</tr><tr>
+			<td>06M328</td><td>COMMUNITY MATH   SCIENCE PREP</td><td>4/26/2022 12:00:00 AM</td><td>79.72</td>
+		</tr><tr>
+			<td>06M346</td><td>COMMUNITY HEALTH ACADEMY OF THE HEIGHTS</td><td>4/26/2022 12:00:00 AM</td><td>88.78</td>
+		</tr><tr>
+			<td>06M348</td><td>WASHINGTON HEIGHTS EXPEDITIONARY LEARNING SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>89.50</td>
+		</tr><tr>
+			<td>06M349</td><td>HARBOR HEIGHTS</td><td>4/26/2022 12:00:00 AM</td><td>98.71</td>
+		</tr><tr>
+			<td>06M366</td><td>WASHINGTON HEIGHTS ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>85.48</td>
+		</tr><tr>
+			<td>06M368</td><td>THE WILLIAM LYNCH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>89.35</td>
+		</tr><tr>
+			<td>06M423</td><td>HIGH SCHOOL FOR EXCELLENCE AND INNOVATION</td><td>4/26/2022 12:00:00 AM</td><td>71.52</td>
+		</tr><tr>
+			<td>06M462</td><td>THE COLLEGE ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>80.48</td>
+		</tr><tr>
+			<td>06M463</td><td>HIGH SCHOOL FOR MEDIA AND COMMUNICATIONS</td><td>4/26/2022 12:00:00 AM</td><td>81.73</td>
+		</tr><tr>
+			<td>06M467</td><td>HIGH SCHOOL FOR LAW AND PUBLIC SERVICE</td><td>4/26/2022 12:00:00 AM</td><td>69.91</td>
+		</tr><tr>
+			<td>06M468</td><td>HIGH SCHOOL FOR HEALTH CAREERS AND SCIENCES</td><td>4/26/2022 12:00:00 AM</td><td>80.32</td>
+		</tr><tr>
+			<td>06M513</td><td>CASTLE BRIDGE SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>91.76</td>
+		</tr><tr>
+			<td>06M528</td><td>I.S. 528 BEA FULLER RODGERS SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>93.99</td>
+		</tr><tr>
+			<td>06M540</td><td>A. PHILIP RANDOLPH CAMPUS HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>72.92</td>
+		</tr><tr>
+			<td>06M552</td><td>GREGORIO LUPERON HIGH SCHOOL FOR SCIENCE AND MATHE</td><td>4/26/2022 12:00:00 AM</td><td>87.40</td>
+		</tr><tr>
+			<td>07X001</td><td>P.S. 001 COURTLANDT SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>91.49</td>
+		</tr><tr>
+			<td>07X005</td><td>P.S. 5 PORT MORRIS</td><td>4/26/2022 12:00:00 AM</td><td>88.11</td>
+		</tr><tr>
+			<td>07X018</td><td>P.S. 018 JOHN PETER ZENGER</td><td>4/26/2022 12:00:00 AM</td><td>93.44</td>
+		</tr><tr>
+			<td>07X025</td><td>P.S. 025 BILINGUAL SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>88.70</td>
+		</tr><tr>
+			<td>07X029</td><td>P.S. M.S. 029 MELROSE SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>92.10</td>
+		</tr><tr>
+			<td>07X030</td><td>P.S. 030 WILTON</td><td>4/26/2022 12:00:00 AM</td><td>88.81</td>
+		</tr><tr>
+			<td>07X031</td><td>P.S. M.S. 031 THE WILLIAM LLOYD GARRISON</td><td>4/26/2022 12:00:00 AM</td><td>92.44</td>
+		</tr><tr>
+			<td>07X043</td><td>P.S. 043 JONAS BRONCK</td><td>4/26/2022 12:00:00 AM</td><td>93.23</td>
+		</tr><tr>
+			<td>07X049</td><td>P.S. 049 WILLIS AVENUE</td><td>4/26/2022 12:00:00 AM</td><td>92.10</td>
+		</tr><tr>
+			<td>07X065</td><td>P.S. 065 MOTHER HALE ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>93.33</td>
+		</tr><tr>
+			<td>07X154</td><td>P.S. 154 JONATHAN D. HYATT</td><td>4/26/2022 12:00:00 AM</td><td>96.48</td>
+		</tr><tr>
+			<td>07X157</td><td>P.S. 157 GROVE HILL</td><td>4/26/2022 12:00:00 AM</td><td>93.60</td>
+		</tr><tr>
+			<td>07X161</td><td>P.S. 161 JUAN PONCE DE LEON SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>89.25</td>
+		</tr><tr>
+			<td>07X179</td><td>P.S. 179</td><td>4/26/2022 12:00:00 AM</td><td>85.94</td>
+		</tr><tr>
+			<td>07X221</td><td>SOUTH BRONX PREPARATORY: A COLLEGE BOARD SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>93.58</td>
+		</tr><tr>
+			<td>07X223</td><td>THE LABORATORY SCHOOL OF FINANCE AND TECHNOLOGY: X</td><td>4/26/2022 12:00:00 AM</td><td>87.57</td>
+		</tr><tr>
+			<td>07X224</td><td>P.S. I.S. 224</td><td>4/26/2022 12:00:00 AM</td><td>92.24</td>
+		</tr><tr>
+			<td>07X259</td><td>H.E.R.O. HIGH  HEALTH, EDUCATION, AND RESEARCH OCC</td><td>4/26/2022 12:00:00 AM</td><td>67.24</td>
+		</tr><tr>
+			<td>07X277</td><td>P.S. 277</td><td>4/26/2022 12:00:00 AM</td><td>91.21</td>
+		</tr><tr>
+			<td>07X296</td><td>SOUTH BRONX ACADEMY FOR APPLIED MEDIA</td><td>4/26/2022 12:00:00 AM</td><td>90.78</td>
+		</tr><tr>
+			<td>07X298</td><td>ACADEMY OF PUBLIC RELATIONS</td><td>4/26/2022 12:00:00 AM</td><td>92.12</td>
+		</tr><tr>
+			<td>07X334</td><td>INTERNATIONAL COMMUNITY HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>87.20</td>
+		</tr><tr>
+			<td>07X343</td><td>ACADEMY OF APPLIED MATHEMATICS AND TECHNOLOGY</td><td>4/26/2022 12:00:00 AM</td><td>94.53</td>
+		</tr><tr>
+			<td>07X359</td><td>CONCOURSE VILLAGE ELEMENTARY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>94.77</td>
+		</tr><tr>
+			<td>07X369</td><td>YOUNG LEADERS ELEMENTARY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>93.90</td>
+		</tr><tr>
+			<td>07X379</td><td>JILL CHAIFETZ TRANSFER HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>38.57</td>
+		</tr><tr>
+			<td>07X381</td><td>BRONX HAVEN HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>41.40</td>
+		</tr><tr>
+			<td>07X427</td><td>COMMUNITY SCHOOL FOR SOCIAL JUSTICE</td><td>4/26/2022 12:00:00 AM</td><td>62.30</td>
+		</tr><tr>
+			<td>07X473</td><td>MOTT HAVEN VILLAGE PREPARATORY HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>73.54</td>
+		</tr><tr>
+			<td>07X495</td><td>UNIVERSITY HEIGHTS SECONDARY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>90.97</td>
+		</tr><tr>
+			<td>07X500</td><td>HOSTOS LINCOLN ACADEMY OF SCIENCE</td><td>4/26/2022 12:00:00 AM</td><td>81.45</td>
+		</tr><tr>
+			<td>07X522</td><td>BRONX DESIGN AND CONSTRUCTION ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>78.24</td>
+		</tr><tr>
+			<td>07X527</td><td>BRONX LEADERSHIP ACADEMY II HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>71.26</td>
+		</tr><tr>
+			<td>07X533</td><td>LEARNING THROUGH PLAY PRE K CENTER</td><td>4/26/2022 12:00:00 AM</td><td>87.80</td>
+		</tr><tr>
+			<td>07X548</td><td>CAREERS IN SPORTS HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>65.53</td>
+		</tr><tr>
+			<td>07X551</td><td>THE URBAN ASSEMBLY BRONX ACADEMY OF LETTERS</td><td>4/26/2022 12:00:00 AM</td><td>80.22</td>
+		</tr><tr>
+			<td>07X557</td><td>MOTT HAVEN COMMUNITY HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>46.61</td>
+		</tr><tr>
+			<td>07X584</td><td>I.S. 584</td><td>4/26/2022 12:00:00 AM</td><td>92.88</td>
+		</tr><tr>
+			<td>07X600</td><td>ALFRED E. SMITH CAREER AND TECHNICAL EDUCATION HIG</td><td>4/26/2022 12:00:00 AM</td><td>86.05</td>
+		</tr><tr>
+			<td>07X625</td><td>WALKABOUT BRONX HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>78.76</td>
+		</tr><tr>
+			<td>07X670</td><td>HEALTH OPPORTUNITIES HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>69.17</td>
+		</tr><tr>
+			<td>08X014</td><td>P.S. X014 SENATOR JOHN CALANDRA</td><td>4/26/2022 12:00:00 AM</td><td>91.96</td>
+		</tr><tr>
+			<td>08X036</td><td>P.S. 036 UNIONPORT</td><td>4/26/2022 12:00:00 AM</td><td>95.24</td>
+		</tr><tr>
+			<td>08X048</td><td>P.S. 048 JOSEPH R. DRAKE</td><td>4/26/2022 12:00:00 AM</td><td>88.86</td>
+		</tr><tr>
+			<td>08X062</td><td>P.S. 062 INOCENSIO CASANOVA</td><td>4/26/2022 12:00:00 AM</td><td>91.76</td>
+		</tr><tr>
+			<td>08X069</td><td>P.S. 069 JOURNEY PREP SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>86.41</td>
+		</tr><tr>
+			<td>08X071</td><td>P.S. 071 ROSE E. SCALA</td><td>4/26/2022 12:00:00 AM</td><td>90.51</td>
+		</tr><tr>
+			<td>08X072</td><td>P.S. 072 DR. WILLIAM DORNEY</td><td>4/26/2022 12:00:00 AM</td><td>91.58</td>
+		</tr><tr>
+			<td>08X075</td><td>P.S. 75 SCHOOL OF RESEARCH AND DISCOVERY</td><td>4/26/2022 12:00:00 AM</td><td>93.63</td>
+		</tr><tr>
+			<td>08X093</td><td>P.S. 093 ALBERT G. OLIVER</td><td>4/26/2022 12:00:00 AM</td><td>89.43</td>
+		</tr><tr>
+			<td>08X100</td><td>P.S. 100 ISAAC CLASON</td><td>4/26/2022 12:00:00 AM</td><td>92.23</td>
+		</tr><tr>
+			<td>08X101</td><td>M.S. X101 EDWARD R. BYRNE</td><td>4/26/2022 12:00:00 AM</td><td>90.58</td>
+		</tr><tr>
+			<td>08X107</td><td>P.S. 107</td><td>4/26/2022 12:00:00 AM</td><td>90.50</td>
+		</tr><tr>
+			<td>08X119</td><td>THE DR. EMMETT W. BASSETT SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>92.76</td>
+		</tr><tr>
+			<td>08X123</td><td>J.H.S. 123 JAMES M. KIERAN</td><td>4/26/2022 12:00:00 AM</td><td>94.67</td>
+		</tr><tr>
+			<td>08X130</td><td>P.S. 130 ABRAM STEVENS HEWITT</td><td>4/26/2022 12:00:00 AM</td><td>89.71</td>
+		</tr><tr>
+			<td>08X131</td><td>J.H.S. 131 ALBERT EINSTEIN</td><td>4/26/2022 12:00:00 AM</td><td>93.75</td>
+		</tr><tr>
+			<td>08X138</td><td>P.S. 138 SAMUEL RANDALL</td><td>4/26/2022 12:00:00 AM</td><td>92.43</td>
+		</tr><tr>
+			<td>08X140</td><td>P.S. X140 THE EAGLE SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>92.25</td>
+		</tr><tr>
+			<td>08X146</td><td>P.S. 146 EDWARD COLLINS</td><td>4/26/2022 12:00:00 AM</td><td>90.14</td>
+		</tr><tr>
+			<td>08X152</td><td>P.S. 152 EVERGREEN</td><td>4/26/2022 12:00:00 AM</td><td>91.89</td>
+		</tr><tr>
+			<td>08X182</td><td>P.S. 182</td><td>4/26/2022 12:00:00 AM</td><td>92.56</td>
+		</tr><tr>
+			<td>08X269</td><td>BRONX STUDIO SCHOOL FOR WRITERS AND ARTISTS</td><td>4/26/2022 12:00:00 AM</td><td>66.88</td>
+		</tr><tr>
+			<td>08X282</td><td>WOMEN S ACADEMY OF EXCELLENCE</td><td>4/26/2022 12:00:00 AM</td><td>72.36</td>
+		</tr><tr>
+			<td>08X293</td><td>RENAISSANCE HIGH SCHOOL FOR MUSICAL THEATER AND TH</td><td>4/26/2022 12:00:00 AM</td><td>67.48</td>
+		</tr><tr>
+			<td>08X301</td><td>M.S. 301 PAUL L. DUNBAR</td><td>4/26/2022 12:00:00 AM</td><td>92.09</td>
+		</tr><tr>
+			<td>08X302</td><td>M.S. 302 LUISA DESSUS CRUZ</td><td>4/26/2022 12:00:00 AM</td><td>95.83</td>
+		</tr><tr>
+			<td>08X304</td><td>P.S. 304 EARLY CHILDHOOD SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>93.47</td>
+		</tr><tr>
+			<td>08X312</td><td>MILLENNIUM ART ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>83.73</td>
+		</tr><tr>
+			<td>08X320</td><td>PELHAM LAB HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>80.62</td>
+		</tr><tr>
+			<td>08X333</td><td>THE LONGWOOD ACADEMY OF DISCOVERY</td><td>4/26/2022 12:00:00 AM</td><td>88.10</td>
+		</tr><tr>
+			<td>08X337</td><td>THE SCHOOL FOR INQUIRY AND SOCIAL JUSTICE</td><td>4/26/2022 12:00:00 AM</td><td>93.79</td>
+		</tr><tr>
+			<td>08X348</td><td>SCHUYLERVILLE PREPARATORY HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>73.80</td>
+		</tr><tr>
+			<td>08X349</td><td>BRONX RIVER HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>86.69</td>
+		</tr><tr>
+			<td>08X367</td><td>ARCHIMEDES ACADEMY FOR MATH, SCIENCE AND TECHNOLOG</td><td>4/26/2022 12:00:00 AM</td><td>84.81</td>
+		</tr><tr>
+			<td>08X371</td><td>URBAN INSTITUTE OF MATHEMATICS</td><td>4/26/2022 12:00:00 AM</td><td>92.67</td>
+		</tr><tr>
+			<td>08X375</td><td>THE BRONX MATHEMATICS PREPARATORY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>90.86</td>
+		</tr><tr>
+			<td>08X376</td><td>ANTONIA PANTOJA PREPARATORY ACADEMY: A COLLEGE BOA</td><td>4/26/2022 12:00:00 AM</td><td>74.30</td>
+		</tr><tr>
+			<td>08X377</td><td>BRONX COMMUNITY HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>34.52</td>
+		</tr><tr>
+			<td>08X392</td><td>BRONX DELTA SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>92.00</td>
+		</tr><tr>
+			<td>08X405</td><td>HERBERT H. LEHMAN HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>76.16</td>
+		</tr><tr>
+			<td>08X424</td><td>BRONX ACADEMY FOR MULTI MEDIA</td><td>4/26/2022 12:00:00 AM</td><td>83.27</td>
+		</tr><tr>
+			<td>08X432</td><td>BRONX BRIDGES HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>79.50</td>
+		</tr><tr>
+			<td>08X448</td><td>SOUNDVIEW ACADEMY FOR CULTURE AND SCHOLARSHIP</td><td>4/26/2022 12:00:00 AM</td><td>89.68</td>
+		</tr><tr>
+			<td>08X452</td><td>GOTHAM COLLABORATIVE HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>39.07</td>
+		</tr><tr>
+			<td>08X467</td><td>MOTT HALL COMMUNITY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>91.21</td>
+		</tr><tr>
+			<td>08X530</td><td>LONGWOOD PREPARATORY ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>87.39</td>
+		</tr><tr>
+			<td>08X537</td><td>BRONX ARENA HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>NS</td>
+		</tr><tr>
+			<td>08X558</td><td>WESTCHESTER SQUARE ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>79.95</td>
+		</tr><tr>
+			<td>08X561</td><td>BRONX COMPASS HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>76.43</td>
+		</tr><tr>
+			<td>08X562</td><td>BLUEPRINT MIDDLE SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>93.00</td>
+		</tr><tr>
+			<td>08X583</td><td>P.S. 583</td><td>4/26/2022 12:00:00 AM</td><td>92.89</td>
+		</tr><tr>
+			<td>09X004</td><td>P.S. M.S. 004 CROTONA PARK WEST</td><td>4/26/2022 12:00:00 AM</td><td>95.72</td>
+		</tr><tr>
+			<td>09X011</td><td>P.S. 011 HIGHBRIDGE</td><td>4/26/2022 12:00:00 AM</td><td>90.20</td>
+		</tr><tr>
+			<td>09X022</td><td>J.H.S. 022 JORDAN L. MOTT</td><td>4/26/2022 12:00:00 AM</td><td>92.69</td>
+		</tr><tr>
+			<td>09X028</td><td>P.S. 028 MOUNT HOPE</td><td>4/26/2022 12:00:00 AM</td><td>91.21</td>
+		</tr><tr>
+			<td>09X035</td><td>P.S. 035 FRANZ SIEGEL</td><td>4/26/2022 12:00:00 AM</td><td>90.41</td>
+		</tr><tr>
+			<td>09X042</td><td>P.S. 042 CLAREMONT</td><td>4/26/2022 12:00:00 AM</td><td>94.09</td>
+		</tr><tr>
+			<td>09X053</td><td>P.S. 053 BASHEER QUISIM</td><td>4/26/2022 12:00:00 AM</td><td>90.94</td>
+		</tr><tr>
+			<td>09X055</td><td>P.S. 055 BENJAMIN FRANKLIN</td><td>4/26/2022 12:00:00 AM</td><td>90.78</td>
+		</tr><tr>
+			<td>09X058</td><td>P.S. 058</td><td>4/26/2022 12:00:00 AM</td><td>89.14</td>
+		</tr><tr>
+			<td>09X063</td><td>P.S. 063 AUTHOR S ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>94.34</td>
+		</tr><tr>
+			<td>09X070</td><td>P.S. 070 MAX SCHOENFELD</td><td>4/26/2022 12:00:00 AM</td><td>90.17</td>
+		</tr><tr>
+			<td>09X073</td><td>P.S. 073 BRONX</td><td>4/26/2022 12:00:00 AM</td><td>96.14</td>
+		</tr><tr>
+			<td>09X088</td><td>P.S. X088   S. SILVERSTEIN LITTLE SPARROW SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>94.68</td>
+		</tr><tr>
+			<td>09X109</td><td>P.S. 109 SEDGWICK</td><td>4/26/2022 12:00:00 AM</td><td>92.09</td>
+		</tr><tr>
+			<td>09X110</td><td>P.S. 110 THEODORE SCHOENFELD</td><td>4/26/2022 12:00:00 AM</td><td>89.29</td>
+		</tr><tr>
+			<td>09X114</td><td>P.S. X114   LUIS LLORENS TORRES SCHOOLS</td><td>4/26/2022 12:00:00 AM</td><td>93.48</td>
+		</tr><tr>
+			<td>09X117</td><td>I.S. 117 JOSEPH H. WADE</td><td>4/26/2022 12:00:00 AM</td><td>93.45</td>
+		</tr><tr>
+			<td>09X126</td><td>P.S. 126 DR MARJORIE H DUNBAR</td><td>4/26/2022 12:00:00 AM</td><td>91.80</td>
+		</tr><tr>
+			<td>09X128</td><td>MOTT HALL III</td><td>4/26/2022 12:00:00 AM</td><td>95.25</td>
+		</tr><tr>
+			<td>09X132</td><td>P.S. 132 GARRET A. MORGAN</td><td>4/26/2022 12:00:00 AM</td><td>83.56</td>
+		</tr><tr>
+			<td>09X163</td><td>P.S. 163 ARTHUR A. SCHOMBURG</td><td>4/26/2022 12:00:00 AM</td><td>95.10</td>
+		</tr><tr>
+			<td>09X170</td><td>P.S. 170</td><td>4/26/2022 12:00:00 AM</td><td>88.60</td>
+		</tr><tr>
+			<td>09X199</td><td>P.S. 199X   THE SHAKESPEARE SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>89.38</td>
+		</tr><tr>
+			<td>09X204</td><td>P.S. 204 MORRIS HEIGHTS</td><td>4/26/2022 12:00:00 AM</td><td>89.72</td>
+		</tr><tr>
+			<td>09X215</td><td>KAPPA</td><td>4/26/2022 12:00:00 AM</td><td>93.14</td>
+		</tr><tr>
+			<td>09X218</td><td>P.S. I.S. 218 RAFAEL HERNANDEZ DUAL LANGUAGE MAGNE</td><td>4/26/2022 12:00:00 AM</td><td>93.69</td>
+		</tr><tr>
+			<td>09X219</td><td>I.S. 219 NEW VENTURE SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>96.58</td>
+		</tr><tr>
+			<td>09X227</td><td>BRONX COLLEGIATE ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>81.09</td>
+		</tr><tr>
+			<td>09X229</td><td>I.S. 229 ROLAND PATTERSON</td><td>4/26/2022 12:00:00 AM</td><td>88.88</td>
+		</tr><tr>
+			<td>09X231</td><td>EAGLE ACADEMY FOR YOUNG MEN</td><td>4/26/2022 12:00:00 AM</td><td>85.12</td>
+		</tr><tr>
+			<td>09X232</td><td>I.S. 232</td><td>4/26/2022 12:00:00 AM</td><td>93.78</td>
+		</tr><tr>
+			<td>09X236</td><td>P.S. 236 LANGSTON HUGHES</td><td>4/26/2022 12:00:00 AM</td><td>93.53</td>
+		</tr><tr>
+			<td>09X241</td><td>URBAN ASSEMBLY SCHOOL FOR APPLIED MATH AND SCIENCE</td><td>4/26/2022 12:00:00 AM</td><td>78.39</td>
+		</tr><tr>
+			<td>09X250</td><td>EXIMIUS COLLEGE PREPARATORY ACADEMY: A COLLEGE BOA</td><td>4/26/2022 12:00:00 AM</td><td>79.72</td>
+		</tr><tr>
+			<td>09X252</td><td>MOTT HALL BRONX HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>NS</td>
+		</tr><tr>
+			<td>09X260</td><td>BRONX CENTER FOR SCIENCE AND MATHEMATICS</td><td>4/26/2022 12:00:00 AM</td><td>88.52</td>
+		</tr><tr>
+			<td>09X263</td><td>VALIDUS PREPARATORY ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>82.65</td>
+		</tr><tr>
+			<td>09X274</td><td>THE NEW AMERICAN ACADEMY AT ROBERTO CLEMENTE STATE</td><td>4/26/2022 12:00:00 AM</td><td>82.10</td>
+		</tr><tr>
+			<td>09X294</td><td>THE WALTON AVENUE SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>93.79</td>
+		</tr><tr>
+			<td>09X297</td><td>MORRIS ACADEMY FOR COLLABORATIVE STUDIES</td><td>4/26/2022 12:00:00 AM</td><td>68.08</td>
+		</tr><tr>
+			<td>09X303</td><td>I.S. X303 LEADERSHIP   COMMUNITY SERVICE</td><td>4/26/2022 12:00:00 AM</td><td>87.45</td>
+		</tr><tr>
+			<td>09X311</td><td>LUCERO ELEMENTARY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>84.92</td>
+		</tr><tr>
+			<td>09X313</td><td>I.S. 313 SCHOOL OF LEADERSHIP DEVELOPMENT</td><td>4/26/2022 12:00:00 AM</td><td>95.67</td>
+		</tr><tr>
+			<td>09X323</td><td>BRONX WRITING ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>93.31</td>
+		</tr><tr>
+			<td>09X324</td><td>BRONX EARLY COLLEGE ACADEMY FOR TEACHING LEARNIN</td><td>4/26/2022 12:00:00 AM</td><td>84.73</td>
+		</tr><tr>
+			<td>09X327</td><td>COMPREHENSIVE MODEL SCHOOL PROJECT M.S. 327</td><td>4/26/2022 12:00:00 AM</td><td>89.68</td>
+		</tr><tr>
+			<td>09X328</td><td>NEW MILLENNIUM BRONX ACADEMY OF THE ARTS</td><td>4/26/2022 12:00:00 AM</td><td>90.78</td>
+		</tr><tr>
+			<td>09X329</td><td>DREAMYARD PREPARATORY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>73.96</td>
+		</tr><tr>
+			<td>09X339</td><td>I.S. 339</td><td>4/26/2022 12:00:00 AM</td><td>92.95</td>
+		</tr><tr>
+			<td>09X350</td><td>NEW DIRECTIONS SECONDARY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>72.44</td>
+		</tr><tr>
+			<td>09X361</td><td>THE HIGHBRIDGE GREEN SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>93.27</td>
+		</tr><tr>
+			<td>09X365</td><td>ACADEMY FOR LANGUAGE AND TECHNOLOGY</td><td>4/26/2022 12:00:00 AM</td><td>86.82</td>
+		</tr><tr>
+			<td>09X403</td><td>BRONX INTERNATIONAL HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>71.05</td>
+		</tr><tr>
+			<td>09X404</td><td>SCHOOL FOR EXCELLENCE</td><td>4/26/2022 12:00:00 AM</td><td>75.21</td>
+		</tr><tr>
+			<td>09X412</td><td>BRONX HIGH SCHOOL OF BUSINESS</td><td>4/26/2022 12:00:00 AM</td><td>67.27</td>
+		</tr><tr>
+			<td>09X413</td><td>BRONX HIGH SCHOOL FOR MEDICAL SCIENCE</td><td>4/26/2022 12:00:00 AM</td><td>87.58</td>
+		</tr><tr>
+			<td>09X443</td><td>THE FAMILY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>90.57</td>
+		</tr><tr>
+			<td>09X449</td><td>GRANT AVENUE ELEMENTARY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>92.34</td>
+		</tr><tr>
+			<td>09X454</td><td>SCIENCE AND TECHNOLOGY ACADEMY: A MOTT HALL SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>95.96</td>
+		</tr><tr>
+			<td>09X457</td><td>SHERIDAN ACADEMY FOR YOUNG LEADERS</td><td>4/26/2022 12:00:00 AM</td><td>84.58</td>
+		</tr><tr>
+			<td>09X505</td><td>BRONX SCHOOL FOR LAW, GOVERNMENT AND JUSTICE</td><td>4/26/2022 12:00:00 AM</td><td>88.41</td>
+		</tr><tr>
+			<td>09X517</td><td>FREDERICK DOUGLASS ACADEMY III SECONDARY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>72.04</td>
+		</tr><tr>
+			<td>09X525</td><td>BRONX LEADERSHIP ACADEMY HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>76.31</td>
+		</tr><tr>
+			<td>09X543</td><td>HIGH SCHOOL FOR VIOLIN AND DANCE</td><td>4/26/2022 12:00:00 AM</td><td>51.23</td>
+		</tr><tr>
+			<td>09X555</td><td>MOUNT EDEN CHILDREN S ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>95.87</td>
+		</tr><tr>
+			<td>09X564</td><td>CLAREMONT INTERNATIONAL HS</td><td>4/26/2022 12:00:00 AM</td><td>78.02</td>
+		</tr><tr>
+			<td>09X568</td><td>YOUNG WOMEN S LEADERSHIP SCHOOL OF THE BRONX</td><td>4/26/2022 12:00:00 AM</td><td>100.00</td>
+		</tr><tr>
+			<td>09X582</td><td>GARDEN OF LEARNING AND DISCOVERY PRE K CENTER</td><td>4/26/2022 12:00:00 AM</td><td>84.44</td>
+		</tr><tr>
+			<td>09X593</td><td>SOUTH BRONX INTERNATIONAL MIDDLE SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>96.00</td>
+		</tr><tr>
+			<td>09X594</td><td>NEW PATHWAYS ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>88.61</td>
+		</tr><tr>
+			<td>10X003</td><td>P.S. 3 RAUL JULIA MICRO SOCIETY</td><td>4/26/2022 12:00:00 AM</td><td>90.99</td>
+		</tr><tr>
+			<td>10X007</td><td>MILTON FEIN SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>97.14</td>
+		</tr><tr>
+			<td>10X008</td><td>P.S. 008 ISAAC VARIAN</td><td>4/26/2022 12:00:00 AM</td><td>93.49</td>
+		</tr><tr>
+			<td>10X009</td><td>P.S. 9 RYER AVENUE ELEMENTARY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>92.03</td>
+		</tr><tr>
+			<td>10X015</td><td>P.S. X015 INSTITUTE FOR ENVIRONMENTAL LEARNING</td><td>4/26/2022 12:00:00 AM</td><td>93.25</td>
+		</tr><tr>
+			<td>10X020</td><td>PS MS 20 P.O.GEORGE J. WERDANN, III</td><td>4/26/2022 12:00:00 AM</td><td>90.73</td>
+		</tr><tr>
+			<td>10X023</td><td>P.S. 023 THE NEW CHILDREN S SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>91.84</td>
+		</tr><tr>
+			<td>10X024</td><td>P.S. 024 SPUYTEN DUYVIL</td><td>4/26/2022 12:00:00 AM</td><td>91.06</td>
+		</tr><tr>
+			<td>10X032</td><td>P.S. 032 BELMONT</td><td>4/26/2022 12:00:00 AM</td><td>92.13</td>
+		</tr><tr>
+			<td>10X033</td><td>P.S. 033 TIMOTHY DWIGHT</td><td>4/26/2022 12:00:00 AM</td><td>90.67</td>
+		</tr><tr>
+			<td>10X037</td><td>P.S. X037   MULTIPLE INTELLIGENCE SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>90.48</td>
+		</tr><tr>
+			<td>10X045</td><td>THOMAS C. GIORDANO MIDDLE SCHOOL 45</td><td>4/26/2022 12:00:00 AM</td><td>92.50</td>
+		</tr><tr>
+			<td>10X046</td><td>P.S. 046 EDGAR ALLAN POE</td><td>4/26/2022 12:00:00 AM</td><td>94.83</td>
+		</tr><tr>
+			<td>10X051</td><td>THE BRONX STEM AND ARTS ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>94.21</td>
+		</tr><tr>
+			<td>10X054</td><td>P.S. I.S. 54</td><td>4/26/2022 12:00:00 AM</td><td>93.51</td>
+		</tr><tr>
+			<td>10X056</td><td>P.S. 056 NORWOOD HEIGHTS</td><td>4/26/2022 12:00:00 AM</td><td>92.03</td>
+		</tr><tr>
+			<td>10X059</td><td>P.S. 059 THE COMMUNITY SCHOOL OF TECHNOLOGY</td><td>4/26/2022 12:00:00 AM</td><td>87.63</td>
+		</tr><tr>
+			<td>10X077</td><td>BEDFORD PARK ELEMENTARY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>94.10</td>
+		</tr><tr>
+			<td>10X080</td><td>J.H.S. 080 THE MOSHOLU PARKWAY</td><td>4/26/2022 12:00:00 AM</td><td>91.44</td>
+		</tr><tr>
+			<td>10X081</td><td>P.S. 081 ROBERT J. CHRISTEN</td><td>4/26/2022 12:00:00 AM</td><td>92.05</td>
+		</tr><tr>
+			<td>10X085</td><td>P.S. 085 GREAT EXPECTATIONS</td><td>4/26/2022 12:00:00 AM</td><td>93.16</td>
+		</tr><tr>
+			<td>10X086</td><td>P.S. 086 KINGSBRIDGE HEIGHTS</td><td>4/26/2022 12:00:00 AM</td><td>92.35</td>
+		</tr><tr>
+			<td>10X091</td><td>P.S. 091 BRONX</td><td>4/26/2022 12:00:00 AM</td><td>90.20</td>
+		</tr><tr>
+			<td>10X094</td><td>P.S. 094 KINGS COLLEGE SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>90.59</td>
+		</tr><tr>
+			<td>10X095</td><td>P.S. 095 SHEILA MENCHER</td><td>4/26/2022 12:00:00 AM</td><td>92.36</td>
+		</tr><tr>
+			<td>10X118</td><td>J.H.S. 118 WILLIAM W. NILES</td><td>4/26/2022 12:00:00 AM</td><td>88.64</td>
+		</tr><tr>
+			<td>10X141</td><td>RIVERDALE   KINGSBRIDGE ACADEMY  MIDDLE SCHOOL   H</td><td>4/26/2022 12:00:00 AM</td><td>89.17</td>
+		</tr><tr>
+			<td>10X159</td><td>P.S. 159 LUIS MUNOZ MARIN BILING</td><td>4/26/2022 12:00:00 AM</td><td>94.11</td>
+		</tr><tr>
+			<td>10X205</td><td>P.S. 205 FIORELLO LAGUARDIA</td><td>4/26/2022 12:00:00 AM</td><td>92.68</td>
+		</tr><tr>
+			<td>10X206</td><td>I.S. 206 ANN MERSEREAU</td><td>4/26/2022 12:00:00 AM</td><td>93.80</td>
+		</tr><tr>
+			<td>10X207</td><td>P.S. 207</td><td>4/26/2022 12:00:00 AM</td><td>94.79</td>
+		</tr><tr>
+			<td>10X209</td><td>P.S. 209</td><td>4/26/2022 12:00:00 AM</td><td>92.05</td>
+		</tr><tr>
+			<td>10X213</td><td>BRONX ENGINEERING AND TECHNOLOGY ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>55.31</td>
+		</tr><tr>
+			<td>10X225</td><td>THEATRE ARTS PRODUCTION COMPANY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>57.85</td>
+		</tr><tr>
+			<td>10X226</td><td>P.S. 226</td><td>4/26/2022 12:00:00 AM</td><td>92.69</td>
+		</tr><tr>
+			<td>10X228</td><td>JONAS BRONCK ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>97.70</td>
+		</tr><tr>
+			<td>10X237</td><td>THE MARIE CURIE SCHOOL FOR MEDICINE, NURSING, AND</td><td>4/26/2022 12:00:00 AM</td><td>76.58</td>
+		</tr><tr>
+			<td>10X243</td><td>WEST BRONX ACADEMY FOR THE FUTURE</td><td>4/26/2022 12:00:00 AM</td><td>81.71</td>
+		</tr><tr>
+			<td>10X244</td><td>THE NEW SCHOOL FOR LEADERSHIP AND JOURNALISM</td><td>4/26/2022 12:00:00 AM</td><td>96.86</td>
+		</tr><tr>
+			<td>10X246</td><td>P.S. 246 POE CENTER</td><td>4/26/2022 12:00:00 AM</td><td>93.08</td>
+		</tr><tr>
+			<td>10X254</td><td>I.S. 254</td><td>4/26/2022 12:00:00 AM</td><td>95.18</td>
+		</tr><tr>
+			<td>10X264</td><td>BRONX ACADEMY FOR SOFTWARE ENGINEERING  BASE</td><td>4/26/2022 12:00:00 AM</td><td>74.20</td>
+		</tr><tr>
+			<td>10X268</td><td>KINGSBRIDGE INTERNATIONAL HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>81.02</td>
+		</tr><tr>
+			<td>10X279</td><td>P.S. 279 CAPTAIN MANUEL RIVERA, JR.</td><td>4/26/2022 12:00:00 AM</td><td>93.86</td>
+		</tr><tr>
+			<td>10X280</td><td>P.S. M.S. 280 MOSHOLU PARKWAY</td><td>4/26/2022 12:00:00 AM</td><td>91.58</td>
+		</tr><tr>
+			<td>10X284</td><td>BRONX SCHOOL OF LAW AND FINANCE</td><td>4/26/2022 12:00:00 AM</td><td>79.81</td>
+		</tr><tr>
+			<td>10X291</td><td>P.S. 291</td><td>4/26/2022 12:00:00 AM</td><td>93.52</td>
+		</tr><tr>
+			<td>10X306</td><td>P.S. 306</td><td>4/26/2022 12:00:00 AM</td><td>93.07</td>
+		</tr><tr>
+			<td>10X307</td><td>LUISA PINEIRO FUENTES SCHOOL OF SCIENCE AND DISCOV</td><td>4/26/2022 12:00:00 AM</td><td>94.84</td>
+		</tr><tr>
+			<td>10X308</td><td>BRONX DANCE ACADEMY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>NS</td>
+		</tr><tr>
+			<td>10X310</td><td>P.S. 310 MARBLE HILL</td><td>4/26/2022 12:00:00 AM</td><td>92.53</td>
+		</tr><tr>
+			<td>10X315</td><td>P.S. 315 LAB SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>90.81</td>
+		</tr><tr>
+			<td>10X319</td><td>PROVIDING URBAN LEARNERS SUCCESS IN EDUCATION HIGH</td><td>4/26/2022 12:00:00 AM</td><td>45.73</td>
+		</tr><tr>
+			<td>10X331</td><td>THE BRONX SCHOOL OF YOUNG LEADERS</td><td>4/26/2022 12:00:00 AM</td><td>94.65</td>
+		</tr><tr>
+			<td>10X340</td><td>P.S. 340</td><td>4/26/2022 12:00:00 AM</td><td>94.70</td>
+		</tr><tr>
+			<td>10X342</td><td>INTERNATIONAL SCHOOL FOR LIBERAL ARTS</td><td>4/26/2022 12:00:00 AM</td><td>82.02</td>
+		</tr><tr>
+			<td>10X344</td><td>AMPARK NEIGHBORHOOD</td><td>4/26/2022 12:00:00 AM</td><td>95.25</td>
+		</tr><tr>
+			<td>10X351</td><td>BRONX COLLABORATIVE HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>NS</td>
+		</tr><tr>
+			<td>10X353</td><td>WORLD VIEW HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>86.36</td>
+		</tr><tr>
+			<td>10X360</td><td>P.S. 360</td><td>4/26/2022 12:00:00 AM</td><td>92.24</td>
+		</tr><tr>
+			<td>10X363</td><td>ACADEMY FOR PERSONAL LEADERSHIP AND EXCELLENCE</td><td>4/26/2022 12:00:00 AM</td><td>94.14</td>
+		</tr><tr>
+			<td>10X368</td><td>IN TECH ACADEMY  M.S.   HIGH SCHOOL 368</td><td>4/26/2022 12:00:00 AM</td><td>83.99</td>
+		</tr><tr>
+			<td>10X374</td><td>KNOWLEDGE AND POWER PREPARATORY ACADEMY INTERNATIO</td><td>4/26/2022 12:00:00 AM</td><td>81.06</td>
+		</tr><tr>
+			<td>10X382</td><td>ELEMENTARY SCHOOL FOR MATH, SCIENCE, AND TECHNOLOG</td><td>4/26/2022 12:00:00 AM</td><td>97.47</td>
+		</tr><tr>
+			<td>10X386</td><td>SCHOOL FOR ENVIRONMENTAL CITIZENSHIP</td><td>4/26/2022 12:00:00 AM</td><td>94.37</td>
+		</tr><tr>
+			<td>10X390</td><td>M.S. 390</td><td>4/26/2022 12:00:00 AM</td><td>95.10</td>
+		</tr><tr>
+			<td>10X391</td><td>THE ANGELO PATRI MIDDLE SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>94.93</td>
+		</tr><tr>
+			<td>10X396</td><td>P.S. 396</td><td>4/26/2022 12:00:00 AM</td><td>91.42</td>
+		</tr><tr>
+			<td>10X397</td><td>ENGLISH LANGUAGE LEARNERS AND INTERNATIONAL SUPPOR</td><td>4/26/2022 12:00:00 AM</td><td>73.12</td>
+		</tr><tr>
+			<td>10X433</td><td>HIGH SCHOOL FOR TEACHING AND THE PROFESSIONS</td><td>4/26/2022 12:00:00 AM</td><td>86.01</td>
+		</tr><tr>
+			<td>10X434</td><td>BELMONT PREPARATORY HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>88.31</td>
+		</tr><tr>
+			<td>10X437</td><td>FORDHAM HIGH SCHOOL FOR THE ARTS</td><td>4/26/2022 12:00:00 AM</td><td>89.71</td>
+		</tr><tr>
+			<td>10X438</td><td>FORDHAM LEADERSHIP ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>84.69</td>
+		</tr><tr>
+			<td>10X439</td><td>BRONX HIGH SCHOOL FOR LAW AND COMMUNITY SERVICE</td><td>4/26/2022 12:00:00 AM</td><td>86.92</td>
+		</tr><tr>
+			<td>10X440</td><td>DEWITT CLINTON HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>66.95</td>
+		</tr><tr>
+			<td>10X442</td><td>CELIA CRUZ BRONX HIGH SCHOOL OF MUSIC, THE</td><td>4/26/2022 12:00:00 AM</td><td>86.49</td>
+		</tr><tr>
+			<td>10X445</td><td>THE BRONX HIGH SCHOOL OF SCIENCE</td><td>4/26/2022 12:00:00 AM</td><td>94.69</td>
+		</tr><tr>
+			<td>10X447</td><td>CRESTON ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>94.50</td>
+		</tr><tr>
+			<td>10X477</td><td>MARBLE HILL HIGH SCHOOL FOR INTERNATIONAL STUDIES</td><td>4/26/2022 12:00:00 AM</td><td>90.06</td>
+		</tr><tr>
+			<td>10X524</td><td>CROTONA INTERNATIONAL HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>77.95</td>
+		</tr><tr>
+			<td>10X535</td><td>ROSE HILL PRE K CENTER</td><td>4/26/2022 12:00:00 AM</td><td>85.67</td>
+		</tr><tr>
+			<td>10X546</td><td>BRONX THEATRE HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>85.59</td>
+		</tr><tr>
+			<td>10X549</td><td>DISCOVERY HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>NS</td>
+		</tr><tr>
+			<td>10X565</td><td>HIGH SCHOOL FOR ENERGY AND TECHNOLOGY</td><td>4/26/2022 12:00:00 AM</td><td>75.49</td>
+		</tr><tr>
+			<td>10X696</td><td>HIGH SCHOOL OF AMERICAN STUDIES AT LEHMAN COLLEGE</td><td>4/26/2022 12:00:00 AM</td><td>94.32</td>
+		</tr><tr>
+			<td>11X016</td><td>P.S. 016 WAKEFIELD</td><td>4/26/2022 12:00:00 AM</td><td>90.84</td>
+		</tr><tr>
+			<td>11X019</td><td>P.S. 019 JUDITH K. WEISS</td><td>4/26/2022 12:00:00 AM</td><td>96.29</td>
+		</tr><tr>
+			<td>11X021</td><td>P.S. 021 PHILIP H. SHERIDAN</td><td>4/26/2022 12:00:00 AM</td><td>92.95</td>
+		</tr><tr>
+			<td>11X041</td><td>P.S. 041 GUN HILL ROAD</td><td>4/26/2022 12:00:00 AM</td><td>89.24</td>
+		</tr><tr>
+			<td>11X068</td><td>P.S. 068 BRONX</td><td>4/26/2022 12:00:00 AM</td><td>93.93</td>
+		</tr><tr>
+			<td>11X076</td><td>P.S. 076 THE BENNINGTON SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>91.93</td>
+		</tr><tr>
+			<td>11X078</td><td>P.S. 078 ANNE HUTCHINSON</td><td>4/26/2022 12:00:00 AM</td><td>86.20</td>
+		</tr><tr>
+			<td>11X083</td><td>P.S. 083 DONALD HERTZ</td><td>4/26/2022 12:00:00 AM</td><td>92.17</td>
+		</tr><tr>
+			<td>11X087</td><td>P.S. 087 BRONX</td><td>4/26/2022 12:00:00 AM</td><td>91.88</td>
+		</tr><tr>
+			<td>11X089</td><td>P.S. 089 BRONX</td><td>4/26/2022 12:00:00 AM</td><td>89.86</td>
+		</tr><tr>
+			<td>11X096</td><td>P.S. 096 RICHARD RODGERS</td><td>4/26/2022 12:00:00 AM</td><td>93.68</td>
+		</tr><tr>
+			<td>11X097</td><td>P.S. 097 BRONX</td><td>4/26/2022 12:00:00 AM</td><td>95.37</td>
+		</tr><tr>
+			<td>11X103</td><td>P.S. 103 HECTOR FONTANEZ</td><td>4/26/2022 12:00:00 AM</td><td>89.20</td>
+		</tr><tr>
+			<td>11X105</td><td>P.S. 105 SEN ABRAHAM BERNSTEIN</td><td>4/26/2022 12:00:00 AM</td><td>93.01</td>
+		</tr><tr>
+			<td>11X106</td><td>P.S. 106 PARKCHESTER</td><td>4/26/2022 12:00:00 AM</td><td>94.20</td>
+		</tr><tr>
+			<td>11X108</td><td>P.S. 108 PHILIP J. ABINANTI</td><td>4/26/2022 12:00:00 AM</td><td>96.47</td>
+		</tr><tr>
+			<td>11X111</td><td>P.S. 111 SETON FALLS</td><td>4/26/2022 12:00:00 AM</td><td>89.27</td>
+		</tr><tr>
+			<td>11X112</td><td>P.S. 112 BRONXWOOD</td><td>4/26/2022 12:00:00 AM</td><td>90.36</td>
+		</tr><tr>
+			<td>11X121</td><td>P.S. 121 THROOP</td><td>4/26/2022 12:00:00 AM</td><td>91.95</td>
+		</tr><tr>
+			<td>11X127</td><td>J.H.S. 127 THE CASTLE HILL</td><td>4/26/2022 12:00:00 AM</td><td>96.03</td>
+		</tr><tr>
+			<td>11X144</td><td>J.H.S. 144 MICHELANGELO</td><td>4/26/2022 12:00:00 AM</td><td>96.66</td>
+		</tr><tr>
+			<td>11X153</td><td>P.S. 153 HELEN KELLER</td><td>4/26/2022 12:00:00 AM</td><td>97.37</td>
+		</tr><tr>
+			<td>11X160</td><td>P.S. 160 WALT DISNEY</td><td>4/26/2022 12:00:00 AM</td><td>93.23</td>
+		</tr><tr>
+			<td>11X169</td><td>BAYCHESTER ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>89.47</td>
+		</tr><tr>
+			<td>11X175</td><td>P.S. 175 CITY ISLAND</td><td>4/26/2022 12:00:00 AM</td><td>93.82</td>
+		</tr><tr>
+			<td>11X178</td><td>P.S. 178   DR. SELMAN WAKSMAN</td><td>4/26/2022 12:00:00 AM</td><td>94.70</td>
+		</tr><tr>
+			<td>11X180</td><td>M.S. 180 DR. DANIEL HALE WILLIAMS</td><td>4/26/2022 12:00:00 AM</td><td>92.69</td>
+		</tr><tr>
+			<td>11X181</td><td>I.S. 181 PABLO CASALS</td><td>4/26/2022 12:00:00 AM</td><td>95.05</td>
+		</tr><tr>
+			<td>11X189</td><td>CORNERSTONE ACADEMY FOR SOCIAL ACTION</td><td>4/26/2022 12:00:00 AM</td><td>87.24</td>
+		</tr><tr>
+			<td>11X194</td><td>P.S. M.S. 194</td><td>4/26/2022 12:00:00 AM</td><td>94.67</td>
+		</tr><tr>
+			<td>11X249</td><td>BRONX HEALTH SCIENCES HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>79.82</td>
+		</tr><tr>
+			<td>11X253</td><td>BRONX HIGH SCHOOL FOR WRITING AND COMMUNICATION AR</td><td>4/26/2022 12:00:00 AM</td><td>71.94</td>
+		</tr><tr>
+			<td>11X265</td><td>BRONX LAB SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>77.04</td>
+		</tr><tr>
+			<td>11X270</td><td>ACADEMY FOR SCHOLARSHIP AND ENTREPRENEURSHIP: A CO</td><td>4/26/2022 12:00:00 AM</td><td>83.42</td>
+		</tr><tr>
+			<td>11X275</td><td>HIGH SCHOOL OF COMPUTERS AND TECHNOLOGY</td><td>4/26/2022 12:00:00 AM</td><td>81.01</td>
+		</tr><tr>
+			<td>11X287</td><td>NORTH BRONX SCHOOL OF EMPOWERMENT</td><td>4/26/2022 12:00:00 AM</td><td>90.19</td>
+		</tr><tr>
+			<td>11X288</td><td>COLLEGIATE INSTITUTE FOR MATH AND SCIENCE</td><td>4/26/2022 12:00:00 AM</td><td>80.79</td>
+		</tr><tr>
+			<td>11X290</td><td>BRONX ACADEMY OF HEALTH CAREERS</td><td>4/26/2022 12:00:00 AM</td><td>76.25</td>
+		</tr><tr>
+			<td>11X299</td><td>ASTOR COLLEGIATE ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>71.42</td>
+		</tr><tr>
+			<td>11X326</td><td>BRONX GREEN MIDDLE SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>92.91</td>
+		</tr><tr>
+			<td>11X355</td><td>BRONX ALLIANCE MIDDLE SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>83.85</td>
+		</tr><tr>
+			<td>11X357</td><td>YOUNG VOICES ACADEMY OF THE BRONX</td><td>4/26/2022 12:00:00 AM</td><td>94.50</td>
+		</tr><tr>
+			<td>11X370</td><td>LEADERS OF TOMORROW</td><td>4/26/2022 12:00:00 AM</td><td>86.17</td>
+		</tr><tr>
+			<td>11X418</td><td>BRONX HIGH SCHOOL FOR THE VISUAL ARTS</td><td>4/26/2022 12:00:00 AM</td><td>60.04</td>
+		</tr><tr>
+			<td>11X455</td><td>HARRY S TRUMAN HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>74.98</td>
+		</tr><tr>
+			<td>11X462</td><td>CORNERSTONE ACADEMY FOR SOCIAL ACTION MIDDLE SCHOO</td><td>4/26/2022 12:00:00 AM</td><td>84.84</td>
+		</tr><tr>
+			<td>11X468</td><td>PELHAM ACADEMY OF ACADEMICS AND COMMUNITY ENGAGEME</td><td>4/26/2022 12:00:00 AM</td><td>94.98</td>
+		</tr><tr>
+			<td>11X481</td><td>THE STEAM BRIDGE SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>96.02</td>
+		</tr><tr>
+			<td>11X483</td><td>THE MATILDA AVENUE SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>93.72</td>
+		</tr><tr>
+			<td>11X498</td><td>P.S. M.S. 11X498   VAN NEST ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>94.11</td>
+		</tr><tr>
+			<td>11X508</td><td>BRONXDALE HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>NS</td>
+		</tr><tr>
+			<td>11X509</td><td>HIGH SCHOOL OF LANGUAGE AND INNOVATION</td><td>4/26/2022 12:00:00 AM</td><td>90.69</td>
+		</tr><tr>
+			<td>11X513</td><td>NEW WORLD HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>89.52</td>
+		</tr><tr>
+			<td>11X514</td><td>THE BRONXWOOD PREPARATORY ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>73.23</td>
+		</tr><tr>
+			<td>11X529</td><td>ONE WORLD MIDDLE SCHOOL AT EDENWALD</td><td>4/26/2022 12:00:00 AM</td><td>94.04</td>
+		</tr><tr>
+			<td>11X532</td><td>BAYCHESTER MIDDLE SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>88.29</td>
+		</tr><tr>
+			<td>11X542</td><td>PELHAM PREPARATORY ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>73.08</td>
+		</tr><tr>
+			<td>11X544</td><td>HIGH SCHOOL FOR CONTEMPORARY ARTS</td><td>4/26/2022 12:00:00 AM</td><td>71.31</td>
+		</tr><tr>
+			<td>11X545</td><td>BRONX AEROSPACE HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>77.77</td>
+		</tr><tr>
+			<td>11X556</td><td>BRONX PARK MIDDLE SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>74.10</td>
+		</tr><tr>
+			<td>11X566</td><td>PELHAM GARDENS MIDDLE SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>91.35</td>
+		</tr><tr>
+			<td>11X567</td><td>LINDEN TREE ELEMENTARY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>94.05</td>
+		</tr><tr>
+			<td>12X006</td><td>P.S. 006 WEST FARMS</td><td>4/26/2022 12:00:00 AM</td><td>88.64</td>
+		</tr><tr>
+			<td>12X044</td><td>P.S. 044 DAVID C. FARRAGUT</td><td>4/26/2022 12:00:00 AM</td><td>93.80</td>
+		</tr><tr>
+			<td>12X047</td><td>P.S. 047 JOHN RANDOLPH</td><td>4/26/2022 12:00:00 AM</td><td>93.39</td>
+		</tr><tr>
+			<td>12X057</td><td>P.S. 057 CRESCENT</td><td>4/26/2022 12:00:00 AM</td><td>89.97</td>
+		</tr><tr>
+			<td>12X061</td><td>P.S. 061 FRANCISCO OLLER</td><td>4/26/2022 12:00:00 AM</td><td>94.42</td>
+		</tr><tr>
+			<td>12X066</td><td>P.S. 066 SCHOOL OF HIGHER EXPECTATIONS</td><td>4/26/2022 12:00:00 AM</td><td>93.40</td>
+		</tr><tr>
+			<td>12X067</td><td>P.S. 067 MOHEGAN SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>91.54</td>
+		</tr><tr>
+			<td>12X098</td><td>J.H.S. 098 HERMAN RIDDER</td><td>4/26/2022 12:00:00 AM</td><td>91.35</td>
+		</tr><tr>
+			<td>12X129</td><td>M.S. 129 ACADEMY FOR INDEPENDENT LEARNING AND LEAD</td><td>4/26/2022 12:00:00 AM</td><td>96.32</td>
+		</tr><tr>
+			<td>12X134</td><td>P.S. 134 GEORGE F. BRISTOW</td><td>4/26/2022 12:00:00 AM</td><td>90.35</td>
+		</tr><tr>
+			<td>12X150</td><td>P.S. 150 CHARLES JAMES FOX</td><td>4/26/2022 12:00:00 AM</td><td>92.89</td>
+		</tr><tr>
+			<td>12X190</td><td>E.S.M.T  I.S. 190</td><td>4/26/2022 12:00:00 AM</td><td>96.62</td>
+		</tr><tr>
+			<td>12X195</td><td>P.S. 195</td><td>4/26/2022 12:00:00 AM</td><td>95.19</td>
+		</tr><tr>
+			<td>12X196</td><td>P.S. 196</td><td>4/26/2022 12:00:00 AM</td><td>93.93</td>
+		</tr><tr>
+			<td>12X211</td><td>P.S. 211</td><td>4/26/2022 12:00:00 AM</td><td>90.26</td>
+		</tr><tr>
+			<td>12X214</td><td>P.S. 214</td><td>4/26/2022 12:00:00 AM</td><td>90.21</td>
+		</tr><tr>
+			<td>12X217</td><td>SCHOOL OF PERFORMING ARTS</td><td>4/26/2022 12:00:00 AM</td><td>88.97</td>
+		</tr><tr>
+			<td>12X242</td><td>MOTT HALL V</td><td>4/26/2022 12:00:00 AM</td><td>91.75</td>
+		</tr><tr>
+			<td>12X248</td><td>METROPOLITAN HIGH SCHOOL, THE</td><td>4/26/2022 12:00:00 AM</td><td>85.62</td>
+		</tr><tr>
+			<td>12X251</td><td>EXPLORATIONS ACADEMY H.S.</td><td>4/26/2022 12:00:00 AM</td><td>78.17</td>
+		</tr><tr>
+			<td>12X267</td><td>BRONX LATIN</td><td>4/26/2022 12:00:00 AM</td><td>81.76</td>
+		</tr><tr>
+			<td>12X271</td><td>EAST BRONX ACADEMY FOR THE FUTURE</td><td>4/26/2022 12:00:00 AM</td><td>79.17</td>
+		</tr><tr>
+			<td>12X273</td><td>FREDERICK DOUGLASS ACADEMY V. MIDDLE SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>96.17</td>
+		</tr><tr>
+			<td>12X286</td><td>FANNIE LOU HAMER MIDDLE SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>86.20</td>
+		</tr><tr>
+			<td>12X300</td><td>THE SCHOOL OF SCIENCE AND APPLIED LEARNING</td><td>4/26/2022 12:00:00 AM</td><td>90.27</td>
+		</tr><tr>
+			<td>12X314</td><td>FAIRMONT NEIGHBORHOOD SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>90.47</td>
+		</tr><tr>
+			<td>12X316</td><td>KAPPA III</td><td>4/26/2022 12:00:00 AM</td><td>93.52</td>
+		</tr><tr>
+			<td>12X318</td><td>I.S. X318 MATH, SCIENCE   TECHNOLOGY THROUGH ARTS</td><td>4/26/2022 12:00:00 AM</td><td>93.52</td>
+		</tr><tr>
+			<td>12X341</td><td>ACCION ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>94.38</td>
+		</tr><tr>
+			<td>12X383</td><td>EMOLIOR ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>96.43</td>
+		</tr><tr>
+			<td>12X388</td><td>PAN AMERICAN INTERNATIONAL HIGH SCHOOL AT MONROE</td><td>4/26/2022 12:00:00 AM</td><td>80.05</td>
+		</tr><tr>
+			<td>12X446</td><td>ARTURO A. SCHOMBURG SATELLITE ACADEMY BRONX</td><td>4/26/2022 12:00:00 AM</td><td>46.45</td>
+		</tr><tr>
+			<td>12X458</td><td>SAMARA COMMUNITY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>96.04</td>
+		</tr><tr>
+			<td>12X463</td><td>URBAN SCHOLARS COMMUNITY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>91.90</td>
+		</tr><tr>
+			<td>12X478</td><td>THE CINEMA SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>89.74</td>
+		</tr><tr>
+			<td>12X479</td><td>BRONX CAREER AND COLLEGE PREPARATORY HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>77.52</td>
+		</tr><tr>
+			<td>12X480</td><td>BRONX REGIONAL HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>37.75</td>
+		</tr><tr>
+			<td>12X511</td><td>BRONX ENVISION ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>77.43</td>
+		</tr><tr>
+			<td>12X521</td><td>THE METROPOLITAN SOUNDVIEW HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>76.19</td>
+		</tr><tr>
+			<td>12X531</td><td>ARCHER ELEMENTARY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>94.55</td>
+		</tr><tr>
+			<td>12X536</td><td>P.S. 536</td><td>4/26/2022 12:00:00 AM</td><td>96.69</td>
+		</tr><tr>
+			<td>12X550</td><td>HIGH SCHOOL OF WORLD CULTURES</td><td>4/26/2022 12:00:00 AM</td><td>80.69</td>
+		</tr><tr>
+			<td>12X595</td><td>P.S. 595</td><td>4/26/2022 12:00:00 AM</td><td>81.49</td>
+		</tr><tr>
+			<td>12X626</td><td>DISTRICT 12 PRE K CENTER</td><td>4/26/2022 12:00:00 AM</td><td>85.00</td>
+		</tr><tr>
+			<td>12X682</td><td>FANNIE LOU HAMER FREEDOM HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>67.57</td>
+		</tr><tr>
+			<td>12X684</td><td>WINGS ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>82.17</td>
+		</tr><tr>
+			<td>12X691</td><td>BRONX LITTLE SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>94.82</td>
+		</tr><tr>
+			<td>13K003</td><td>P.S. 003 THE BEDFORD VILLAGE</td><td>4/26/2022 12:00:00 AM</td><td>90.65</td>
+		</tr><tr>
+			<td>13K008</td><td>THE EMILY WARREN ROEBLING SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>92.60</td>
+		</tr><tr>
+			<td>13K009</td><td>PUBLIC SCHOOL 9 THE SARAH SMITH GARNET SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>90.25</td>
+		</tr><tr>
+			<td>13K011</td><td>P.S. 011 PURVIS J. BEHAN</td><td>4/26/2022 12:00:00 AM</td><td>92.56</td>
+		</tr><tr>
+			<td>13K020</td><td>P.S. 020 CLINTON HILL</td><td>4/26/2022 12:00:00 AM</td><td>89.50</td>
+		</tr><tr>
+			<td>13K044</td><td>P.S. 044 MARCUS GARVEY</td><td>4/26/2022 12:00:00 AM</td><td>85.71</td>
+		</tr><tr>
+			<td>13K046</td><td>P.S. 046 EDWARD C. BLUM</td><td>4/26/2022 12:00:00 AM</td><td>84.81</td>
+		</tr><tr>
+			<td>13K054</td><td>P.S. 054 SAMUEL C. BARNES</td><td>4/26/2022 12:00:00 AM</td><td>85.29</td>
+		</tr><tr>
+			<td>13K056</td><td>P.S. 056 LEWIS H. LATIMER</td><td>4/26/2022 12:00:00 AM</td><td>90.83</td>
+		</tr><tr>
+			<td>13K067</td><td>P.S. 067 CHARLES A. DORSEY</td><td>4/26/2022 12:00:00 AM</td><td>80.90</td>
+		</tr><tr>
+			<td>13K093</td><td>P.S. 093 WILLIAM H. PRESCOTT</td><td>4/26/2022 12:00:00 AM</td><td>88.16</td>
+		</tr><tr>
+			<td>13K113</td><td>M.S. 113 RONALD EDMONDS LEARNING CENTER</td><td>4/26/2022 12:00:00 AM</td><td>92.45</td>
+		</tr><tr>
+			<td>13K133</td><td>P.S. 133 WILLIAM A. BUTLER</td><td>4/26/2022 12:00:00 AM</td><td>91.00</td>
+		</tr><tr>
+			<td>13K256</td><td>P.S. 256 BENJAMIN BANNEKER</td><td>4/26/2022 12:00:00 AM</td><td>86.30</td>
+		</tr><tr>
+			<td>13K265</td><td>DR. SUSAN S. MCKINNEY SECONDARY SCHOOL OF THE ARTS</td><td>4/26/2022 12:00:00 AM</td><td>69.25</td>
+		</tr><tr>
+			<td>13K266</td><td>M.S. K266   PARK PLACE COMMUNITY MIDDLE SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>89.62</td>
+		</tr><tr>
+			<td>13K270</td><td>P.S. 270 JOHANN DEKALB</td><td>4/26/2022 12:00:00 AM</td><td>83.67</td>
+		</tr><tr>
+			<td>13K282</td><td>P.S. 282 PARK SLOPE</td><td>4/26/2022 12:00:00 AM</td><td>90.31</td>
+		</tr><tr>
+			<td>13K287</td><td>P.S. 287 BAILEY K. ASHFORD</td><td>4/26/2022 12:00:00 AM</td><td>92.53</td>
+		</tr><tr>
+			<td>13K301</td><td>RESTORATION ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>92.00</td>
+		</tr><tr>
+			<td>13K307</td><td>P.S. 307 DANIEL HALE WILLIAMS</td><td>4/26/2022 12:00:00 AM</td><td>86.80</td>
+		</tr><tr>
+			<td>13K313</td><td>DOCK STREET SCHOOL FOR STEAM STUDIES</td><td>4/26/2022 12:00:00 AM</td><td>91.25</td>
+		</tr><tr>
+			<td>13K350</td><td>URBAN ASSEMBLY SCHOOL OF MUSIC AND ART</td><td>4/26/2022 12:00:00 AM</td><td>77.11</td>
+		</tr><tr>
+			<td>13K351</td><td>THE URBAN ASSEMBLY UNISON SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>85.26</td>
+		</tr><tr>
+			<td>13K412</td><td>BROOKLYN COMMUNITY ARTS   MEDIA HIGH SCHOOL  BCAM</td><td>4/26/2022 12:00:00 AM</td><td>70.19</td>
+		</tr><tr>
+			<td>13K419</td><td>SCIENCE SKILLS CENTER HIGH SCHOOL FOR SCIENCE, TEC</td><td>4/26/2022 12:00:00 AM</td><td>91.26</td>
+		</tr><tr>
+			<td>13K430</td><td>BROOKLYN TECHNICAL HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>91.94</td>
+		</tr><tr>
+			<td>13K439</td><td>BROOKLYN INTERNATIONAL HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>86.19</td>
+		</tr><tr>
+			<td>13K483</td><td>THE URBAN ASSEMBLY SCHOOL FOR LAW AND JUSTICE</td><td>4/26/2022 12:00:00 AM</td><td>84.54</td>
+		</tr><tr>
+			<td>13K492</td><td>ACADEMY OF ARTS AND LETTERS</td><td>4/26/2022 12:00:00 AM</td><td>92.32</td>
+		</tr><tr>
+			<td>13K527</td><td>URBAN ASSEMBLY INSTITUTE OF MATH AND SCIENCE FOR Y</td><td>4/26/2022 12:00:00 AM</td><td>70.62</td>
+		</tr><tr>
+			<td>13K553</td><td>BROOKLYN ACADEMY HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>34.90</td>
+		</tr><tr>
+			<td>13K594</td><td>GOTHAM PROFESSIONAL ARTS ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>73.73</td>
+		</tr><tr>
+			<td>13K595</td><td>BEDFORD ACADEMY HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>85.75</td>
+		</tr><tr>
+			<td>13K605</td><td>GEORGE WESTINGHOUSE CAREER AND TECHNICAL EDUCATION</td><td>4/26/2022 12:00:00 AM</td><td>72.94</td>
+		</tr><tr>
+			<td>13K616</td><td>BROOKLYN HIGH SCHOOL FOR LEADERSHIP AND COMMUNITY</td><td>4/26/2022 12:00:00 AM</td><td>30.06</td>
+		</tr><tr>
+			<td>13K670</td><td>BENJAMIN BANNEKER ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>77.87</td>
+		</tr><tr>
+			<td>13K674</td><td>CITY POLYTECHNIC HIGH SCHOOL OF ENGINEERING, ARCHI</td><td>4/26/2022 12:00:00 AM</td><td>83.65</td>
+		</tr><tr>
+			<td>13K691</td><td>FORT GREENE PREPARATORY ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>92.59</td>
+		</tr><tr>
+			<td>13K869</td><td>DISTRICT 13 PRE K CENTER</td><td>4/26/2022 12:00:00 AM</td><td>82.75</td>
+		</tr><tr>
+			<td>13K915</td><td>BRIDGES: A SCHOOL FOR EXPLORATION AND EQUITY</td><td>4/26/2022 12:00:00 AM</td><td>91.78</td>
+		</tr><tr>
+			<td>14K016</td><td>P.S. 016 LEONARD DUNKLY</td><td>4/26/2022 12:00:00 AM</td><td>92.89</td>
+		</tr><tr>
+			<td>14K017</td><td>P.S. 017 HENRY D. WOODWORTH</td><td>4/26/2022 12:00:00 AM</td><td>87.20</td>
+		</tr><tr>
+			<td>14K018</td><td>P.S. 018 EDWARD BUSH</td><td>4/26/2022 12:00:00 AM</td><td>88.60</td>
+		</tr><tr>
+			<td>14K023</td><td>P.S. 023 CARTER G. WOODSON</td><td>4/26/2022 12:00:00 AM</td><td>91.57</td>
+		</tr><tr>
+			<td>14K031</td><td>P.S. 031 SAMUEL F. DUPONT</td><td>4/26/2022 12:00:00 AM</td><td>94.62</td>
+		</tr><tr>
+			<td>14K034</td><td>P.S. 034 OLIVER H. PERRY</td><td>4/26/2022 12:00:00 AM</td><td>92.53</td>
+		</tr><tr>
+			<td>14K050</td><td>J.H.S. 050 JOHN D. WELLS</td><td>4/26/2022 12:00:00 AM</td><td>91.45</td>
+		</tr><tr>
+			<td>14K059</td><td>P.S. 059 WILLIAM FLOYD</td><td>4/26/2022 12:00:00 AM</td><td>91.02</td>
+		</tr><tr>
+			<td>14K071</td><td>JUAN MOREL CAMPOS SECONDARY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>81.68</td>
+		</tr><tr>
+			<td>14K084</td><td>P.S. 084 JOSE DE DIEGO</td><td>4/26/2022 12:00:00 AM</td><td>92.56</td>
+		</tr><tr>
+			<td>14K110</td><td>P.S. 110 THE MONITOR</td><td>4/26/2022 12:00:00 AM</td><td>91.85</td>
+		</tr><tr>
+			<td>14K120</td><td>P.S. 120 CARLOS TAPIA</td><td>4/26/2022 12:00:00 AM</td><td>93.84</td>
+		</tr><tr>
+			<td>14K126</td><td>JOHN ERICSSON MIDDLE SCHOOL 126</td><td>4/26/2022 12:00:00 AM</td><td>97.29</td>
+		</tr><tr>
+			<td>14K132</td><td>P.S. 132 THE CONSELYEA SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>92.05</td>
+		</tr><tr>
+			<td>14K147</td><td>P.S. 147 ISAAC REMSEN</td><td>4/26/2022 12:00:00 AM</td><td>92.48</td>
+		</tr><tr>
+			<td>14K157</td><td>P.S. I.S. 157 THE BENJAMIN FRANKLIN HEALTH   SCIEN</td><td>4/26/2022 12:00:00 AM</td><td>87.79</td>
+		</tr><tr>
+			<td>14K196</td><td>P.S. 196 TEN EYCK</td><td>4/26/2022 12:00:00 AM</td><td>87.73</td>
+		</tr><tr>
+			<td>14K250</td><td>P.S. 250 GEORGE H. LINDSAY</td><td>4/26/2022 12:00:00 AM</td><td>89.32</td>
+		</tr><tr>
+			<td>14K257</td><td>P.S. 257 JOHN F. HYLAN</td><td>4/26/2022 12:00:00 AM</td><td>89.87</td>
+		</tr><tr>
+			<td>14K297</td><td>P.S. 297 ABRAHAM STOCKTON</td><td>4/26/2022 12:00:00 AM</td><td>93.13</td>
+		</tr><tr>
+			<td>14K318</td><td>I.S. 318 EUGENIO MARIA DE HOSTOS</td><td>4/26/2022 12:00:00 AM</td><td>87.80</td>
+		</tr><tr>
+			<td>14K319</td><td>P.S. 319</td><td>4/26/2022 12:00:00 AM</td><td>92.24</td>
+		</tr><tr>
+			<td>14K380</td><td>P.S. 380 JOHN WAYNE ELEMENTARY</td><td>4/26/2022 12:00:00 AM</td><td>89.61</td>
+		</tr><tr>
+			<td>14K414</td><td>BROOKLYN ARBOR ELEMENTARY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>92.95</td>
+		</tr><tr>
+			<td>14K449</td><td>BROOKLYN LATIN SCHOOL, THE</td><td>4/26/2022 12:00:00 AM</td><td>92.31</td>
+		</tr><tr>
+			<td>14K454</td><td>THE WILLIAMSBURG HIGH SCHOOL OF ART AND TECHNOLOGY</td><td>4/26/2022 12:00:00 AM</td><td>66.40</td>
+		</tr><tr>
+			<td>14K474</td><td>PROGRESS HIGH SCHOOL FOR PROFESSIONAL CAREERS</td><td>4/26/2022 12:00:00 AM</td><td>75.43</td>
+		</tr><tr>
+			<td>14K477</td><td>EAST WILLIAMSBURG SCHOLARS ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>84.16</td>
+		</tr><tr>
+			<td>14K478</td><td>THE HIGH SCHOOL FOR ENTERPRISE, BUSINESS AND TECHN</td><td>4/26/2022 12:00:00 AM</td><td>82.55</td>
+		</tr><tr>
+			<td>14K488</td><td>BROOKLYN PREPARATORY HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>62.35</td>
+		</tr><tr>
+			<td>14K558</td><td>WILLIAMSBURG HIGH SCHOOL FOR ARCHITECTURE AND DESI</td><td>4/26/2022 12:00:00 AM</td><td>89.58</td>
+		</tr><tr>
+			<td>14K561</td><td>WILLIAMSBURG PREPARATORY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>86.39</td>
+		</tr><tr>
+			<td>14K577</td><td>CONSELYEA PREPARATORY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>94.48</td>
+		</tr><tr>
+			<td>14K582</td><td>M.S. 582</td><td>4/26/2022 12:00:00 AM</td><td>91.77</td>
+		</tr><tr>
+			<td>14K586</td><td>LYONS COMMUNITY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>74.67</td>
+		</tr><tr>
+			<td>14K610</td><td>A TECH HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>82.12</td>
+		</tr><tr>
+			<td>14K614</td><td>YOUNG WOMEN S LEADERSHIP SCHOOL OF BROOKLYN</td><td>4/26/2022 12:00:00 AM</td><td>78.59</td>
+		</tr><tr>
+			<td>14K685</td><td>EL PUENTE ACADEMY FOR PEACE AND JUSTICE</td><td>4/26/2022 12:00:00 AM</td><td>60.71</td>
+		</tr><tr>
+			<td>15K001</td><td>P.S. 001 THE BERGEN</td><td>4/26/2022 12:00:00 AM</td><td>93.27</td>
+		</tr><tr>
+			<td>15K010</td><td>MAGNET SCHOOL OF MATH, SCIENCE AND DESIGN TECHNOLO</td><td>4/26/2022 12:00:00 AM</td><td>93.47</td>
+		</tr><tr>
+			<td>15K015</td><td>P.S. 015 PATRICK F. DALY</td><td>4/26/2022 12:00:00 AM</td><td>90.97</td>
+		</tr><tr>
+			<td>15K024</td><td>P.S. 024</td><td>4/26/2022 12:00:00 AM</td><td>93.77</td>
+		</tr><tr>
+			<td>15K029</td><td>P.S. 029 JOHN M. HARRIGAN</td><td>4/26/2022 12:00:00 AM</td><td>94.25</td>
+		</tr><tr>
+			<td>15K032</td><td>P.S. 032 SAMUEL MILLS SPROLE</td><td>4/26/2022 12:00:00 AM</td><td>92.56</td>
+		</tr><tr>
+			<td>15K038</td><td>P.S. 038 THE PACIFIC</td><td>4/26/2022 12:00:00 AM</td><td>90.41</td>
+		</tr><tr>
+			<td>15K039</td><td>P.S. 039 HENRY BRISTOW</td><td>4/26/2022 12:00:00 AM</td><td>89.73</td>
+		</tr><tr>
+			<td>15K051</td><td>M.S. 51 WILLIAM ALEXANDER</td><td>4/26/2022 12:00:00 AM</td><td>93.98</td>
+		</tr><tr>
+			<td>15K058</td><td>P.S. 058 THE CARROLL</td><td>4/26/2022 12:00:00 AM</td><td>93.06</td>
+		</tr><tr>
+			<td>15K088</td><td>J.H.S. 088 PETER ROUGET</td><td>4/26/2022 12:00:00 AM</td><td>96.99</td>
+		</tr><tr>
+			<td>15K094</td><td>P.S. 094 THE HENRY LONGFELLOW</td><td>4/26/2022 12:00:00 AM</td><td>96.48</td>
+		</tr><tr>
+			<td>15K107</td><td>P.S. 107 JOHN W. KIMBALL</td><td>4/26/2022 12:00:00 AM</td><td>90.65</td>
+		</tr><tr>
+			<td>15K118</td><td>THE MAURICE SENDAK COMMUNITY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>92.12</td>
+		</tr><tr>
+			<td>15K124</td><td>P.S. 124 SILAS B. DUTCHER</td><td>4/26/2022 12:00:00 AM</td><td>88.63</td>
+		</tr><tr>
+			<td>15K130</td><td>P.S. 130 THE PARKSIDE</td><td>4/26/2022 12:00:00 AM</td><td>91.39</td>
+		</tr><tr>
+			<td>15K131</td><td>P.S. 131 BROOKLYN</td><td>4/26/2022 12:00:00 AM</td><td>93.49</td>
+		</tr><tr>
+			<td>15K136</td><td>I.S. 136 CHARLES O. DEWEY</td><td>4/26/2022 12:00:00 AM</td><td>91.12</td>
+		</tr><tr>
+			<td>15K146</td><td>THE BROOKLYN NEW SCHOOL, P.S. 146</td><td>4/26/2022 12:00:00 AM</td><td>90.35</td>
+		</tr><tr>
+			<td>15K154</td><td>THE WINDSOR TERRACE SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>92.63</td>
+		</tr><tr>
+			<td>15K169</td><td>P.S. 169 SUNSET PARK</td><td>4/26/2022 12:00:00 AM</td><td>93.35</td>
+		</tr><tr>
+			<td>15K172</td><td>P.S. 172 BEACON SCHOOL OF EXCELLENCE</td><td>4/26/2022 12:00:00 AM</td><td>91.84</td>
+		</tr><tr>
+			<td>15K230</td><td>P.S. 230 DORIS L. COHEN</td><td>4/26/2022 12:00:00 AM</td><td>93.85</td>
+		</tr><tr>
+			<td>15K261</td><td>P.S. 261 PHILIP LIVINGSTON</td><td>4/26/2022 12:00:00 AM</td><td>89.26</td>
+		</tr><tr>
+			<td>15K295</td><td>P.S. 295</td><td>4/26/2022 12:00:00 AM</td><td>89.88</td>
+		</tr><tr>
+			<td>15K321</td><td>P.S. 321 WILLIAM PENN</td><td>4/26/2022 12:00:00 AM</td><td>94.68</td>
+		</tr><tr>
+			<td>15K418</td><td>THE CHILDREN S SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>92.83</td>
+		</tr><tr>
+			<td>15K423</td><td>BROOKLYN FRONTIERS HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>71.09</td>
+		</tr><tr>
+			<td>15K429</td><td>DIGITAL ARTS AND CINEMA TECHNOLOGY HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>87.15</td>
+		</tr><tr>
+			<td>15K442</td><td>M.S. 442 CARROLL GARDENS SCHOOL FOR INNOVATION</td><td>4/26/2022 12:00:00 AM</td><td>94.62</td>
+		</tr><tr>
+			<td>15K443</td><td>NEW VOICES SCHOOL OF ACADEMIC   CREATIVE ARTS</td><td>4/26/2022 12:00:00 AM</td><td>91.52</td>
+		</tr><tr>
+			<td>15K447</td><td>THE MATH   SCIENCE EXPLORATORY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>92.29</td>
+		</tr><tr>
+			<td>15K448</td><td>BROOKLYN COLLABORATIVE STUDIES</td><td>4/26/2022 12:00:00 AM</td><td>73.72</td>
+		</tr><tr>
+			<td>15K462</td><td>JOHN JAY SCHOOL FOR LAW</td><td>4/26/2022 12:00:00 AM</td><td>85.17</td>
+		</tr><tr>
+			<td>15K463</td><td>CYBERARTS STUDIO ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>74.15</td>
+		</tr><tr>
+			<td>15K464</td><td>PARK SLOPE COLLEGIATE</td><td>4/26/2022 12:00:00 AM</td><td>NS</td>
+		</tr><tr>
+			<td>15K497</td><td>THE BOERUM HILL SCHOOL FOR INTERNATIONAL STUDIES</td><td>4/26/2022 12:00:00 AM</td><td>88.77</td>
+		</tr><tr>
+			<td>15K516</td><td>SUNSET PARK AVENUES ELEMENTARY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>93.83</td>
+		</tr><tr>
+			<td>15K519</td><td>COBBLE HILL SCHOOL OF AMERICAN STUDIES</td><td>4/26/2022 12:00:00 AM</td><td>72.22</td>
+		</tr><tr>
+			<td>15K529</td><td>WEST BROOKLYN COMMUNITY HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>NS</td>
+		</tr><tr>
+			<td>15K592</td><td>KHALIL GIBRAN INTERNATIONAL ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>87.19</td>
+		</tr><tr>
+			<td>15K656</td><td>BROOKLYN HIGH SCHOOL OF THE ARTS</td><td>4/26/2022 12:00:00 AM</td><td>86.03</td>
+		</tr><tr>
+			<td>15K667</td><td>SUNSET PARK HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>78.60</td>
+		</tr><tr>
+			<td>15K676</td><td>RED HOOK NEIGHBORHOOD SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>89.01</td>
+		</tr><tr>
+			<td>15K684</td><td>MILLENNIUM BROOKLYN HS</td><td>4/26/2022 12:00:00 AM</td><td>87.98</td>
+		</tr><tr>
+			<td>15K698</td><td>SOUTH BROOKLYN COMMUNITY HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>29.60</td>
+		</tr><tr>
+			<td>15K767</td><td>THE LITTLE BROOKLYN PRE K CENTER</td><td>4/26/2022 12:00:00 AM</td><td>84.35</td>
+		</tr><tr>
+			<td>15K821</td><td>SUNSET PARK PREP</td><td>4/26/2022 12:00:00 AM</td><td>90.00</td>
+		</tr><tr>
+			<td>15K839</td><td>M.S. 839</td><td>4/26/2022 12:00:00 AM</td><td>89.32</td>
+		</tr><tr>
+			<td>15K863</td><td>PRE K CENTER AT BISHOP FORD SCHOOL SITE</td><td>4/26/2022 12:00:00 AM</td><td>88.68</td>
+		</tr><tr>
+			<td>15K896</td><td>THE SCHOOL OF CREATIVITY AND INNOVATION</td><td>4/26/2022 12:00:00 AM</td><td>93.37</td>
+		</tr><tr>
+			<td>16K005</td><td>P.S. 005 DR. RONALD MCNAIR</td><td>4/26/2022 12:00:00 AM</td><td>88.84</td>
+		</tr><tr>
+			<td>16K021</td><td>P.S. 021 CRISPUS ATTUCKS</td><td>4/26/2022 12:00:00 AM</td><td>94.66</td>
+		</tr><tr>
+			<td>16K025</td><td>P.S. 025 EUBIE BLAKE SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>91.66</td>
+		</tr><tr>
+			<td>16K026</td><td>P.S. 026 JESSE OWENS</td><td>4/26/2022 12:00:00 AM</td><td>93.22</td>
+		</tr><tr>
+			<td>16K035</td><td>M.S. 035 STEPHEN DECATUR</td><td>4/26/2022 12:00:00 AM</td><td>98.26</td>
+		</tr><tr>
+			<td>16K040</td><td>P.S. 040 GEORGE W. CARVER</td><td>4/26/2022 12:00:00 AM</td><td>93.10</td>
+		</tr><tr>
+			<td>16K057</td><td>WHITELAW REID ACADEMY OF ARTS AND BUSINESS</td><td>4/26/2022 12:00:00 AM</td><td>91.34</td>
+		</tr><tr>
+			<td>16K081</td><td>P.S. 081 THADDEUS STEVENS</td><td>4/26/2022 12:00:00 AM</td><td>91.91</td>
+		</tr><tr>
+			<td>16K243</td><td>P.S. 243K  THE WEEKSVILLE SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>91.98</td>
+		</tr><tr>
+			<td>16K262</td><td>P.S. 262 EL HAJJ MALIK EL SHABAZZ ELEMENTARY SCHOO</td><td>4/26/2022 12:00:00 AM</td><td>88.88</td>
+		</tr><tr>
+			<td>16K267</td><td>M.S. 267 MATH, SCIENCE   TECHNOLOGY</td><td>4/26/2022 12:00:00 AM</td><td>94.04</td>
+		</tr><tr>
+			<td>16K308</td><td>P.S. 308 CLARA CARDWELL</td><td>4/26/2022 12:00:00 AM</td><td>92.53</td>
+		</tr><tr>
+			<td>16K309</td><td>P.S. 309 THE GEORGE E. WIBECAN PREPARATORY ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>NS</td>
+		</tr><tr>
+			<td>16K335</td><td>P.S. 335 GRANVILLE T. WOODS</td><td>4/26/2022 12:00:00 AM</td><td>90.10</td>
+		</tr><tr>
+			<td>16K455</td><td>BOYS AND GIRLS HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>69.95</td>
+		</tr><tr>
+			<td>16K498</td><td>BROOKLYN HIGH SCHOOL FOR LAW AND TECHNOLOGY</td><td>4/26/2022 12:00:00 AM</td><td>81.68</td>
+		</tr><tr>
+			<td>16K627</td><td>BRIGHTER CHOICE COMMUNITY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>84.21</td>
+		</tr><tr>
+			<td>16K628</td><td>BROOKLYN BROWNSTONE SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>95.00</td>
+		</tr><tr>
+			<td>16K669</td><td>RESEARCH AND SERVICE HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>48.27</td>
+		</tr><tr>
+			<td>16K681</td><td>MADIBA PREP MIDDLE SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>92.99</td>
+		</tr><tr>
+			<td>16K688</td><td>THE BROOKLYN ACADEMY OF GLOBAL FINANCE</td><td>4/26/2022 12:00:00 AM</td><td>81.98</td>
+		</tr><tr>
+			<td>16K765</td><td>NELSON MANDELA HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>76.42</td>
+		</tr><tr>
+			<td>16K898</td><td>THE BROOKLYN GREEN SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>93.54</td>
+		</tr><tr>
+			<td>17K002</td><td>PARKSIDE PREPARATORY ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>93.27</td>
+		</tr><tr>
+			<td>17K006</td><td>NORMA ADAMS CLEMONS ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>93.04</td>
+		</tr><tr>
+			<td>17K012</td><td>DR. JACQUELINE PEEK DAVIS SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>94.30</td>
+		</tr><tr>
+			<td>17K061</td><td>M.S. 061 DR. GLADSTONE H. ATWELL</td><td>4/26/2022 12:00:00 AM</td><td>86.60</td>
+		</tr><tr>
+			<td>17K091</td><td>P.S. 091 THE ALBANY AVENUE SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>88.83</td>
+		</tr><tr>
+			<td>17K092</td><td>P.S. 092 ADRIAN HEGEMAN</td><td>4/26/2022 12:00:00 AM</td><td>90.76</td>
+		</tr><tr>
+			<td>17K122</td><td>PATHWAYS IN TECHNOLOGY EARLY COLLEGE HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>82.99</td>
+		</tr><tr>
+			<td>17K138</td><td>P.S. 138 BROOKLYN</td><td>4/26/2022 12:00:00 AM</td><td>92.07</td>
+		</tr><tr>
+			<td>17K161</td><td>P.S. 161 THE CROWN</td><td>4/26/2022 12:00:00 AM</td><td>93.26</td>
+		</tr><tr>
+			<td>17K181</td><td>P.S. 181 BROOKLYN</td><td>4/26/2022 12:00:00 AM</td><td>93.37</td>
+		</tr><tr>
+			<td>17K189</td><td>P.S. 189 THE BILINGUAL CENTER</td><td>4/26/2022 12:00:00 AM</td><td>94.32</td>
+		</tr><tr>
+			<td>17K191</td><td>P.S. 191 PAUL ROBESON</td><td>4/26/2022 12:00:00 AM</td><td>93.42</td>
+		</tr><tr>
+			<td>17K221</td><td>P.S. 221 TOUSSAINT L OUVERTURE</td><td>4/26/2022 12:00:00 AM</td><td>91.76</td>
+		</tr><tr>
+			<td>17K241</td><td>P.S. 241 EMMA L. JOHNSTON</td><td>4/26/2022 12:00:00 AM</td><td>90.90</td>
+		</tr><tr>
+			<td>17K246</td><td>M.S. 246 WALT WHITMAN</td><td>4/26/2022 12:00:00 AM</td><td>90.95</td>
+		</tr><tr>
+			<td>17K249</td><td>P.S. 249 THE CATON</td><td>4/26/2022 12:00:00 AM</td><td>96.35</td>
+		</tr><tr>
+			<td>17K289</td><td>P.S. 289 GEORGE V. BROWER</td><td>4/26/2022 12:00:00 AM</td><td>88.69</td>
+		</tr><tr>
+			<td>17K316</td><td>P.S. 316 ELIJAH STROUD</td><td>4/26/2022 12:00:00 AM</td><td>91.36</td>
+		</tr><tr>
+			<td>17K340</td><td>I.S. 340</td><td>4/26/2022 12:00:00 AM</td><td>96.13</td>
+		</tr><tr>
+			<td>17K352</td><td>EBBETS FIELD MIDDLE SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>94.48</td>
+		</tr><tr>
+			<td>17K353</td><td>ELIJAH STROUD MIDDLE SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>93.43</td>
+		</tr><tr>
+			<td>17K354</td><td>THE SCHOOL OF INTEGRATED LEARNING</td><td>4/26/2022 12:00:00 AM</td><td>96.16</td>
+		</tr><tr>
+			<td>17K375</td><td>P.S. 375 JACKIE ROBINSON SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>90.40</td>
+		</tr><tr>
+			<td>17K382</td><td>ACADEMY FOR COLLEGE PREPARATION AND CAREER EXPLORA</td><td>4/26/2022 12:00:00 AM</td><td>78.80</td>
+		</tr><tr>
+			<td>17K394</td><td>M.S. K394</td><td>4/26/2022 12:00:00 AM</td><td>93.18</td>
+		</tr><tr>
+			<td>17K397</td><td>P.S. 397 FOSTER LAURIE</td><td>4/26/2022 12:00:00 AM</td><td>89.15</td>
+		</tr><tr>
+			<td>17K398</td><td>P.S. 398 WALTER WEAVER</td><td>4/26/2022 12:00:00 AM</td><td>87.79</td>
+		</tr><tr>
+			<td>17K399</td><td>P.S. 399 STANLEY EUGENE CLARK</td><td>4/26/2022 12:00:00 AM</td><td>96.29</td>
+		</tr><tr>
+			<td>17K408</td><td>ACADEMY OF HOSPITALITY AND TOURISM</td><td>4/26/2022 12:00:00 AM</td><td>76.00</td>
+		</tr><tr>
+			<td>17K484</td><td>RONALD EDMONDS LEARNING CENTER II</td><td>4/26/2022 12:00:00 AM</td><td>NS</td>
+		</tr><tr>
+			<td>17K524</td><td>INTERNATIONAL HIGH SCHOOL AT PROSPECT HEIGHTS</td><td>4/26/2022 12:00:00 AM</td><td>76.10</td>
+		</tr><tr>
+			<td>17K528</td><td>THE HIGH SCHOOL FOR GLOBAL CITIZENSHIP</td><td>4/26/2022 12:00:00 AM</td><td>NS</td>
+		</tr><tr>
+			<td>17K531</td><td>SCHOOL FOR HUMAN RIGHTS, THE</td><td>4/26/2022 12:00:00 AM</td><td>80.93</td>
+		</tr><tr>
+			<td>17K532</td><td>NEW BRIDGES ELEMENTARY</td><td>4/26/2022 12:00:00 AM</td><td>95.05</td>
+		</tr><tr>
+			<td>17K537</td><td>HIGH SCHOOL FOR YOUTH AND COMMUNITY DEVELOPMENT AT</td><td>4/26/2022 12:00:00 AM</td><td>63.10</td>
+		</tr><tr>
+			<td>17K539</td><td>HIGH SCHOOL FOR SERVICE   LEARNING AT ERASMUS</td><td>4/26/2022 12:00:00 AM</td><td>60.49</td>
+		</tr><tr>
+			<td>17K543</td><td>SCIENCE, TECHNOLOGY AND RESEARCH EARLY COLLEGE HIG</td><td>4/26/2022 12:00:00 AM</td><td>91.30</td>
+		</tr><tr>
+			<td>17K546</td><td>HIGH SCHOOL FOR PUBLIC SERVICE: HEROES OF TOMORROW</td><td>4/26/2022 12:00:00 AM</td><td>81.35</td>
+		</tr><tr>
+			<td>17K547</td><td>BROOKLYN ACADEMY OF SCIENCE AND THE ENVIRONMENT</td><td>4/26/2022 12:00:00 AM</td><td>80.76</td>
+		</tr><tr>
+			<td>17K548</td><td>BROOKLYN SCHOOL FOR MUSIC   THEATRE</td><td>4/26/2022 12:00:00 AM</td><td>65.76</td>
+		</tr><tr>
+			<td>17K568</td><td>BROWNSVILLE ACADEMY HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>38.35</td>
+		</tr><tr>
+			<td>17K590</td><td>MEDGAR EVERS COLLEGE PREPARATORY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>90.78</td>
+		</tr><tr>
+			<td>17K600</td><td>CLARA BARTON HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>75.92</td>
+		</tr><tr>
+			<td>17K646</td><td>ASPIRATIONS DIPLOMA PLUS HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>43.06</td>
+		</tr><tr>
+			<td>17K705</td><td>BROOKLYN ARTS AND SCIENCE ELEMENTARY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>94.93</td>
+		</tr><tr>
+			<td>17K722</td><td>NEW HEIGHTS MIDDLE SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>95.37</td>
+		</tr><tr>
+			<td>17K745</td><td>BROOKLYN INSTITUTE FOR LIBERAL ARTS</td><td>4/26/2022 12:00:00 AM</td><td>89.88</td>
+		</tr><tr>
+			<td>17K751</td><td>ACADEMY FOR HEALTH CAREERS</td><td>4/26/2022 12:00:00 AM</td><td>69.29</td>
+		</tr><tr>
+			<td>17K770</td><td>P.S. 770 NEW AMERICAN ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>95.16</td>
+		</tr><tr>
+			<td>18K066</td><td>P.S. 66</td><td>4/26/2022 12:00:00 AM</td><td>90.37</td>
+		</tr><tr>
+			<td>18K068</td><td>I.S. 068 ISAAC BILDERSEE</td><td>4/26/2022 12:00:00 AM</td><td>93.04</td>
+		</tr><tr>
+			<td>18K114</td><td>P.S. 114 RYDER ELEMENTARY</td><td>4/26/2022 12:00:00 AM</td><td>92.34</td>
+		</tr><tr>
+			<td>18K115</td><td>P.S. 115 DANIEL MUCATEL SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>94.44</td>
+		</tr><tr>
+			<td>18K135</td><td>P.S. 135 SHELDON A. BROOKNER</td><td>4/26/2022 12:00:00 AM</td><td>94.66</td>
+		</tr><tr>
+			<td>18K208</td><td>P.S. 208 ELSA EBELING</td><td>4/26/2022 12:00:00 AM</td><td>95.91</td>
+		</tr><tr>
+			<td>18K211</td><td>I.S. 211 JOHN WILSON</td><td>4/26/2022 12:00:00 AM</td><td>87.50</td>
+		</tr><tr>
+			<td>18K219</td><td>P.S. 219 KENNEDY KING</td><td>4/26/2022 12:00:00 AM</td><td>92.83</td>
+		</tr><tr>
+			<td>18K233</td><td>P.S. 233 LANGSTON HUGHES</td><td>4/26/2022 12:00:00 AM</td><td>92.04</td>
+		</tr><tr>
+			<td>18K235</td><td>P.S. 235 JANICE MARIE KNIGHT SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>93.10</td>
+		</tr><tr>
+			<td>18K244</td><td>P.S. 244 RICHARD R. GREEN</td><td>4/26/2022 12:00:00 AM</td><td>93.04</td>
+		</tr><tr>
+			<td>18K268</td><td>P.S. 268 EMMA LAZARUS</td><td>4/26/2022 12:00:00 AM</td><td>87.74</td>
+		</tr><tr>
+			<td>18K272</td><td>P.S. 272 CURTIS ESTABROOK</td><td>4/26/2022 12:00:00 AM</td><td>92.13</td>
+		</tr><tr>
+			<td>18K276</td><td>P.S. 276 LOUIS MARSHALL</td><td>4/26/2022 12:00:00 AM</td><td>91.92</td>
+		</tr><tr>
+			<td>18K279</td><td>P.S. 279 HERMAN SCHREIBER</td><td>4/26/2022 12:00:00 AM</td><td>91.11</td>
+		</tr><tr>
+			<td>18K285</td><td>I.S. 285 MEYER LEVIN</td><td>4/26/2022 12:00:00 AM</td><td>92.54</td>
+		</tr><tr>
+			<td>18K366</td><td>THE SCIENCE AND MEDICINE MIDDLE SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>91.42</td>
+		</tr><tr>
+			<td>18K563</td><td>IT TAKES A VILLAGE ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>78.51</td>
+		</tr><tr>
+			<td>18K566</td><td>BROOKLYN COMMUNITY HIGH SCHOOL FOR EXCELLENCE AND</td><td>4/26/2022 12:00:00 AM</td><td>81.64</td>
+		</tr><tr>
+			<td>18K567</td><td>BROOKLYN THEATRE ARTS HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>85.27</td>
+		</tr><tr>
+			<td>18K569</td><td>KURT HAHN EXPEDITIONARY LEARNING SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>69.09</td>
+		</tr><tr>
+			<td>18K576</td><td>VICTORY COLLEGIATE HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>69.65</td>
+		</tr><tr>
+			<td>18K578</td><td>BROOKLYN BRIDGE ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>60.43</td>
+		</tr><tr>
+			<td>18K581</td><td>THE MIDDLE SCHOOL OF MEDIA, LAW AND FINE ARTS</td><td>4/26/2022 12:00:00 AM</td><td>97.60</td>
+		</tr><tr>
+			<td>18K588</td><td>MIDDLE SCHOOL FOR ART AND PHILOSOPHY</td><td>4/26/2022 12:00:00 AM</td><td>93.08</td>
+		</tr><tr>
+			<td>18K617</td><td>HIGH SCHOOL FOR INNOVATION IN ADVERTISING AND MEDI</td><td>4/26/2022 12:00:00 AM</td><td>81.74</td>
+		</tr><tr>
+			<td>18K629</td><td>CULTURAL ACADEMY FOR THE ARTS AND SCIENCES</td><td>4/26/2022 12:00:00 AM</td><td>84.28</td>
+		</tr><tr>
+			<td>18K633</td><td>HIGH SCHOOL FOR MEDICAL PROFESSIONS</td><td>4/26/2022 12:00:00 AM</td><td>86.18</td>
+		</tr><tr>
+			<td>18K635</td><td>OLYMPUS ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>NS</td>
+		</tr><tr>
+			<td>18K637</td><td>ACADEMY FOR CONSERVATION AND THE ENVIRONMENT</td><td>4/26/2022 12:00:00 AM</td><td>71.60</td>
+		</tr><tr>
+			<td>18K642</td><td>URBAN ACTION ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>70.28</td>
+		</tr><tr>
+			<td>18K673</td><td>EAST BROOKLYN COMMUNITY HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>53.19</td>
+		</tr><tr>
+			<td>18K763</td><td>BROOKLYN SCIENCE AND ENGINEERING ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>97.95</td>
+		</tr><tr>
+			<td>19K007</td><td>P.S. 007 ABRAHAM LINCOLN</td><td>4/26/2022 12:00:00 AM</td><td>94.22</td>
+		</tr><tr>
+			<td>19K013</td><td>P.S. 013 ROBERTO CLEMENTE</td><td>4/26/2022 12:00:00 AM</td><td>95.53</td>
+		</tr><tr>
+			<td>19K065</td><td>P.S. 065</td><td>4/26/2022 12:00:00 AM</td><td>95.32</td>
+		</tr><tr>
+			<td>19K089</td><td>P.S. 089 CYPRESS HILLS</td><td>4/26/2022 12:00:00 AM</td><td>93.20</td>
+		</tr><tr>
+			<td>19K108</td><td>P.S. 108 SAL ABBRACCIAMENTO</td><td>4/26/2022 12:00:00 AM</td><td>96.52</td>
+		</tr><tr>
+			<td>19K149</td><td>P.S. 149 DANNY KAYE</td><td>4/26/2022 12:00:00 AM</td><td>92.35</td>
+		</tr><tr>
+			<td>19K158</td><td>P.S. 158 WARWICK</td><td>4/26/2022 12:00:00 AM</td><td>93.95</td>
+		</tr><tr>
+			<td>19K159</td><td>P.S. 159 ISAAC PITKIN</td><td>4/26/2022 12:00:00 AM</td><td>93.67</td>
+		</tr><tr>
+			<td>19K171</td><td>I.S. 171 ABRAHAM LINCOLN</td><td>4/26/2022 12:00:00 AM</td><td>92.78</td>
+		</tr><tr>
+			<td>19K190</td><td>P.S. 190 SHEFFIELD</td><td>4/26/2022 12:00:00 AM</td><td>89.47</td>
+		</tr><tr>
+			<td>19K202</td><td>P.S. 202 ERNEST S. JENKYNS</td><td>4/26/2022 12:00:00 AM</td><td>87.84</td>
+		</tr><tr>
+			<td>19K213</td><td>P.S. 213 NEW LOTS</td><td>4/26/2022 12:00:00 AM</td><td>89.54</td>
+		</tr><tr>
+			<td>19K214</td><td>P.S. 214 MICHAEL FRIEDSAM</td><td>4/26/2022 12:00:00 AM</td><td>93.74</td>
+		</tr><tr>
+			<td>19K218</td><td>J.H.S. 218 JAMES P. SINNOTT</td><td>4/26/2022 12:00:00 AM</td><td>93.05</td>
+		</tr><tr>
+			<td>19K224</td><td>P.S. 224 HALE A. WOODRUFF</td><td>4/26/2022 12:00:00 AM</td><td>88.58</td>
+		</tr><tr>
+			<td>19K273</td><td>P.S. 273 WORTMAN</td><td>4/26/2022 12:00:00 AM</td><td>90.55</td>
+		</tr><tr>
+			<td>19K290</td><td>P.S. 290 JUAN MOREL CAMPOS</td><td>4/26/2022 12:00:00 AM</td><td>92.78</td>
+		</tr><tr>
+			<td>19K292</td><td>J.H.S. 292 MARGARET S. DOUGLAS</td><td>4/26/2022 12:00:00 AM</td><td>91.81</td>
+		</tr><tr>
+			<td>19K306</td><td>P.S. 306 ETHAN ALLEN</td><td>4/26/2022 12:00:00 AM</td><td>88.25</td>
+		</tr><tr>
+			<td>19K325</td><td>THE FRESH CREEK SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>83.95</td>
+		</tr><tr>
+			<td>19K328</td><td>P.S. 328 PHYLLIS WHEATLEY</td><td>4/26/2022 12:00:00 AM</td><td>90.90</td>
+		</tr><tr>
+			<td>19K345</td><td>P.S. 345 PATROLMAN ROBERT BOLDEN</td><td>4/26/2022 12:00:00 AM</td><td>95.03</td>
+		</tr><tr>
+			<td>19K346</td><td>P.S. 346 ABE STARK</td><td>4/26/2022 12:00:00 AM</td><td>88.06</td>
+		</tr><tr>
+			<td>19K364</td><td>I.S. 364 GATEWAY</td><td>4/26/2022 12:00:00 AM</td><td>92.17</td>
+		</tr><tr>
+			<td>19K404</td><td>ACADEMY FOR YOUNG WRITERS</td><td>4/26/2022 12:00:00 AM</td><td>79.60</td>
+		</tr><tr>
+			<td>19K409</td><td>EAST NEW YORK FAMILY ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>84.93</td>
+		</tr><tr>
+			<td>19K422</td><td>SPRING CREEK COMMUNITY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>84.95</td>
+		</tr><tr>
+			<td>19K452</td><td>FREDERICK DOUGLASS ACADEMY VIII MIDDLE SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>96.72</td>
+		</tr><tr>
+			<td>19K502</td><td>FDNY   CAPTAIN VERNON A. RICHARD HIGH SCHOOL FOR F</td><td>4/26/2022 12:00:00 AM</td><td>71.61</td>
+		</tr><tr>
+			<td>19K504</td><td>HIGH SCHOOL FOR CIVIL RIGHTS</td><td>4/26/2022 12:00:00 AM</td><td>66.88</td>
+		</tr><tr>
+			<td>19K507</td><td>PERFORMING ARTS AND TECHNOLOGY HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>81.10</td>
+		</tr><tr>
+			<td>19K510</td><td>WORLD ACADEMY FOR TOTAL COMMUNITY HEALTH HIGH SCHO</td><td>4/26/2022 12:00:00 AM</td><td>77.30</td>
+		</tr><tr>
+			<td>19K557</td><td>BROOKLYN GARDENS ELEMENTARY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>90.03</td>
+		</tr><tr>
+			<td>19K583</td><td>MULTICULTURAL HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>89.11</td>
+		</tr><tr>
+			<td>19K615</td><td>TRANSIT TECH CAREER AND TECHNICAL EDUCATION HIGH S</td><td>4/26/2022 12:00:00 AM</td><td>76.06</td>
+		</tr><tr>
+			<td>19K618</td><td>ACADEMY OF INNOVATIVE TECHNOLOGY</td><td>4/26/2022 12:00:00 AM</td><td>81.50</td>
+		</tr><tr>
+			<td>19K639</td><td>BROOKLYN LAB SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>79.25</td>
+		</tr><tr>
+			<td>19K654</td><td>VAN SICLEN COMMUNITY MIDDLE SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>95.08</td>
+		</tr><tr>
+			<td>19K659</td><td>CYPRESS HILLS COLLEGIATE PREPARATORY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>67.40</td>
+		</tr><tr>
+			<td>19K660</td><td>W. H. MAXWELL CAREER AND TECHNICAL EDUCATION HIGH</td><td>4/26/2022 12:00:00 AM</td><td>66.39</td>
+		</tr><tr>
+			<td>19K661</td><td>VISTA ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>92.12</td>
+		</tr><tr>
+			<td>19K662</td><td>LIBERTY AVENUE MIDDLE SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>94.02</td>
+		</tr><tr>
+			<td>19K663</td><td>SCHOOL OF THE FUTURE BROOKLYN</td><td>4/26/2022 12:00:00 AM</td><td>91.39</td>
+		</tr><tr>
+			<td>19K677</td><td>EAST NEW YORK ELEMENTARY SCHOOL OF EXCELLENCE</td><td>4/26/2022 12:00:00 AM</td><td>91.01</td>
+		</tr><tr>
+			<td>19K678</td><td>EAST NEW YORK MIDDLE SCHOOL OF EXCELLENCE</td><td>4/26/2022 12:00:00 AM</td><td>85.53</td>
+		</tr><tr>
+			<td>19K683</td><td>SCHOOL FOR CLASSICS HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>70.86</td>
+		</tr><tr>
+			<td>19K760</td><td>HIGHLAND PARK COMMUNITY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>95.54</td>
+		</tr><tr>
+			<td>19K764</td><td>THE URBAN ASSEMBLY SCHOOL FOR COLLABORATIVE HEALTH</td><td>4/26/2022 12:00:00 AM</td><td>86.82</td>
+		</tr><tr>
+			<td>19K907</td><td>LEGACY SCHOOL OF THE ARTS</td><td>4/26/2022 12:00:00 AM</td><td>98.00</td>
+		</tr><tr>
+			<td>19K935</td><td>M.S. 935</td><td>4/26/2022 12:00:00 AM</td><td>96.77</td>
+		</tr><tr>
+			<td>19K938</td><td>P.S. 938</td><td>4/26/2022 12:00:00 AM</td><td>94.89</td>
+		</tr><tr>
+			<td>19K953</td><td>THE EAST NEW YORK ARTS AND CIVICS HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>75.38</td>
+		</tr><tr>
+			<td>20K030</td><td>P.S. I.S. 30 MARY WHITE OVINGTON</td><td>4/26/2022 12:00:00 AM</td><td>93.41</td>
+		</tr><tr>
+			<td>20K048</td><td>P.S. 048 MAPLETON</td><td>4/26/2022 12:00:00 AM</td><td>96.10</td>
+		</tr><tr>
+			<td>20K062</td><td>J.H.S. 062 DITMAS</td><td>4/26/2022 12:00:00 AM</td><td>95.49</td>
+		</tr><tr>
+			<td>20K069</td><td>P.S. 69 VINCENT D. GRIPPO SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>97.67</td>
+		</tr><tr>
+			<td>20K102</td><td>P.S. 102 THE BAYVIEW</td><td>4/26/2022 12:00:00 AM</td><td>92.13</td>
+		</tr><tr>
+			<td>20K104</td><td>P.S. I.S. 104 THE FORT HAMILTON SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>94.59</td>
+		</tr><tr>
+			<td>20K105</td><td>P.S. 105 THE BLYTHEBOURNE</td><td>4/26/2022 12:00:00 AM</td><td>97.87</td>
+		</tr><tr>
+			<td>20K112</td><td>P.S. 112 LEFFERTS PARK</td><td>4/26/2022 12:00:00 AM</td><td>95.23</td>
+		</tr><tr>
+			<td>20K127</td><td>P.S. 127 MCKINLEY PARK</td><td>4/26/2022 12:00:00 AM</td><td>96.30</td>
+		</tr><tr>
+			<td>20K160</td><td>P.S. 160 WILLIAM T. SAMPSON</td><td>4/26/2022 12:00:00 AM</td><td>97.97</td>
+		</tr><tr>
+			<td>20K163</td><td>P.S. 163 BATH BEACH</td><td>4/26/2022 12:00:00 AM</td><td>92.27</td>
+		</tr><tr>
+			<td>20K164</td><td>P.S. 164 CAESAR RODNEY</td><td>4/26/2022 12:00:00 AM</td><td>96.03</td>
+		</tr><tr>
+			<td>20K170</td><td>RALPH A. FABRIZIO SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>95.80</td>
+		</tr><tr>
+			<td>20K176</td><td>P.S. 176 OVINGTON</td><td>4/26/2022 12:00:00 AM</td><td>98.13</td>
+		</tr><tr>
+			<td>20K179</td><td>P.S. 179 KENSINGTON</td><td>4/26/2022 12:00:00 AM</td><td>94.41</td>
+		</tr><tr>
+			<td>20K180</td><td>THE SEEALL ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>97.88</td>
+		</tr><tr>
+			<td>20K185</td><td>P.S. 185 WALTER KASSENBROCK</td><td>4/26/2022 12:00:00 AM</td><td>93.55</td>
+		</tr><tr>
+			<td>20K186</td><td>P.S. 186 DR. IRVING A GLADSTONE</td><td>4/26/2022 12:00:00 AM</td><td>96.48</td>
+		</tr><tr>
+			<td>20K187</td><td>THE CHRISTA MCAULIFFE SCHOOL I.S. 187</td><td>4/26/2022 12:00:00 AM</td><td>97.71</td>
+		</tr><tr>
+			<td>20K192</td><td>P.S. 192   THE MAGNET SCHOOL FOR MATH AND SCIENCE</td><td>4/26/2022 12:00:00 AM</td><td>94.44</td>
+		</tr><tr>
+			<td>20K200</td><td>P.S. 200 BENSON SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>93.10</td>
+		</tr><tr>
+			<td>20K201</td><td>J.H.S. 201 THE DYKER HEIGHTS</td><td>4/26/2022 12:00:00 AM</td><td>94.31</td>
+		</tr><tr>
+			<td>20K204</td><td>P.S. 204 VINCE LOMBARDI</td><td>4/26/2022 12:00:00 AM</td><td>95.33</td>
+		</tr><tr>
+			<td>20K205</td><td>P.S. 205 CLARION</td><td>4/26/2022 12:00:00 AM</td><td>94.92</td>
+		</tr><tr>
+			<td>20K220</td><td>J.H.S. 220 JOHN J. PERSHING</td><td>4/26/2022 12:00:00 AM</td><td>97.79</td>
+		</tr><tr>
+			<td>20K223</td><td>J.H.S. 223 THE MONTAUK</td><td>4/26/2022 12:00:00 AM</td><td>93.75</td>
+		</tr><tr>
+			<td>20K227</td><td>J.H.S. 227 EDWARD B. SHALLOW</td><td>4/26/2022 12:00:00 AM</td><td>83.68</td>
+		</tr><tr>
+			<td>20K229</td><td>P.S. 229 DYKER</td><td>4/26/2022 12:00:00 AM</td><td>94.50</td>
+		</tr><tr>
+			<td>20K247</td><td>P.S. 247 BROOKLYN</td><td>4/26/2022 12:00:00 AM</td><td>95.04</td>
+		</tr><tr>
+			<td>20K259</td><td>J.H.S. 259 WILLIAM MCKINLEY</td><td>4/26/2022 12:00:00 AM</td><td>94.61</td>
+		</tr><tr>
+			<td>20K264</td><td>P.S. 264 BAY RIDGE ELEMENTARY SCHOOL FOR THE ARTS</td><td>4/26/2022 12:00:00 AM</td><td>93.16</td>
+		</tr><tr>
+			<td>20K310</td><td>THE SCHOOL FOR FUTURE LEADERS</td><td>4/26/2022 12:00:00 AM</td><td>97.90</td>
+		</tr><tr>
+			<td>20K445</td><td>NEW UTRECHT HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>77.97</td>
+		</tr><tr>
+			<td>20K485</td><td>HIGH SCHOOL OF TELECOMMUNICATION ARTS AND TECHNOLO</td><td>4/26/2022 12:00:00 AM</td><td>86.43</td>
+		</tr><tr>
+			<td>20K490</td><td>FORT HAMILTON HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>83.03</td>
+		</tr><tr>
+			<td>20K503</td><td>P.S. 503: THE SCHOOL OF DISCOVERY</td><td>4/26/2022 12:00:00 AM</td><td>93.73</td>
+		</tr><tr>
+			<td>20K505</td><td>FRANKLIN DELANO ROOSEVELT HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>81.57</td>
+		</tr><tr>
+			<td>20K506</td><td>P.S. 506: THE SCHOOL OF JOURNALISM   TECHNOLOGY</td><td>4/26/2022 12:00:00 AM</td><td>93.16</td>
+		</tr><tr>
+			<td>20K609</td><td>URBAN ASSEMBLY SCHOOL FOR LEADERSHIP AND EMPOWERME</td><td>4/26/2022 12:00:00 AM</td><td>78.29</td>
+		</tr><tr>
+			<td>20K682</td><td>THE ACADEMY OF TALENTED SCHOLARS</td><td>4/26/2022 12:00:00 AM</td><td>94.81</td>
+		</tr><tr>
+			<td>20K686</td><td>BROOKLYN SCHOOL OF INQUIRY</td><td>4/26/2022 12:00:00 AM</td><td>92.06</td>
+		</tr><tr>
+			<td>20K748</td><td>P.S. 748 BROOKLYN SCHOOL FOR GLOBAL SCHOLARS</td><td>4/26/2022 12:00:00 AM</td><td>94.93</td>
+		</tr><tr>
+			<td>20K768</td><td>DISTRICT 20 PRE K CENTER</td><td>4/26/2022 12:00:00 AM</td><td>85.57</td>
+		</tr><tr>
+			<td>20K936</td><td>MS 936 ARTS OFF 3RD</td><td>4/26/2022 12:00:00 AM</td><td>98.00</td>
+		</tr><tr>
+			<td>20K939</td><td>SUNSET SCHOOL OF CULTURAL LEARNING</td><td>4/26/2022 12:00:00 AM</td><td>94.64</td>
+		</tr><tr>
+			<td>20K971</td><td>SCHOOL OF MATH, SCIENCE, AND HEALTHY LIVING</td><td>4/26/2022 12:00:00 AM</td><td>96.08</td>
+		</tr><tr>
+			<td>21K090</td><td>P.S. 90 EDNA COHEN SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>86.61</td>
+		</tr><tr>
+			<td>21K095</td><td>P.S. 095 THE GRAVESEND</td><td>4/26/2022 12:00:00 AM</td><td>96.63</td>
+		</tr><tr>
+			<td>21K096</td><td>I.S. 096 SETH LOW</td><td>4/26/2022 12:00:00 AM</td><td>93.80</td>
+		</tr><tr>
+			<td>21K097</td><td>P.S. 97 THE HIGHLAWN</td><td>4/26/2022 12:00:00 AM</td><td>97.12</td>
+		</tr><tr>
+			<td>21K098</td><td>I.S. 98 BAY ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>84.84</td>
+		</tr><tr>
+			<td>21K099</td><td>P.S. 099 ISAAC ASIMOV</td><td>4/26/2022 12:00:00 AM</td><td>93.65</td>
+		</tr><tr>
+			<td>21K100</td><td>P.S. 100 THE CONEY ISLAND SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>90.23</td>
+		</tr><tr>
+			<td>21K101</td><td>P.S. 101 THE VERRAZANO</td><td>4/26/2022 12:00:00 AM</td><td>93.41</td>
+		</tr><tr>
+			<td>21K121</td><td>P.S. 121 NELSON A. ROCKEFELLER</td><td>4/26/2022 12:00:00 AM</td><td>93.75</td>
+		</tr><tr>
+			<td>21K128</td><td>P.S. 128 BENSONHURST</td><td>4/26/2022 12:00:00 AM</td><td>92.51</td>
+		</tr><tr>
+			<td>21K153</td><td>P.S. 153 HOMECREST</td><td>4/26/2022 12:00:00 AM</td><td>95.62</td>
+		</tr><tr>
+			<td>21K177</td><td>P.S. 177 THE MARLBORO</td><td>4/26/2022 12:00:00 AM</td><td>94.27</td>
+		</tr><tr>
+			<td>21K188</td><td>P.S. 188 MICHAEL E. BERDY</td><td>4/26/2022 12:00:00 AM</td><td>89.53</td>
+		</tr><tr>
+			<td>21K199</td><td>P.S. 199 FREDERICK WACHTEL</td><td>4/26/2022 12:00:00 AM</td><td>93.51</td>
+		</tr><tr>
+			<td>21K209</td><td>P.S. 209 MARGARET MEAD</td><td>4/26/2022 12:00:00 AM</td><td>92.46</td>
+		</tr><tr>
+			<td>21K212</td><td>P.S. 212 LADY DEBORAH MOODY</td><td>4/26/2022 12:00:00 AM</td><td>91.84</td>
+		</tr><tr>
+			<td>21K215</td><td>P.S. 215 MORRIS H. WEISS</td><td>4/26/2022 12:00:00 AM</td><td>93.70</td>
+		</tr><tr>
+			<td>21K216</td><td>P.S. 216 ARTURO TOSCANINI</td><td>4/26/2022 12:00:00 AM</td><td>93.00</td>
+		</tr><tr>
+			<td>21K225</td><td>P.S. K225   THE EILEEN E. ZAGLIN</td><td>4/26/2022 12:00:00 AM</td><td>92.05</td>
+		</tr><tr>
+			<td>21K226</td><td>P.S. 226 ALFRED DE B. MASON</td><td>4/26/2022 12:00:00 AM</td><td>94.07</td>
+		</tr><tr>
+			<td>21K228</td><td>I.S. 228 DAVID A. BOODY</td><td>4/26/2022 12:00:00 AM</td><td>91.34</td>
+		</tr><tr>
+			<td>21K238</td><td>P.S. 238 ANNE SULLIVAN</td><td>4/26/2022 12:00:00 AM</td><td>95.36</td>
+		</tr><tr>
+			<td>21K239</td><td>MARK TWAIN I.S. 239 FOR THE GIFTED   TALENTED</td><td>4/26/2022 12:00:00 AM</td><td>87.59</td>
+		</tr><tr>
+			<td>21K253</td><td>P.S. 253</td><td>4/26/2022 12:00:00 AM</td><td>94.94</td>
+		</tr><tr>
+			<td>21K281</td><td>I.S. 281 JOSEPH B CAVALLARO</td><td>4/26/2022 12:00:00 AM</td><td>96.09</td>
+		</tr><tr>
+			<td>21K288</td><td>P.S. 288 THE SHIRLEY TANYHILL</td><td>4/26/2022 12:00:00 AM</td><td>87.81</td>
+		</tr><tr>
+			<td>21K303</td><td>I.S. 303 HERBERT S. EISENBERG</td><td>4/26/2022 12:00:00 AM</td><td>94.37</td>
+		</tr><tr>
+			<td>21K329</td><td>P.S. 329 SURFSIDE</td><td>4/26/2022 12:00:00 AM</td><td>93.51</td>
+		</tr><tr>
+			<td>21K337</td><td>INTERNATIONAL HIGH SCHOOL AT LAFAYETTE</td><td>4/26/2022 12:00:00 AM</td><td>79.88</td>
+		</tr><tr>
+			<td>21K344</td><td>RACHEL CARSON HIGH SCHOOL FOR COASTAL STUDIES</td><td>4/26/2022 12:00:00 AM</td><td>84.43</td>
+		</tr><tr>
+			<td>21K348</td><td>HIGH SCHOOL OF SPORTS MANAGEMENT</td><td>4/26/2022 12:00:00 AM</td><td>77.16</td>
+		</tr><tr>
+			<td>21K410</td><td>ABRAHAM LINCOLN HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>75.88</td>
+		</tr><tr>
+			<td>21K468</td><td>KINGSBOROUGH EARLY COLLEGE SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>82.74</td>
+		</tr><tr>
+			<td>21K525</td><td>EDWARD R. MURROW HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>82.09</td>
+		</tr><tr>
+			<td>21K540</td><td>JOHN DEWEY HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>81.07</td>
+		</tr><tr>
+			<td>21K559</td><td>LIFE ACADEMY HIGH SCHOOL FOR FILM AND MUSIC</td><td>4/26/2022 12:00:00 AM</td><td>78.35</td>
+		</tr><tr>
+			<td>21K572</td><td>LEADERS HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>85.12</td>
+		</tr><tr>
+			<td>21K620</td><td>WILLIAM E. GRADY CAREER AND TECHNICAL EDUCATION HI</td><td>4/26/2022 12:00:00 AM</td><td>75.52</td>
+		</tr><tr>
+			<td>21K690</td><td>BROOKLYN STUDIO SECONDARY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>82.82</td>
+		</tr><tr>
+			<td>21K728</td><td>LIBERATION DIPLOMA PLUS</td><td>4/26/2022 12:00:00 AM</td><td>NS</td>
+		</tr><tr>
+			<td>21K840</td><td>BROOKLYN S DAILY DISCOVERY PRE K CENTER</td><td>4/26/2022 12:00:00 AM</td><td>84.37</td>
+		</tr><tr>
+			<td>22K014</td><td>J.H.S. 014 SHELL BANK</td><td>4/26/2022 12:00:00 AM</td><td>92.08</td>
+		</tr><tr>
+			<td>22K052</td><td>P.S. 052 SHEEPSHEAD BAY</td><td>4/26/2022 12:00:00 AM</td><td>90.60</td>
+		</tr><tr>
+			<td>22K078</td><td>J.H.S. 078 ROY H. MANN</td><td>4/26/2022 12:00:00 AM</td><td>94.94</td>
+		</tr><tr>
+			<td>22K109</td><td>P.S. 109</td><td>4/26/2022 12:00:00 AM</td><td>89.17</td>
+		</tr><tr>
+			<td>22K119</td><td>P.S. 119 AMERSFORT</td><td>4/26/2022 12:00:00 AM</td><td>93.73</td>
+		</tr><tr>
+			<td>22K134</td><td>P.S. K134</td><td>4/26/2022 12:00:00 AM</td><td>95.05</td>
+		</tr><tr>
+			<td>22K139</td><td>P.S. 139 ALEXINE A. FENTY</td><td>4/26/2022 12:00:00 AM</td><td>93.78</td>
+		</tr><tr>
+			<td>22K152</td><td>SCHOOL OF SCIENCE   TECHNOLOGY</td><td>4/26/2022 12:00:00 AM</td><td>91.01</td>
+		</tr><tr>
+			<td>22K193</td><td>P.S. 193 GIL HODGES</td><td>4/26/2022 12:00:00 AM</td><td>94.10</td>
+		</tr><tr>
+			<td>22K194</td><td>P.S. 194 RAOUL WALLENBERG</td><td>4/26/2022 12:00:00 AM</td><td>91.86</td>
+		</tr><tr>
+			<td>22K195</td><td>P.S. 195 MANHATTAN BEACH</td><td>4/26/2022 12:00:00 AM</td><td>93.10</td>
+		</tr><tr>
+			<td>22K197</td><td>P.S. 197   THE KINGS HIGHWAY ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>91.67</td>
+		</tr><tr>
+			<td>22K198</td><td>P.S. 198 BROOKLYN</td><td>4/26/2022 12:00:00 AM</td><td>91.11</td>
+		</tr><tr>
+			<td>22K203</td><td>P.S. 203 FLOYD BENNETT SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>93.70</td>
+		</tr><tr>
+			<td>22K206</td><td>P.S. 206 JOSEPH F LAMB</td><td>4/26/2022 12:00:00 AM</td><td>93.94</td>
+		</tr><tr>
+			<td>22K207</td><td>P.S. 207 ELIZABETH G. LEARY</td><td>4/26/2022 12:00:00 AM</td><td>90.14</td>
+		</tr><tr>
+			<td>22K217</td><td>P.S. 217 COLONEL DAVID MARCUS SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>91.73</td>
+		</tr><tr>
+			<td>22K222</td><td>P.S. 222 KATHERINE R. SNYDER</td><td>4/26/2022 12:00:00 AM</td><td>94.23</td>
+		</tr><tr>
+			<td>22K234</td><td>J.H.S. 234 ARTHUR W. CUNNINGHAM</td><td>4/26/2022 12:00:00 AM</td><td>94.86</td>
+		</tr><tr>
+			<td>22K236</td><td>P.S. 236 MILL BASIN</td><td>4/26/2022 12:00:00 AM</td><td>91.65</td>
+		</tr><tr>
+			<td>22K240</td><td>ANDRIES HUDDE</td><td>4/26/2022 12:00:00 AM</td><td>94.08</td>
+		</tr><tr>
+			<td>22K245</td><td>P.S. 245</td><td>4/26/2022 12:00:00 AM</td><td>94.73</td>
+		</tr><tr>
+			<td>22K251</td><td>P.S. 251 PAERDEGAT</td><td>4/26/2022 12:00:00 AM</td><td>93.07</td>
+		</tr><tr>
+			<td>22K254</td><td>P.S. 254 DAG HAMMARSKJOLD</td><td>4/26/2022 12:00:00 AM</td><td>90.86</td>
+		</tr><tr>
+			<td>22K255</td><td>P.S. 255 BARBARA REING SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>92.64</td>
+		</tr><tr>
+			<td>22K277</td><td>P.S. 277 GERRITSEN BEACH</td><td>4/26/2022 12:00:00 AM</td><td>92.48</td>
+		</tr><tr>
+			<td>22K278</td><td>J.H.S. 278 MARINE PARK</td><td>4/26/2022 12:00:00 AM</td><td>89.98</td>
+		</tr><tr>
+			<td>22K312</td><td>P.S. 312 BERGEN BEACH</td><td>4/26/2022 12:00:00 AM</td><td>91.03</td>
+		</tr><tr>
+			<td>22K315</td><td>P.S. K315</td><td>4/26/2022 12:00:00 AM</td><td>92.79</td>
+		</tr><tr>
+			<td>22K326</td><td>P.S. 326</td><td>4/26/2022 12:00:00 AM</td><td>93.19</td>
+		</tr><tr>
+			<td>22K361</td><td>P.S. 361 EAST FLATBUSH EARLY CHILDHOOD SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>92.62</td>
+		</tr><tr>
+			<td>22K381</td><td>I. S. 381</td><td>4/26/2022 12:00:00 AM</td><td>94.32</td>
+		</tr><tr>
+			<td>22K405</td><td>MIDWOOD HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>66.37</td>
+		</tr><tr>
+			<td>22K425</td><td>JAMES MADISON HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>82.37</td>
+		</tr><tr>
+			<td>22K535</td><td>LEON M. GOLDSTEIN HIGH SCHOOL FOR THE SCIENCES</td><td>4/26/2022 12:00:00 AM</td><td>88.15</td>
+		</tr><tr>
+			<td>22K555</td><td>BROOKLYN COLLEGE ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>95.93</td>
+		</tr><tr>
+			<td>22K611</td><td>ORIGINS HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>77.48</td>
+		</tr><tr>
+			<td>22K630</td><td>PROFESSIONAL PATHWAYS HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>40.13</td>
+		</tr><tr>
+			<td>22K853</td><td>THE JOAN SNOW PRE K CENTER</td><td>4/26/2022 12:00:00 AM</td><td>83.33</td>
+		</tr><tr>
+			<td>22K889</td><td>P.S. 889</td><td>4/26/2022 12:00:00 AM</td><td>95.58</td>
+		</tr><tr>
+			<td>22K890</td><td>M.S. 890</td><td>4/26/2022 12:00:00 AM</td><td>95.71</td>
+		</tr><tr>
+			<td>23K041</td><td>P.S. 041 FRANCIS WHITE</td><td>4/26/2022 12:00:00 AM</td><td>86.90</td>
+		</tr><tr>
+			<td>23K137</td><td>P.S. I.S. 137 RACHEL JEAN MITCHELL</td><td>4/26/2022 12:00:00 AM</td><td>92.76</td>
+		</tr><tr>
+			<td>23K150</td><td>P.S. 150 CHRISTOPHER</td><td>4/26/2022 12:00:00 AM</td><td>90.25</td>
+		</tr><tr>
+			<td>23K155</td><td>P.S.  I.S. 155 NICHOLAS HERKIMER</td><td>4/26/2022 12:00:00 AM</td><td>93.69</td>
+		</tr><tr>
+			<td>23K156</td><td>P.S. 156 WAVERLY</td><td>4/26/2022 12:00:00 AM</td><td>92.29</td>
+		</tr><tr>
+			<td>23K165</td><td>P.S. 165 IDA POSNER</td><td>4/26/2022 12:00:00 AM</td><td>86.25</td>
+		</tr><tr>
+			<td>23K178</td><td>P.S. 178 SAINT CLAIR MCKELWAY</td><td>4/26/2022 12:00:00 AM</td><td>88.57</td>
+		</tr><tr>
+			<td>23K184</td><td>P.S. 184 NEWPORT</td><td>4/26/2022 12:00:00 AM</td><td>87.41</td>
+		</tr><tr>
+			<td>23K284</td><td>THE GREGORY JOCKO JACKSON SCHOOL OF SPORTS, ART, A</td><td>4/26/2022 12:00:00 AM</td><td>84.87</td>
+		</tr><tr>
+			<td>23K298</td><td>P.S. 298 DR. BETTY SHABAZZ</td><td>4/26/2022 12:00:00 AM</td><td>86.62</td>
+		</tr><tr>
+			<td>23K323</td><td>P.S. I.S. 323</td><td>4/26/2022 12:00:00 AM</td><td>89.56</td>
+		</tr><tr>
+			<td>23K327</td><td>P.S. 327 DR. ROSE B. ENGLISH</td><td>4/26/2022 12:00:00 AM</td><td>91.17</td>
+		</tr><tr>
+			<td>23K363</td><td>BROWNSVILLE COLLABORATIVE MIDDLE SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>93.10</td>
+		</tr><tr>
+			<td>23K392</td><td>I.S. 392</td><td>4/26/2022 12:00:00 AM</td><td>96.01</td>
+		</tr><tr>
+			<td>23K401</td><td>CHRISTOPHER AVENUE COMMUNITY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>89.96</td>
+		</tr><tr>
+			<td>23K446</td><td>RIVERDALE AVENUE COMMUNITY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>92.17</td>
+		</tr><tr>
+			<td>23K493</td><td>BROOKLYN COLLEGIATE: A COLLEGE BOARD SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>79.83</td>
+		</tr><tr>
+			<td>23K514</td><td>FREDERICK DOUGLASS ACADEMY VII HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>88.27</td>
+		</tr><tr>
+			<td>23K518</td><td>KAPPA V  KNOWLEDGE AND POWER PREPARATORY ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>87.50</td>
+		</tr><tr>
+			<td>23K522</td><td>MOTT HALL IV</td><td>4/26/2022 12:00:00 AM</td><td>84.37</td>
+		</tr><tr>
+			<td>23K599</td><td>BROOKLYN LANDMARK ELEMENTARY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>89.59</td>
+		</tr><tr>
+			<td>23K643</td><td>BROOKLYN DEMOCRACY ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>55.39</td>
+		</tr><tr>
+			<td>23K644</td><td>EAGLE ACADEMY FOR YOUNG MEN II</td><td>4/26/2022 12:00:00 AM</td><td>92.84</td>
+		</tr><tr>
+			<td>23K647</td><td>METROPOLITAN DIPLOMA PLUS HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>40.90</td>
+		</tr><tr>
+			<td>23K664</td><td>BROOKLYN ENVIRONMENTAL EXPLORATION SCHOOL  BEES</td><td>4/26/2022 12:00:00 AM</td><td>96.12</td>
+		</tr><tr>
+			<td>23K668</td><td>RIVERDALE AVENUE MIDDLE SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>94.48</td>
+		</tr><tr>
+			<td>23K671</td><td>MOTT HALL BRIDGES ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>92.81</td>
+		</tr><tr>
+			<td>23K697</td><td>TEACHERS PREPARATORY HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>61.90</td>
+		</tr><tr>
+			<td>24Q005</td><td>I.S. 5   THE WALTER CROWLEY INTERMEDIATE SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>96.14</td>
+		</tr><tr>
+			<td>24Q007</td><td>P.S. 007 LOUIS F. SIMEONE</td><td>4/26/2022 12:00:00 AM</td><td>94.65</td>
+		</tr><tr>
+			<td>24Q012</td><td>P.S. 012 JAMES B. COLGATE</td><td>4/26/2022 12:00:00 AM</td><td>94.75</td>
+		</tr><tr>
+			<td>24Q013</td><td>P.S. 013 CLEMENT C. MOORE</td><td>4/26/2022 12:00:00 AM</td><td>95.83</td>
+		</tr><tr>
+			<td>24Q014</td><td>P.S. 014 FAIRVIEW</td><td>4/26/2022 12:00:00 AM</td><td>95.41</td>
+		</tr><tr>
+			<td>24Q016</td><td>P.S. Q016 THE NANCY DEBENEDITTIS SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>97.41</td>
+		</tr><tr>
+			<td>24Q019</td><td>P.S. 019 MARINO JEANTET</td><td>4/26/2022 12:00:00 AM</td><td>95.16</td>
+		</tr><tr>
+			<td>24Q028</td><td>P.S. 28   THE THOMAS EMANUEL EARLY CHILDHOOD CENTE</td><td>4/26/2022 12:00:00 AM</td><td>94.11</td>
+		</tr><tr>
+			<td>24Q049</td><td>P.S. 049 DOROTHY BONAWIT KOLE</td><td>4/26/2022 12:00:00 AM</td><td>94.96</td>
+		</tr><tr>
+			<td>24Q058</td><td>P.S. 58   THE SCHOOL OF HEROES</td><td>4/26/2022 12:00:00 AM</td><td>95.49</td>
+		</tr><tr>
+			<td>24Q061</td><td>I.S. 061 LEONARDO DA VINCI</td><td>4/26/2022 12:00:00 AM</td><td>96.02</td>
+		</tr><tr>
+			<td>24Q068</td><td>P.S. 068 CAMBRIDGE</td><td>4/26/2022 12:00:00 AM</td><td>93.56</td>
+		</tr><tr>
+			<td>24Q071</td><td>P.S. 071 FOREST</td><td>4/26/2022 12:00:00 AM</td><td>NS</td>
+		</tr><tr>
+			<td>24Q073</td><td>I.S. 73   THE FRANK SANSIVIERI INTERMEDIATE SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>93.80</td>
+		</tr><tr>
+			<td>24Q077</td><td>JOSEPH F. QUINN INTERMEDIATE SCHOOL 77</td><td>4/26/2022 12:00:00 AM</td><td>94.36</td>
+		</tr><tr>
+			<td>24Q081</td><td>P.S. 81Q JEAN PAUL RICHTER</td><td>4/26/2022 12:00:00 AM</td><td>92.13</td>
+		</tr><tr>
+			<td>24Q087</td><td>P.S. I.S. 087 MIDDLE VILLAGE</td><td>4/26/2022 12:00:00 AM</td><td>89.21</td>
+		</tr><tr>
+			<td>24Q088</td><td>P.S. 088 SENECA</td><td>4/26/2022 12:00:00 AM</td><td>94.00</td>
+		</tr><tr>
+			<td>24Q089</td><td>P.S. 089 ELMHURST</td><td>4/26/2022 12:00:00 AM</td><td>92.47</td>
+		</tr><tr>
+			<td>24Q091</td><td>P.S. 091 RICHARD ARKWRIGHT</td><td>4/26/2022 12:00:00 AM</td><td>94.66</td>
+		</tr><tr>
+			<td>24Q093</td><td>I.S. 093 RIDGEWOOD</td><td>4/26/2022 12:00:00 AM</td><td>93.03</td>
+		</tr><tr>
+			<td>24Q102</td><td>P.S. 102 BAYVIEW</td><td>4/26/2022 12:00:00 AM</td><td>94.22</td>
+		</tr><tr>
+			<td>24Q110</td><td>P.S. 110</td><td>4/26/2022 12:00:00 AM</td><td>94.67</td>
+		</tr><tr>
+			<td>24Q113</td><td>P.S. I.S. 113 ANTHONY J. PRANZO</td><td>4/26/2022 12:00:00 AM</td><td>94.71</td>
+		</tr><tr>
+			<td>24Q119</td><td>P.S. I.S. 119 THE GLENDALE</td><td>4/26/2022 12:00:00 AM</td><td>92.33</td>
+		</tr><tr>
+			<td>24Q125</td><td>I.S. 125 THOM J. MCCANN WOODSIDE</td><td>4/26/2022 12:00:00 AM</td><td>96.70</td>
+		</tr><tr>
+			<td>24Q128</td><td>P.S. 128 THE LORRAINE TUZZO, JUNIPER VALLEY ELEMEN</td><td>4/26/2022 12:00:00 AM</td><td>91.41</td>
+		</tr><tr>
+			<td>24Q143</td><td>P.S. 143 LOUIS ARMSTRONG</td><td>4/26/2022 12:00:00 AM</td><td>95.32</td>
+		</tr><tr>
+			<td>24Q153</td><td>P.S. 153 MASPETH ELEM</td><td>4/26/2022 12:00:00 AM</td><td>94.28</td>
+		</tr><tr>
+			<td>24Q199</td><td>P.S. 199 MAURICE A. FITZGERALD</td><td>4/26/2022 12:00:00 AM</td><td>93.25</td>
+		</tr><tr>
+			<td>24Q211</td><td>ELM TREE ELEMENTARY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>95.43</td>
+		</tr><tr>
+			<td>24Q229</td><td>P.S. 229 EMANUEL KAPLAN</td><td>4/26/2022 12:00:00 AM</td><td>93.75</td>
+		</tr><tr>
+			<td>24Q236</td><td>INTERNATIONAL HIGH SCHOOL FOR HEALTH SCIENCES</td><td>4/26/2022 12:00:00 AM</td><td>84.41</td>
+		</tr><tr>
+			<td>24Q239</td><td>P.S. 239</td><td>4/26/2022 12:00:00 AM</td><td>92.22</td>
+		</tr><tr>
+			<td>24Q264</td><td>ACADEMY OF FINANCE AND ENTERPRISE</td><td>4/26/2022 12:00:00 AM</td><td>91.04</td>
+		</tr><tr>
+			<td>24Q267</td><td>HIGH SCHOOL OF APPLIED COMMUNICATION</td><td>4/26/2022 12:00:00 AM</td><td>84.41</td>
+		</tr><tr>
+			<td>24Q290</td><td>A.C.E. ACADEMY FOR SCHOLARS AT THE GERALDINE FERRA</td><td>4/26/2022 12:00:00 AM</td><td>94.68</td>
+		</tr><tr>
+			<td>24Q293</td><td>CIVIC LEADERSHIP ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>88.97</td>
+		</tr><tr>
+			<td>24Q296</td><td>PAN AMERICAN INTERNATIONAL HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>92.26</td>
+		</tr><tr>
+			<td>24Q299</td><td>BARD HIGH SCHOOL EARLY COLLEGE QUEENS</td><td>4/26/2022 12:00:00 AM</td><td>95.03</td>
+		</tr><tr>
+			<td>24Q305</td><td>LEARNERS AND LEADERS</td><td>4/26/2022 12:00:00 AM</td><td>93.98</td>
+		</tr><tr>
+			<td>24Q307</td><td>PIONEER ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>96.65</td>
+		</tr><tr>
+			<td>24Q311</td><td>CORONA ARTS   SCIENCES ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>96.01</td>
+		</tr><tr>
+			<td>24Q330</td><td>HELEN M. MARSHALL SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>94.90</td>
+		</tr><tr>
+			<td>24Q331</td><td>MOSAIC PRE K CENTER</td><td>4/26/2022 12:00:00 AM</td><td>87.18</td>
+		</tr><tr>
+			<td>24Q343</td><td>THE CHILDREN S LAB SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>94.81</td>
+		</tr><tr>
+			<td>24Q455</td><td>NEWTOWN HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>68.18</td>
+		</tr><tr>
+			<td>24Q485</td><td>GROVER CLEVELAND HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>66.53</td>
+		</tr><tr>
+			<td>24Q520</td><td>MIDDLE COLLEGE HIGH SCHOOL AT LAGUARDIA COMMUNITY</td><td>4/26/2022 12:00:00 AM</td><td>87.06</td>
+		</tr><tr>
+			<td>24Q530</td><td>INTERNATIONAL HIGH SCHOOL AT LAGUARDIA COMMUNITY C</td><td>4/26/2022 12:00:00 AM</td><td>89.13</td>
+		</tr><tr>
+			<td>24Q550</td><td>HIGH SCHOOL FOR ARTS AND BUSINESS</td><td>4/26/2022 12:00:00 AM</td><td>89.34</td>
+		</tr><tr>
+			<td>24Q560</td><td>ROBERT F. WAGNER, JR. SECONDARY SCHOOL FOR ARTS AN</td><td>4/26/2022 12:00:00 AM</td><td>87.62</td>
+		</tr><tr>
+			<td>24Q585</td><td>MASPETH HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>89.68</td>
+		</tr><tr>
+			<td>24Q600</td><td>QUEENS TECHNICAL HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>85.48</td>
+		</tr><tr>
+			<td>24Q610</td><td>AVIATION CAREER   TECHNICAL EDUCATION HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>89.96</td>
+		</tr><tr>
+			<td>24Q744</td><td>VOYAGES PREPARATORY</td><td>4/26/2022 12:00:00 AM</td><td>32.07</td>
+		</tr><tr>
+			<td>25Q020</td><td>P.S. 020 JOHN BOWNE</td><td>4/26/2022 12:00:00 AM</td><td>95.71</td>
+		</tr><tr>
+			<td>25Q021</td><td>P.S. 021 EDWARD HART</td><td>4/26/2022 12:00:00 AM</td><td>94.59</td>
+		</tr><tr>
+			<td>25Q022</td><td>P.S. 022 THOMAS JEFFERSON</td><td>4/26/2022 12:00:00 AM</td><td>96.17</td>
+		</tr><tr>
+			<td>25Q024</td><td>P.S. 024 ANDREW JACKSON</td><td>4/26/2022 12:00:00 AM</td><td>98.23</td>
+		</tr><tr>
+			<td>25Q025</td><td>I.S. 025 ADRIEN BLOCK</td><td>4/26/2022 12:00:00 AM</td><td>98.19</td>
+		</tr><tr>
+			<td>25Q029</td><td>P.S. 029 QUEENS</td><td>4/26/2022 12:00:00 AM</td><td>94.02</td>
+		</tr><tr>
+			<td>25Q032</td><td>P.S. 032 STATE STREET</td><td>4/26/2022 12:00:00 AM</td><td>95.63</td>
+		</tr><tr>
+			<td>25Q079</td><td>P.S. 079 FRANCIS LEWIS</td><td>4/26/2022 12:00:00 AM</td><td>95.08</td>
+		</tr><tr>
+			<td>25Q107</td><td>P.S. 107 THOMAS A DOOLEY</td><td>4/26/2022 12:00:00 AM</td><td>93.20</td>
+		</tr><tr>
+			<td>25Q120</td><td>P.S. 120 QUEENS</td><td>4/26/2022 12:00:00 AM</td><td>96.12</td>
+		</tr><tr>
+			<td>25Q129</td><td>P.S. 129 PATRICIA LARKIN</td><td>4/26/2022 12:00:00 AM</td><td>93.69</td>
+		</tr><tr>
+			<td>25Q130</td><td>P.S. 130</td><td>4/26/2022 12:00:00 AM</td><td>93.33</td>
+		</tr><tr>
+			<td>25Q154</td><td>P.S. 154 QUEENS</td><td>4/26/2022 12:00:00 AM</td><td>95.73</td>
+		</tr><tr>
+			<td>25Q163</td><td>P.S. 163 FLUSHING HEIGHTS</td><td>4/26/2022 12:00:00 AM</td><td>96.12</td>
+		</tr><tr>
+			<td>25Q164</td><td>P.S. 164 QUEENS VALLEY</td><td>4/26/2022 12:00:00 AM</td><td>93.85</td>
+		</tr><tr>
+			<td>25Q165</td><td>P.S. 165 EDITH K. BERGTRAUM</td><td>4/26/2022 12:00:00 AM</td><td>93.80</td>
+		</tr><tr>
+			<td>25Q169</td><td>P.S. 169 BAY TERRACE</td><td>4/26/2022 12:00:00 AM</td><td>93.38</td>
+		</tr><tr>
+			<td>25Q184</td><td>P.S. 184 FLUSHING MANOR</td><td>4/26/2022 12:00:00 AM</td><td>96.44</td>
+		</tr><tr>
+			<td>25Q185</td><td>J.H.S. 185 EDWARD BLEEKER</td><td>4/26/2022 12:00:00 AM</td><td>93.79</td>
+		</tr><tr>
+			<td>25Q189</td><td>J.H.S. 189 DANIEL CARTER BEARD</td><td>4/26/2022 12:00:00 AM</td><td>96.71</td>
+		</tr><tr>
+			<td>25Q193</td><td>P.S. 193 ALFRED J. KENNEDY</td><td>4/26/2022 12:00:00 AM</td><td>94.49</td>
+		</tr><tr>
+			<td>25Q194</td><td>J.H.S. 194 WILLIAM CARR</td><td>4/26/2022 12:00:00 AM</td><td>91.48</td>
+		</tr><tr>
+			<td>25Q200</td><td>P.S. M.S. 200   THE MAGNET SCHOOL OF GLOBAL STUDIE</td><td>4/26/2022 12:00:00 AM</td><td>97.26</td>
+		</tr><tr>
+			<td>25Q201</td><td>P.S. 201 THE DISCOVERY SCHOOL FOR INQUIRY AND RESE</td><td>4/26/2022 12:00:00 AM</td><td>91.08</td>
+		</tr><tr>
+			<td>25Q209</td><td>P.S. 209 CLEARVIEW GARDENS</td><td>4/26/2022 12:00:00 AM</td><td>96.49</td>
+		</tr><tr>
+			<td>25Q214</td><td>P.S. 214 CADWALLADER COLDEN</td><td>4/26/2022 12:00:00 AM</td><td>93.47</td>
+		</tr><tr>
+			<td>25Q219</td><td>P.S. 219 PAUL KLAPPER</td><td>4/26/2022 12:00:00 AM</td><td>95.10</td>
+		</tr><tr>
+			<td>25Q237</td><td>I.S. 237</td><td>4/26/2022 12:00:00 AM</td><td>91.80</td>
+		</tr><tr>
+			<td>25Q240</td><td>VERITAS ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>62.64</td>
+		</tr><tr>
+			<td>25Q241</td><td>QUEENS HIGH SCHOOL FOR LANGUAGE STUDIES</td><td>4/26/2022 12:00:00 AM</td><td>82.24</td>
+		</tr><tr>
+			<td>25Q242</td><td>P.S. 242 LEONARD P. STAVISKY EARLY CHILDHOOD SCHOO</td><td>4/26/2022 12:00:00 AM</td><td>93.75</td>
+		</tr><tr>
+			<td>25Q244</td><td>THE ACTIVE LEARNING ELEMENTARY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>96.65</td>
+		</tr><tr>
+			<td>25Q250</td><td>I.S. 250 THE ROBERT F. KENNEDY COMMUNITY MIDDLE SC</td><td>4/26/2022 12:00:00 AM</td><td>90.88</td>
+		</tr><tr>
+			<td>25Q252</td><td>QUEENS SCHOOL OF INQUIRY, THE</td><td>4/26/2022 12:00:00 AM</td><td>93.70</td>
+		</tr><tr>
+			<td>25Q263</td><td>FLUSHING INTERNATIONAL HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>76.80</td>
+		</tr><tr>
+			<td>25Q281</td><td>EAST WEST SCHOOL OF INTERNATIONAL STUDIES</td><td>4/26/2022 12:00:00 AM</td><td>95.06</td>
+		</tr><tr>
+			<td>25Q285</td><td>WORLD JOURNALISM PREPARATORY: A COLLEGE BOARD SCHO</td><td>4/26/2022 12:00:00 AM</td><td>91.61</td>
+		</tr><tr>
+			<td>25Q294</td><td>BELL ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>94.54</td>
+		</tr><tr>
+			<td>25Q379</td><td>COLLEGE POINT COLLABORATIVE</td><td>4/26/2022 12:00:00 AM</td><td>94.35</td>
+		</tr><tr>
+			<td>25Q409</td><td>DISTRICT 25 PRE K CENTER</td><td>4/26/2022 12:00:00 AM</td><td>84.95</td>
+		</tr><tr>
+			<td>25Q425</td><td>JOHN BOWNE HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>59.23</td>
+		</tr><tr>
+			<td>25Q460</td><td>FLUSHING HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>76.90</td>
+		</tr><tr>
+			<td>25Q499</td><td>THE QUEENS COLLEGE SCHOOL FOR MATH, SCIENCE AND TE</td><td>4/26/2022 12:00:00 AM</td><td>93.06</td>
+		</tr><tr>
+			<td>25Q525</td><td>TOWNSEND HARRIS HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>94.34</td>
+		</tr><tr>
+			<td>25Q540</td><td>QUEENS ACADEMY HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>34.71</td>
+		</tr><tr>
+			<td>25Q670</td><td>ROBERT F. KENNEDY COMMUNITY HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>82.34</td>
+		</tr><tr>
+			<td>25Q792</td><td>NORTH QUEENS COMMUNITY HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>35.87</td>
+		</tr><tr>
+			<td>26Q018</td><td>P.S. 018 WINCHESTER</td><td>4/26/2022 12:00:00 AM</td><td>96.08</td>
+		</tr><tr>
+			<td>26Q026</td><td>P.S. 026 RUFUS KING</td><td>4/26/2022 12:00:00 AM</td><td>95.03</td>
+		</tr><tr>
+			<td>26Q031</td><td>P.S. 031 BAYSIDE</td><td>4/26/2022 12:00:00 AM</td><td>94.88</td>
+		</tr><tr>
+			<td>26Q041</td><td>P.S. 041 CROCHERON</td><td>4/26/2022 12:00:00 AM</td><td>94.52</td>
+		</tr><tr>
+			<td>26Q046</td><td>P.S. 046 ALLEY POND</td><td>4/26/2022 12:00:00 AM</td><td>95.25</td>
+		</tr><tr>
+			<td>26Q067</td><td>J.H.S. 067 LOUIS PASTEUR</td><td>4/26/2022 12:00:00 AM</td><td>96.28</td>
+		</tr><tr>
+			<td>26Q074</td><td>J.H.S. 074 NATHANIEL HAWTHORNE</td><td>4/26/2022 12:00:00 AM</td><td>95.64</td>
+		</tr><tr>
+			<td>26Q094</td><td>P.S. 094 DAVID D. PORTER</td><td>4/26/2022 12:00:00 AM</td><td>95.89</td>
+		</tr><tr>
+			<td>26Q098</td><td>P.S. 098 THE DOUGLASTON SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>93.93</td>
+		</tr><tr>
+			<td>26Q115</td><td>THE JAMES J. AMBROSE SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>95.71</td>
+		</tr><tr>
+			<td>26Q133</td><td>P.S. 133 QUEENS</td><td>4/26/2022 12:00:00 AM</td><td>94.71</td>
+		</tr><tr>
+			<td>26Q158</td><td>M.S. 158 MARIE CURIE</td><td>4/26/2022 12:00:00 AM</td><td>94.05</td>
+		</tr><tr>
+			<td>26Q159</td><td>P.S. 159</td><td>4/26/2022 12:00:00 AM</td><td>95.17</td>
+		</tr><tr>
+			<td>26Q162</td><td>P.S. 162 JOHN GOLDEN</td><td>4/26/2022 12:00:00 AM</td><td>96.10</td>
+		</tr><tr>
+			<td>26Q172</td><td>IRWIN ALTMAN MIDDLE SCHOOL 172</td><td>4/26/2022 12:00:00 AM</td><td>94.32</td>
+		</tr><tr>
+			<td>26Q173</td><td>P.S. 173 FRESH MEADOWS</td><td>4/26/2022 12:00:00 AM</td><td>94.65</td>
+		</tr><tr>
+			<td>26Q178</td><td>P.S.  IS 178 HOLLISWOOD</td><td>4/26/2022 12:00:00 AM</td><td>91.89</td>
+		</tr><tr>
+			<td>26Q186</td><td>P.S. 186 CASTLEWOOD</td><td>4/26/2022 12:00:00 AM</td><td>91.59</td>
+		</tr><tr>
+			<td>26Q188</td><td>P.S. 188 KINGSBURY</td><td>4/26/2022 12:00:00 AM</td><td>95.92</td>
+		</tr><tr>
+			<td>26Q191</td><td>P.S. 191 MAYFLOWER</td><td>4/26/2022 12:00:00 AM</td><td>94.49</td>
+		</tr><tr>
+			<td>26Q203</td><td>P.S. 203 OAKLAND GARDENS</td><td>4/26/2022 12:00:00 AM</td><td>96.38</td>
+		</tr><tr>
+			<td>26Q205</td><td>P.S. 205 ALEXANDER GRAHAM BELL</td><td>4/26/2022 12:00:00 AM</td><td>96.92</td>
+		</tr><tr>
+			<td>26Q213</td><td>P.S. 213 THE CARL ULLMAN SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>94.79</td>
+		</tr><tr>
+			<td>26Q216</td><td>J.H.S. 216 GEORGE J. RYAN</td><td>4/26/2022 12:00:00 AM</td><td>95.10</td>
+		</tr><tr>
+			<td>26Q221</td><td>P.S. 221 THE NORTH HILLS SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>95.72</td>
+		</tr><tr>
+			<td>26Q266</td><td>P.S. I.S. 266</td><td>4/26/2022 12:00:00 AM</td><td>93.07</td>
+		</tr><tr>
+			<td>26Q315</td><td>BUSINESS TECHNOLOGY EARLY COLLEGE HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>81.99</td>
+		</tr><tr>
+			<td>26Q376</td><td>P.S. 376</td><td>4/26/2022 12:00:00 AM</td><td>93.40</td>
+		</tr><tr>
+			<td>26Q390</td><td>THE CIVIC SCHOOL OF BAYSIDE HILLS</td><td>4/26/2022 12:00:00 AM</td><td>90.90</td>
+		</tr><tr>
+			<td>26Q415</td><td>BENJAMIN N. CARDOZO HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>79.92</td>
+		</tr><tr>
+			<td>26Q430</td><td>FRANCIS LEWIS HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>73.66</td>
+		</tr><tr>
+			<td>26Q435</td><td>MARTIN VAN BUREN HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>76.77</td>
+		</tr><tr>
+			<td>26Q495</td><td>BAYSIDE HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>86.03</td>
+		</tr><tr>
+			<td>26Q566</td><td>QUEENS HIGH SCHOOL OF TEACHING, LIBERAL ARTS AND T</td><td>4/26/2022 12:00:00 AM</td><td>100.00</td>
+		</tr><tr>
+			<td>27Q042</td><td>P.S. M.S 042 R. VERNAM</td><td>4/26/2022 12:00:00 AM</td><td>88.72</td>
+		</tr><tr>
+			<td>27Q043</td><td>P.S. 043</td><td>4/26/2022 12:00:00 AM</td><td>83.19</td>
+		</tr><tr>
+			<td>27Q045</td><td>P.S. 045 CLARENCE WITHERSPOON</td><td>4/26/2022 12:00:00 AM</td><td>91.42</td>
+		</tr><tr>
+			<td>27Q047</td><td>P.S. 047 CHRIS GALAS</td><td>4/26/2022 12:00:00 AM</td><td>90.90</td>
+		</tr><tr>
+			<td>27Q051</td><td>P.S. 051</td><td>4/26/2022 12:00:00 AM</td><td>88.35</td>
+		</tr><tr>
+			<td>27Q053</td><td>M.S. 053 BRIAN PICCOLO</td><td>4/26/2022 12:00:00 AM</td><td>86.16</td>
+		</tr><tr>
+			<td>27Q056</td><td>P.S. 056 HARRY EICHLER</td><td>4/26/2022 12:00:00 AM</td><td>94.30</td>
+		</tr><tr>
+			<td>27Q060</td><td>P.S. 060 WOODHAVEN</td><td>4/26/2022 12:00:00 AM</td><td>92.11</td>
+		</tr><tr>
+			<td>27Q062</td><td>P. S. 62   CHESTER PARK SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>92.40</td>
+		</tr><tr>
+			<td>27Q063</td><td>P.S. 063 OLD SOUTH</td><td>4/26/2022 12:00:00 AM</td><td>92.59</td>
+		</tr><tr>
+			<td>27Q064</td><td>P.S. 064 JOSEPH P. ADDABBO</td><td>4/26/2022 12:00:00 AM</td><td>93.84</td>
+		</tr><tr>
+			<td>27Q065</td><td>P.S. 65   THE RAYMOND YORK ELEMENTARY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>94.65</td>
+		</tr><tr>
+			<td>27Q066</td><td>P.S. 066 JACQUELINE KENNEDY ONASSIS</td><td>4/26/2022 12:00:00 AM</td><td>93.07</td>
+		</tr><tr>
+			<td>27Q090</td><td>P.S. 090 HORACE MANN</td><td>4/26/2022 12:00:00 AM</td><td>95.10</td>
+		</tr><tr>
+			<td>27Q096</td><td>P.S. 096</td><td>4/26/2022 12:00:00 AM</td><td>92.61</td>
+		</tr><tr>
+			<td>27Q097</td><td>P.S. 097 FOREST PARK</td><td>4/26/2022 12:00:00 AM</td><td>90.28</td>
+		</tr><tr>
+			<td>27Q100</td><td>P.S. 100 GLEN MORRIS</td><td>4/26/2022 12:00:00 AM</td><td>91.48</td>
+		</tr><tr>
+			<td>27Q104</td><td>P.S. 104 THE BAYS WATER</td><td>4/26/2022 12:00:00 AM</td><td>90.70</td>
+		</tr><tr>
+			<td>27Q105</td><td>P.S. 105 THE BAY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>88.09</td>
+		</tr><tr>
+			<td>27Q106</td><td>LIGHTHOUSE ELEMENTARY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>84.45</td>
+		</tr><tr>
+			<td>27Q108</td><td>P.S. 108 CAPTAIN VINCENT G. FOWLER</td><td>4/26/2022 12:00:00 AM</td><td>94.33</td>
+		</tr><tr>
+			<td>27Q114</td><td>P.S. M.S. 114 BELLE HARBOR</td><td>4/26/2022 12:00:00 AM</td><td>93.29</td>
+		</tr><tr>
+			<td>27Q123</td><td>P.S. 123</td><td>4/26/2022 12:00:00 AM</td><td>94.39</td>
+		</tr><tr>
+			<td>27Q124</td><td>P.S. 124 OSMOND A CHURCH</td><td>4/26/2022 12:00:00 AM</td><td>92.58</td>
+		</tr><tr>
+			<td>27Q137</td><td>M.S. 137 AMERICA S SCHOOL OF HEROES</td><td>4/26/2022 12:00:00 AM</td><td>91.41</td>
+		</tr><tr>
+			<td>27Q146</td><td>P.S. 146 HOWARD BEACH</td><td>4/26/2022 12:00:00 AM</td><td>90.67</td>
+		</tr><tr>
+			<td>27Q155</td><td>P.S. 155</td><td>4/26/2022 12:00:00 AM</td><td>93.57</td>
+		</tr><tr>
+			<td>27Q183</td><td>P.S. 183 DR. RICHARD R. GREEN</td><td>4/26/2022 12:00:00 AM</td><td>85.43</td>
+		</tr><tr>
+			<td>27Q197</td><td>P.S. 197 THE OCEAN SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>90.45</td>
+		</tr><tr>
+			<td>27Q202</td><td>J.H.S. 202 ROBERT H. GODDARD</td><td>4/26/2022 12:00:00 AM</td><td>94.68</td>
+		</tr><tr>
+			<td>27Q207</td><td>P.S. 207 ROCKWOOD PARK</td><td>4/26/2022 12:00:00 AM</td><td>91.68</td>
+		</tr><tr>
+			<td>27Q210</td><td>J.H.S. 210 ELIZABETH BLACKWELL</td><td>4/26/2022 12:00:00 AM</td><td>94.81</td>
+		</tr><tr>
+			<td>27Q223</td><td>P.S. 223 LYNDON B. JOHNSON</td><td>4/26/2022 12:00:00 AM</td><td>90.77</td>
+		</tr><tr>
+			<td>27Q226</td><td>J.H.S. 226 VIRGIL I. GRISSOM</td><td>4/26/2022 12:00:00 AM</td><td>94.39</td>
+		</tr><tr>
+			<td>27Q232</td><td>P.S. 232 LINDENWOOD</td><td>4/26/2022 12:00:00 AM</td><td>92.87</td>
+		</tr><tr>
+			<td>27Q253</td><td>P.S. 253</td><td>4/26/2022 12:00:00 AM</td><td>91.14</td>
+		</tr><tr>
+			<td>27Q254</td><td>P.S. 254   THE ROSA PARKS SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>93.00</td>
+		</tr><tr>
+			<td>27Q260</td><td>FREDERICK DOUGLASS ACADEMY VI HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>70.22</td>
+		</tr><tr>
+			<td>27Q261</td><td>VOYAGES PREP   SOUTH QUEENS</td><td>4/26/2022 12:00:00 AM</td><td>35.88</td>
+		</tr><tr>
+			<td>27Q262</td><td>CHANNEL VIEW SCHOOL FOR RESEARCH</td><td>4/26/2022 12:00:00 AM</td><td>93.10</td>
+		</tr><tr>
+			<td>27Q273</td><td>P.S. 273</td><td>4/26/2022 12:00:00 AM</td><td>91.50</td>
+		</tr><tr>
+			<td>27Q282</td><td>KNOWLEDGE AND POWER PREPARATORY ACADEMY VI</td><td>4/26/2022 12:00:00 AM</td><td>98.46</td>
+		</tr><tr>
+			<td>27Q297</td><td>HAWTREE CREEK MIDDLE SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>94.53</td>
+		</tr><tr>
+			<td>27Q302</td><td>QUEENS HIGH SCHOOL FOR INFORMATION, RESEARCH, AND</td><td>4/26/2022 12:00:00 AM</td><td>77.61</td>
+		</tr><tr>
+			<td>27Q306</td><td>NEW YORK CITY ACADEMY FOR DISCOVERY</td><td>4/26/2022 12:00:00 AM</td><td>93.10</td>
+		</tr><tr>
+			<td>27Q308</td><td>ROBERT H. GODDARD HIGH SCHOOL OF COMMUNICATION ART</td><td>4/26/2022 12:00:00 AM</td><td>87.77</td>
+		</tr><tr>
+			<td>27Q309</td><td>ACADEMY OF MEDICAL TECHNOLOGY: A COLLEGE BOARD SCH</td><td>4/26/2022 12:00:00 AM</td><td>76.95</td>
+		</tr><tr>
+			<td>27Q314</td><td>EPIC HIGH SCHOOL   SOUTH</td><td>4/26/2022 12:00:00 AM</td><td>65.53</td>
+		</tr><tr>
+			<td>27Q316</td><td>QUEENS EXPLORERS ELEMENTARY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>92.16</td>
+		</tr><tr>
+			<td>27Q317</td><td>WATERSIDE CHILDREN S STUDIO SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>95.41</td>
+		</tr><tr>
+			<td>27Q318</td><td>WATERSIDE SCHOOL FOR LEADERSHIP</td><td>4/26/2022 12:00:00 AM</td><td>96.36</td>
+		</tr><tr>
+			<td>27Q319</td><td>VILLAGE ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>93.03</td>
+		</tr><tr>
+			<td>27Q323</td><td>SCHOLARS  ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>94.15</td>
+		</tr><tr>
+			<td>27Q324</td><td>ROCKAWAY PARK HIGH SCHOOL FOR ENVIRONMENTAL SUSTAI</td><td>4/26/2022 12:00:00 AM</td><td>59.60</td>
+		</tr><tr>
+			<td>27Q333</td><td>GOLDIE MAPLE ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>93.08</td>
+		</tr><tr>
+			<td>27Q334</td><td>EPIC HIGH SCHOOL   NORTH</td><td>4/26/2022 12:00:00 AM</td><td>70.61</td>
+		</tr><tr>
+			<td>27Q336</td><td>CURIOUS YOUNG LEARNERS PRE K CENTER</td><td>4/26/2022 12:00:00 AM</td><td>81.70</td>
+		</tr><tr>
+			<td>27Q351</td><td>ROCKAWAY COLLEGIATE HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>67.82</td>
+		</tr><tr>
+			<td>27Q362</td><td>WAVE PREPARATORY ELEMENTARY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>91.41</td>
+		</tr><tr>
+			<td>27Q377</td><td>P.S. 377</td><td>4/26/2022 12:00:00 AM</td><td>92.90</td>
+		</tr><tr>
+			<td>27Q400</td><td>AUGUST MARTIN HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>76.41</td>
+		</tr><tr>
+			<td>27Q475</td><td>RICHMOND HILL HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>80.57</td>
+		</tr><tr>
+			<td>27Q480</td><td>JOHN ADAMS HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>76.29</td>
+		</tr><tr>
+			<td>27Q650</td><td>HIGH SCHOOL FOR CONSTRUCTION TRADES, ENGINEERING A</td><td>4/26/2022 12:00:00 AM</td><td>89.36</td>
+		</tr><tr>
+			<td>28Q008</td><td>J.H.S. 008 RICHARD S. GROSSLEY</td><td>4/26/2022 12:00:00 AM</td><td>93.34</td>
+		</tr><tr>
+			<td>28Q040</td><td>P.S. 040 SAMUEL HUNTINGTON</td><td>4/26/2022 12:00:00 AM</td><td>89.14</td>
+		</tr><tr>
+			<td>28Q048</td><td>DAVID N. DINKINS SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>91.74</td>
+		</tr><tr>
+			<td>28Q050</td><td>P.S. 050 TALFOURD LAWN ELEMENTARY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>91.30</td>
+		</tr><tr>
+			<td>28Q054</td><td>P.S. 054 HILLSIDE</td><td>4/26/2022 12:00:00 AM</td><td>93.95</td>
+		</tr><tr>
+			<td>28Q055</td><td>P.S. 055 MAURE</td><td>4/26/2022 12:00:00 AM</td><td>93.31</td>
+		</tr><tr>
+			<td>28Q072</td><td>CATHERINE   COUNT BASIE MIDDLE SCHOOL 72</td><td>4/26/2022 12:00:00 AM</td><td>92.66</td>
+		</tr><tr>
+			<td>28Q080</td><td>PS 80  THE THURGOOD MARSHALL MAGNET SCHOOL OF MULT</td><td>4/26/2022 12:00:00 AM</td><td>89.00</td>
+		</tr><tr>
+			<td>28Q082</td><td>P.S. 082 HAMMOND</td><td>4/26/2022 12:00:00 AM</td><td>94.56</td>
+		</tr><tr>
+			<td>28Q086</td><td>P.S. Q086</td><td>4/26/2022 12:00:00 AM</td><td>92.67</td>
+		</tr><tr>
+			<td>28Q099</td><td>P.S. 099 KEW GARDENS</td><td>4/26/2022 12:00:00 AM</td><td>92.68</td>
+		</tr><tr>
+			<td>28Q101</td><td>P.S. 101 SCHOOL IN THE GARDENS</td><td>4/26/2022 12:00:00 AM</td><td>95.00</td>
+		</tr><tr>
+			<td>28Q117</td><td>P.S. 117 J. KELD   BRIARWOOD SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>90.29</td>
+		</tr><tr>
+			<td>28Q121</td><td>P.S. 121 QUEENS</td><td>4/26/2022 12:00:00 AM</td><td>93.16</td>
+		</tr><tr>
+			<td>28Q139</td><td>P.S. 139 REGO PARK</td><td>4/26/2022 12:00:00 AM</td><td>94.06</td>
+		</tr><tr>
+			<td>28Q140</td><td>P.S. 140 EDWARD K ELLINGTON</td><td>4/26/2022 12:00:00 AM</td><td>90.81</td>
+		</tr><tr>
+			<td>28Q144</td><td>P.S. 144 COL JEROMUS REMSEN</td><td>4/26/2022 12:00:00 AM</td><td>93.52</td>
+		</tr><tr>
+			<td>28Q157</td><td>J.H.S. 157 STEPHEN A. HALSEY</td><td>4/26/2022 12:00:00 AM</td><td>90.58</td>
+		</tr><tr>
+			<td>28Q160</td><td>P.S. 160 WALTER FRANCIS BISHOP</td><td>4/26/2022 12:00:00 AM</td><td>92.03</td>
+		</tr><tr>
+			<td>28Q161</td><td>P.S. 161 ARTHUR ASHE SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>95.29</td>
+		</tr><tr>
+			<td>28Q167</td><td>METROPOLITAN EXPEDITIONARY LEARNING SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>80.36</td>
+		</tr><tr>
+			<td>28Q174</td><td>P.S. 174 WILLIAM SIDNEY MOUNT</td><td>4/26/2022 12:00:00 AM</td><td>89.56</td>
+		</tr><tr>
+			<td>28Q175</td><td>P.S. 175 THE LYNN GROSS DISCOVERY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>92.72</td>
+		</tr><tr>
+			<td>28Q182</td><td>P.S. 182 SAMANTHA SMITH</td><td>4/26/2022 12:00:00 AM</td><td>95.16</td>
+		</tr><tr>
+			<td>28Q190</td><td>J.H.S. 190 RUSSELL SAGE</td><td>4/26/2022 12:00:00 AM</td><td>92.51</td>
+		</tr><tr>
+			<td>28Q196</td><td>P.S. 196 GRAND CENTRAL PARKWAY</td><td>4/26/2022 12:00:00 AM</td><td>95.48</td>
+		</tr><tr>
+			<td>28Q206</td><td>P.S. 206 THE HORACE HARDING SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>92.24</td>
+		</tr><tr>
+			<td>28Q217</td><td>J.H.S. 217 ROBERT A. VAN WYCK</td><td>4/26/2022 12:00:00 AM</td><td>90.84</td>
+		</tr><tr>
+			<td>28Q220</td><td>P.S. 220 EDWARD MANDEL</td><td>4/26/2022 12:00:00 AM</td><td>95.22</td>
+		</tr><tr>
+			<td>28Q284</td><td>YORK EARLY COLLEGE ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>93.99</td>
+		</tr><tr>
+			<td>28Q287</td><td>THE EMERSON SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>94.35</td>
+		</tr><tr>
+			<td>28Q303</td><td>THE ACADEMY FOR EXCELLENCE THROUGH THE ARTS</td><td>4/26/2022 12:00:00 AM</td><td>92.41</td>
+		</tr><tr>
+			<td>28Q310</td><td>QUEENS COLLEGIATE: A COLLEGE BOARD SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>77.24</td>
+		</tr><tr>
+			<td>28Q312</td><td>JAMAICA CHILDREN S SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>94.71</td>
+		</tr><tr>
+			<td>28Q325</td><td>HILLSIDE ARTS   LETTERS ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>85.15</td>
+		</tr><tr>
+			<td>28Q328</td><td>HIGH SCHOOL FOR COMMUNITY LEADERSHIP</td><td>4/26/2022 12:00:00 AM</td><td>82.58</td>
+		</tr><tr>
+			<td>28Q332</td><td>REDWOOD MIDDLE SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>85.52</td>
+		</tr><tr>
+			<td>28Q335</td><td>THE EZRA JACK KEATS PRE K CENTER</td><td>4/26/2022 12:00:00 AM</td><td>87.90</td>
+		</tr><tr>
+			<td>28Q338</td><td>QUEENS SATELLITE HIGH SCHOOL FOR OPPORTUNITY</td><td>4/26/2022 12:00:00 AM</td><td>57.69</td>
+		</tr><tr>
+			<td>28Q349</td><td>THE QUEENS SCHOOL FOR LEADERSHIP AND EXCELLENCE</td><td>4/26/2022 12:00:00 AM</td><td>91.97</td>
+		</tr><tr>
+			<td>28Q350</td><td>JAMAICA GATEWAY TO THE SCIENCES</td><td>4/26/2022 12:00:00 AM</td><td>84.32</td>
+		</tr><tr>
+			<td>28Q354</td><td>THE JERMAINE L. GREEN STEM INSTITUTE OF QUEENS</td><td>4/26/2022 12:00:00 AM</td><td>89.98</td>
+		</tr><tr>
+			<td>28Q358</td><td>M.S. 358</td><td>4/26/2022 12:00:00 AM</td><td>95.88</td>
+		</tr><tr>
+			<td>28Q440</td><td>FOREST HILLS HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>79.15</td>
+		</tr><tr>
+			<td>28Q505</td><td>HILLCREST HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>80.69</td>
+		</tr><tr>
+			<td>28Q620</td><td>THOMAS A. EDISON CAREER AND TECHNICAL EDUCATION HI</td><td>4/26/2022 12:00:00 AM</td><td>88.50</td>
+		</tr><tr>
+			<td>28Q680</td><td>QUEENS GATEWAY TO HEALTH SCIENCES SECONDARY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>84.65</td>
+		</tr><tr>
+			<td>28Q686</td><td>QUEENS METROPOLITAN HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>86.85</td>
+		</tr><tr>
+			<td>28Q687</td><td>QUEENS HIGH SCHOOL FOR THE SCIENCES AT YORK COLLEG</td><td>4/26/2022 12:00:00 AM</td><td>94.01</td>
+		</tr><tr>
+			<td>28Q690</td><td>HIGH SCHOOL FOR LAW ENFORCEMENT AND PUBLIC SAFETY</td><td>4/26/2022 12:00:00 AM</td><td>77.34</td>
+		</tr><tr>
+			<td>28Q896</td><td>YOUNG WOMEN S LEADERSHIP SCHOOL, QUEENS</td><td>4/26/2022 12:00:00 AM</td><td>89.61</td>
+		</tr><tr>
+			<td>29Q015</td><td>P.S. 015 JACKIE ROBINSON</td><td>4/26/2022 12:00:00 AM</td><td>92.89</td>
+		</tr><tr>
+			<td>29Q033</td><td>P.S. 033 EDWARD M. FUNK</td><td>4/26/2022 12:00:00 AM</td><td>92.96</td>
+		</tr><tr>
+			<td>29Q034</td><td>P.S. 034 JOHN HARVARD</td><td>4/26/2022 12:00:00 AM</td><td>93.73</td>
+		</tr><tr>
+			<td>29Q035</td><td>P.S. 035 NATHANIEL WOODHULL</td><td>4/26/2022 12:00:00 AM</td><td>90.26</td>
+		</tr><tr>
+			<td>29Q036</td><td>P.S. 036 SAINT ALBANS SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>95.59</td>
+		</tr><tr>
+			<td>29Q037</td><td>CYNTHIA JENKINS SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>89.51</td>
+		</tr><tr>
+			<td>29Q038</td><td>P.S. 038 ROSEDALE</td><td>4/26/2022 12:00:00 AM</td><td>91.93</td>
+		</tr><tr>
+			<td>29Q052</td><td>P.S. 052 QUEENS</td><td>4/26/2022 12:00:00 AM</td><td>86.83</td>
+		</tr><tr>
+			<td>29Q059</td><td>I.S. 059 SPRINGFIELD GARDENS</td><td>4/26/2022 12:00:00 AM</td><td>96.55</td>
+		</tr><tr>
+			<td>29Q095</td><td>P.S. 095 EASTWOOD</td><td>4/26/2022 12:00:00 AM</td><td>86.23</td>
+		</tr><tr>
+			<td>29Q109</td><td>JEAN NUZZI INTERMEDIATE SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>94.79</td>
+		</tr><tr>
+			<td>29Q116</td><td>P.S. I.S. 116 WILLIAM C. HUGHLEY</td><td>4/26/2022 12:00:00 AM</td><td>91.75</td>
+		</tr><tr>
+			<td>29Q118</td><td>P.S. 118 LORRAINE HANSBERRY</td><td>4/26/2022 12:00:00 AM</td><td>92.45</td>
+		</tr><tr>
+			<td>29Q131</td><td>P.S. 131 ABIGAIL ADAMS</td><td>4/26/2022 12:00:00 AM</td><td>94.44</td>
+		</tr><tr>
+			<td>29Q132</td><td>P.S. 132 RALPH BUNCHE</td><td>4/26/2022 12:00:00 AM</td><td>90.59</td>
+		</tr><tr>
+			<td>29Q134</td><td>P.S. 134 HOLLIS</td><td>4/26/2022 12:00:00 AM</td><td>89.49</td>
+		</tr><tr>
+			<td>29Q135</td><td>THE BELLAIRE SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>91.50</td>
+		</tr><tr>
+			<td>29Q136</td><td>P.S. 136 ROY WILKINS</td><td>4/26/2022 12:00:00 AM</td><td>93.13</td>
+		</tr><tr>
+			<td>29Q138</td><td>P.S. M.S. 138 SUNRISE</td><td>4/26/2022 12:00:00 AM</td><td>90.42</td>
+		</tr><tr>
+			<td>29Q147</td><td>P.S. M.S. 147 RONALD MCNAIR</td><td>4/26/2022 12:00:00 AM</td><td>89.46</td>
+		</tr><tr>
+			<td>29Q156</td><td>P.S. 156 LAURELTON</td><td>4/26/2022 12:00:00 AM</td><td>93.37</td>
+		</tr><tr>
+			<td>29Q176</td><td>P.S. 176 CAMBRIA HEIGHTS</td><td>4/26/2022 12:00:00 AM</td><td>93.17</td>
+		</tr><tr>
+			<td>29Q181</td><td>P.S. 181 BROOKFIELD</td><td>4/26/2022 12:00:00 AM</td><td>91.11</td>
+		</tr><tr>
+			<td>29Q192</td><td>I.S. 192 THE LINDEN</td><td>4/26/2022 12:00:00 AM</td><td>91.11</td>
+		</tr><tr>
+			<td>29Q195</td><td>P.S. 195 WILLIAM HABERLE</td><td>4/26/2022 12:00:00 AM</td><td>92.55</td>
+		</tr><tr>
+			<td>29Q208</td><td>P.S. I.S. 208</td><td>4/26/2022 12:00:00 AM</td><td>93.64</td>
+		</tr><tr>
+			<td>29Q238</td><td>I.S. 238   SUSAN B. ANTHONY ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>91.25</td>
+		</tr><tr>
+			<td>29Q243</td><td>INSTITUTE FOR HEALTH PROFESSIONS AT CAMBRIA HEIGHT</td><td>4/26/2022 12:00:00 AM</td><td>NS</td>
+		</tr><tr>
+			<td>29Q248</td><td>QUEENS PREPARATORY ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>81.50</td>
+		</tr><tr>
+			<td>29Q251</td><td>P.S. 251 QUEENS</td><td>4/26/2022 12:00:00 AM</td><td>89.23</td>
+		</tr><tr>
+			<td>29Q259</td><td>PATHWAYS COLLEGE PREPARATORY SCHOOL: A COLLEGE BOA</td><td>4/26/2022 12:00:00 AM</td><td>89.29</td>
+		</tr><tr>
+			<td>29Q265</td><td>EXCELSIOR PREPARATORY HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>79.02</td>
+		</tr><tr>
+			<td>29Q268</td><td>P.S. I.S. 268</td><td>4/26/2022 12:00:00 AM</td><td>92.44</td>
+		</tr><tr>
+			<td>29Q270</td><td>THE GORDON PARKS SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>85.49</td>
+		</tr><tr>
+			<td>29Q272</td><td>GEORGE WASHINGTON CARVER HIGH SCHOOL FOR THE SCIEN</td><td>4/26/2022 12:00:00 AM</td><td>77.35</td>
+		</tr><tr>
+			<td>29Q283</td><td>PREPARATORY ACADEMY FOR WRITERS: A COLLEGE BOARD S</td><td>4/26/2022 12:00:00 AM</td><td>89.85</td>
+		</tr><tr>
+			<td>29Q289</td><td>QUEENS UNITED MIDDLE SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>93.29</td>
+		</tr><tr>
+			<td>29Q295</td><td>P.S. I.S. 295</td><td>4/26/2022 12:00:00 AM</td><td>93.93</td>
+		</tr><tr>
+			<td>29Q313</td><td>BENJAMIN FRANKLIN HIGH SCHOOL FOR FINANCE   INFORM</td><td>4/26/2022 12:00:00 AM</td><td>86.16</td>
+		</tr><tr>
+			<td>29Q326</td><td>CAMBRIA HEIGHTS ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>85.38</td>
+		</tr><tr>
+			<td>29Q327</td><td>EAGLE ACADEMY FOR YOUNG MEN III</td><td>4/26/2022 12:00:00 AM</td><td>87.65</td>
+		</tr><tr>
+			<td>29Q355</td><td>COLLABORATIVE ARTS MIDDLE SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>91.80</td>
+		</tr><tr>
+			<td>29Q356</td><td>COMMUNITY VOICES MIDDLE SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>87.74</td>
+		</tr><tr>
+			<td>29Q360</td><td>P.S. 360</td><td>4/26/2022 12:00:00 AM</td><td>95.76</td>
+		</tr><tr>
+			<td>29Q381</td><td>DISTRICT 29 PRE K CENTER</td><td>4/26/2022 12:00:00 AM</td><td>77.18</td>
+		</tr><tr>
+			<td>29Q492</td><td>MATHEMATICS, SCIENCE RESEARCH AND TECHNOLOGY MAGNE</td><td>4/26/2022 12:00:00 AM</td><td>79.18</td>
+		</tr><tr>
+			<td>29Q498</td><td>HUMANITIES   ARTS MAGNET HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>84.42</td>
+		</tr><tr>
+			<td>30Q002</td><td>P.S. 002 ALFRED ZIMBERG</td><td>4/26/2022 12:00:00 AM</td><td>93.12</td>
+		</tr><tr>
+			<td>30Q010</td><td>I.S. 010 HORACE GREELEY</td><td>4/26/2022 12:00:00 AM</td><td>95.13</td>
+		</tr><tr>
+			<td>30Q011</td><td>P.S. 011 KATHRYN PHELAN</td><td>4/26/2022 12:00:00 AM</td><td>93.41</td>
+		</tr><tr>
+			<td>30Q017</td><td>P.S. 017 HENRY DAVID THOREAU</td><td>4/26/2022 12:00:00 AM</td><td>92.44</td>
+		</tr><tr>
+			<td>30Q069</td><td>P.S. 069 JACKSON HEIGHTS</td><td>4/26/2022 12:00:00 AM</td><td>94.64</td>
+		</tr><tr>
+			<td>30Q070</td><td>P.S. 070</td><td>4/26/2022 12:00:00 AM</td><td>92.47</td>
+		</tr><tr>
+			<td>30Q076</td><td>P.S. 076 WILLIAM HALLET</td><td>4/26/2022 12:00:00 AM</td><td>93.86</td>
+		</tr><tr>
+			<td>30Q078</td><td>P.S. I.S. 78Q</td><td>4/26/2022 12:00:00 AM</td><td>92.81</td>
+		</tr><tr>
+			<td>30Q084</td><td>P.S. 084 STEINWAY</td><td>4/26/2022 12:00:00 AM</td><td>92.11</td>
+		</tr><tr>
+			<td>30Q085</td><td>P.S. 085 JUDGE CHARLES VALLONE</td><td>4/26/2022 12:00:00 AM</td><td>92.41</td>
+		</tr><tr>
+			<td>30Q092</td><td>P.S. 092 HARRY T. STEWART SR.</td><td>4/26/2022 12:00:00 AM</td><td>94.06</td>
+		</tr><tr>
+			<td>30Q111</td><td>P.S. 111 JACOB BLACKWELL</td><td>4/26/2022 12:00:00 AM</td><td>84.64</td>
+		</tr><tr>
+			<td>30Q112</td><td>P.S. 112 DUTCH KILLS</td><td>4/26/2022 12:00:00 AM</td><td>87.59</td>
+		</tr><tr>
+			<td>30Q122</td><td>P.S. 122 MAMIE FAY</td><td>4/26/2022 12:00:00 AM</td><td>94.94</td>
+		</tr><tr>
+			<td>30Q126</td><td>ALBERT SHANKER SCHOOL FOR VISUAL AND PERFORMING AR</td><td>4/26/2022 12:00:00 AM</td><td>94.19</td>
+		</tr><tr>
+			<td>30Q127</td><td>P.S. 127 AEROSPACE SCIENCE MAGNET SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>90.80</td>
+		</tr><tr>
+			<td>30Q141</td><td>I.S. 141 THE STEINWAY</td><td>4/26/2022 12:00:00 AM</td><td>96.88</td>
+		</tr><tr>
+			<td>30Q145</td><td>I.S. 145 JOSEPH PULITZER</td><td>4/26/2022 12:00:00 AM</td><td>95.48</td>
+		</tr><tr>
+			<td>30Q148</td><td>P.S. 148 QUEENS</td><td>4/26/2022 12:00:00 AM</td><td>92.66</td>
+		</tr><tr>
+			<td>30Q149</td><td>P.S. 149 CHRISTA MCAULIFFE</td><td>4/26/2022 12:00:00 AM</td><td>96.06</td>
+		</tr><tr>
+			<td>30Q150</td><td>P.S. 150 QUEENS</td><td>4/26/2022 12:00:00 AM</td><td>95.52</td>
+		</tr><tr>
+			<td>30Q151</td><td>P.S. 151 MARY D. CARTER</td><td>4/26/2022 12:00:00 AM</td><td>91.52</td>
+		</tr><tr>
+			<td>30Q152</td><td>P.S. 152 GWENDOLINE N. ALLEYNE SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>96.04</td>
+		</tr><tr>
+			<td>30Q166</td><td>P.S. 166 HENRY GRADSTEIN</td><td>4/26/2022 12:00:00 AM</td><td>93.14</td>
+		</tr><tr>
+			<td>30Q171</td><td>P.S. 171 PETER G. VAN ALST</td><td>4/26/2022 12:00:00 AM</td><td>87.68</td>
+		</tr><tr>
+			<td>30Q204</td><td>I.S. 204 OLIVER W. HOLMES</td><td>4/26/2022 12:00:00 AM</td><td>95.50</td>
+		</tr><tr>
+			<td>30Q212</td><td>P.S. 212</td><td>4/26/2022 12:00:00 AM</td><td>94.73</td>
+		</tr><tr>
+			<td>30Q222</td><td>P.S. Q222   FIRE FIGHTER CHRISTOPHER A. SANTORA SC</td><td>4/26/2022 12:00:00 AM</td><td>91.34</td>
+		</tr><tr>
+			<td>30Q227</td><td>I.S. 227 LOUIS ARMSTRONG</td><td>4/26/2022 12:00:00 AM</td><td>94.81</td>
+		</tr><tr>
+			<td>30Q228</td><td>THE IVAN LAFAYETTE EARLY CHILDHOOD SCHOOL OF THE A</td><td>4/26/2022 12:00:00 AM</td><td>95.85</td>
+		</tr><tr>
+			<td>30Q230</td><td>I.S. 230</td><td>4/26/2022 12:00:00 AM</td><td>94.57</td>
+		</tr><tr>
+			<td>30Q234</td><td>P.S. 234</td><td>4/26/2022 12:00:00 AM</td><td>93.60</td>
+		</tr><tr>
+			<td>30Q235</td><td>ACADEMY FOR NEW AMERICANS</td><td>4/26/2022 12:00:00 AM</td><td>97.10</td>
+		</tr><tr>
+			<td>30Q258</td><td>ENERGY TECH HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>77.48</td>
+		</tr><tr>
+			<td>30Q280</td><td>PS280Q: HOME OF THE LIONHEARTS</td><td>4/26/2022 12:00:00 AM</td><td>94.00</td>
+		</tr><tr>
+			<td>30Q286</td><td>YOUNG WOMEN S LEADERSHIP SCHOOL, ASTORIA</td><td>4/26/2022 12:00:00 AM</td><td>90.20</td>
+		</tr><tr>
+			<td>30Q291</td><td>HUNTERS POINT COMMUNITY MIDDLE SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>96.78</td>
+		</tr><tr>
+			<td>30Q300</td><td>THE 30TH AVENUE SCHOOL  G T CITYWIDE</td><td>4/26/2022 12:00:00 AM</td><td>99.16</td>
+		</tr><tr>
+			<td>30Q301</td><td>ACADEMY FOR CAREERS IN TELEVISION AND FILM</td><td>4/26/2022 12:00:00 AM</td><td>88.82</td>
+		</tr><tr>
+			<td>30Q329</td><td>EAST ELMHURST COMMUNITY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>95.68</td>
+		</tr><tr>
+			<td>30Q361</td><td>THE WOODSIDE COMMUNITY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>93.84</td>
+		</tr><tr>
+			<td>30Q384</td><td>HUNTERS POINT ELEMENTARY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>92.40</td>
+		</tr><tr>
+			<td>30Q389</td><td>DISTRICT 30 PRE K CENTER</td><td>4/26/2022 12:00:00 AM</td><td>81.49</td>
+		</tr><tr>
+			<td>30Q398</td><td>THE HECTOR FIGUEROA SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>93.60</td>
+		</tr><tr>
+			<td>30Q445</td><td>WILLIAM CULLEN BRYANT HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>77.03</td>
+		</tr><tr>
+			<td>30Q450</td><td>LONG ISLAND CITY HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>76.18</td>
+		</tr><tr>
+			<td>30Q501</td><td>FRANK SINATRA SCHOOL OF THE ARTS HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>89.54</td>
+		</tr><tr>
+			<td>30Q502</td><td>INFORMATION TECHNOLOGY HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>82.20</td>
+		</tr><tr>
+			<td>30Q555</td><td>NEWCOMERS HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>81.33</td>
+		</tr><tr>
+			<td>30Q575</td><td>ACADEMY OF AMERICAN STUDIES</td><td>4/26/2022 12:00:00 AM</td><td>86.67</td>
+		</tr><tr>
+			<td>30Q580</td><td>BACCALAUREATE SCHOOL FOR GLOBAL EDUCATION</td><td>4/26/2022 12:00:00 AM</td><td>90.42</td>
+		</tr><tr>
+			<td>31R001</td><td>P.S. 001 TOTTENVILLE</td><td>4/26/2022 12:00:00 AM</td><td>93.62</td>
+		</tr><tr>
+			<td>31R002</td><td>I.S. R002 GEORGE L. EGBERT</td><td>4/26/2022 12:00:00 AM</td><td>91.06</td>
+		</tr><tr>
+			<td>31R003</td><td>P.S. 003 THE MARGARET GIOIOSA SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>93.59</td>
+		</tr><tr>
+			<td>31R004</td><td>P.S. 004 MAURICE WOLLIN</td><td>4/26/2022 12:00:00 AM</td><td>91.75</td>
+		</tr><tr>
+			<td>31R005</td><td>P.S. 005 HUGUENOT</td><td>4/26/2022 12:00:00 AM</td><td>91.72</td>
+		</tr><tr>
+			<td>31R006</td><td>P.S. 6 CORPORAL ALLAN F. KIVLEHAN SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>92.69</td>
+		</tr><tr>
+			<td>31R007</td><td>I.S. 007 ELIAS BERNSTEIN</td><td>4/26/2022 12:00:00 AM</td><td>91.40</td>
+		</tr><tr>
+			<td>31R008</td><td>P.S. 8 SHIRLEE SOLOMON</td><td>4/26/2022 12:00:00 AM</td><td>95.74</td>
+		</tr><tr>
+			<td>31R009</td><td>NAPLES STREET ELEMENTARY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>94.69</td>
+		</tr><tr>
+			<td>31R010</td><td>FORT HILL COLLABORATIVE ELEMENTARY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>88.66</td>
+		</tr><tr>
+			<td>31R011</td><td>P.S. 11 THOMAS DONGAN SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>94.72</td>
+		</tr><tr>
+			<td>31R013</td><td>P.S. 013 M. L. LINDEMEYER</td><td>4/26/2022 12:00:00 AM</td><td>92.65</td>
+		</tr><tr>
+			<td>31R016</td><td>P.S. 016 JOHN J. DRISCOLL</td><td>4/26/2022 12:00:00 AM</td><td>92.10</td>
+		</tr><tr>
+			<td>31R018</td><td>P.S. 018 JOHN G. WHITTIER</td><td>4/26/2022 12:00:00 AM</td><td>90.35</td>
+		</tr><tr>
+			<td>31R019</td><td>P.S. 019 THE CURTIS SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>90.86</td>
+		</tr><tr>
+			<td>31R020</td><td>P.S. 020 PORT RICHMOND</td><td>4/26/2022 12:00:00 AM</td><td>92.80</td>
+		</tr><tr>
+			<td>31R021</td><td>P.S. 21 MARGARET EMERY ELM PARK</td><td>4/26/2022 12:00:00 AM</td><td>93.61</td>
+		</tr><tr>
+			<td>31R022</td><td>P.S. 022 GRANITEVILLE</td><td>4/26/2022 12:00:00 AM</td><td>89.77</td>
+		</tr><tr>
+			<td>31R023</td><td>P.S. 023 RICHMONDTOWN</td><td>4/26/2022 12:00:00 AM</td><td>93.97</td>
+		</tr><tr>
+			<td>31R024</td><td>I.S. 024 MYRA S. BARNES</td><td>4/26/2022 12:00:00 AM</td><td>85.30</td>
+		</tr><tr>
+			<td>31R026</td><td>P.S. 026 THE CARTERET SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>97.87</td>
+		</tr><tr>
+			<td>31R027</td><td>I.S. 027 ANNING S. PRALL</td><td>4/26/2022 12:00:00 AM</td><td>85.68</td>
+		</tr><tr>
+			<td>31R028</td><td>THE EAGLE ACADEMY FOR YOUNG MEN OF STATEN ISLAND</td><td>4/26/2022 12:00:00 AM</td><td>89.86</td>
+		</tr><tr>
+			<td>31R029</td><td>P.S. 029 BARDWELL</td><td>4/26/2022 12:00:00 AM</td><td>91.01</td>
+		</tr><tr>
+			<td>31R030</td><td>P.S. 030 WESTERLEIGH</td><td>4/26/2022 12:00:00 AM</td><td>93.06</td>
+		</tr><tr>
+			<td>31R031</td><td>P.S. 031 WILLIAM T. DAVIS</td><td>4/26/2022 12:00:00 AM</td><td>93.85</td>
+		</tr><tr>
+			<td>31R032</td><td>P.S. 032 THE GIFFORD SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>93.80</td>
+		</tr><tr>
+			<td>31R034</td><td>I.S. 034 TOTTENVILLE</td><td>4/26/2022 12:00:00 AM</td><td>81.78</td>
+		</tr><tr>
+			<td>31R035</td><td>P.S. 35 THE CLOVE VALLEY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>96.61</td>
+		</tr><tr>
+			<td>31R036</td><td>P.S. 036 J. C. DRUMGOOLE</td><td>4/26/2022 12:00:00 AM</td><td>94.39</td>
+		</tr><tr>
+			<td>31R038</td><td>P.S. 038 GEORGE CROMWELL</td><td>4/26/2022 12:00:00 AM</td><td>94.10</td>
+		</tr><tr>
+			<td>31R039</td><td>P.S. 39 FRANCIS J. MURPHY JR.</td><td>4/26/2022 12:00:00 AM</td><td>92.29</td>
+		</tr><tr>
+			<td>31R041</td><td>THE STEPHANIE A. VIERNO SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>93.80</td>
+		</tr><tr>
+			<td>31R042</td><td>P.S. 042 ELTINGVILLE</td><td>4/26/2022 12:00:00 AM</td><td>95.93</td>
+		</tr><tr>
+			<td>31R044</td><td>P.S. 044 THOMAS C. BROWN</td><td>4/26/2022 12:00:00 AM</td><td>90.54</td>
+		</tr><tr>
+			<td>31R045</td><td>P.S. 045 JOHN TYLER</td><td>4/26/2022 12:00:00 AM</td><td>93.90</td>
+		</tr><tr>
+			<td>31R046</td><td>P.S. 046 ALBERT V. MANISCALCO</td><td>4/26/2022 12:00:00 AM</td><td>91.62</td>
+		</tr><tr>
+			<td>31R047</td><td>CSI HIGH SCHOOL FOR INTERNATIONAL STUDIES</td><td>4/26/2022 12:00:00 AM</td><td>93.03</td>
+		</tr><tr>
+			<td>31R048</td><td>P.S. 048 WILLIAM G. WILCOX</td><td>4/26/2022 12:00:00 AM</td><td>95.26</td>
+		</tr><tr>
+			<td>31R049</td><td>I.S. 49 BERTA A. DREYFUS</td><td>4/26/2022 12:00:00 AM</td><td>91.77</td>
+		</tr><tr>
+			<td>31R050</td><td>P.S. 050 FRANK HANKINSON</td><td>4/26/2022 12:00:00 AM</td><td>94.05</td>
+		</tr><tr>
+			<td>31R051</td><td>I.S. 051 EDWIN MARKHAM</td><td>4/26/2022 12:00:00 AM</td><td>88.47</td>
+		</tr><tr>
+			<td>31R052</td><td>P.S. 052 JOHN C. THOMPSON</td><td>4/26/2022 12:00:00 AM</td><td>94.20</td>
+		</tr><tr>
+			<td>31R053</td><td>THE BARBARA ESSELBORN SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>94.67</td>
+		</tr><tr>
+			<td>31R054</td><td>P.S. 054 CHARLES W. LENG</td><td>4/26/2022 12:00:00 AM</td><td>93.60</td>
+		</tr><tr>
+			<td>31R055</td><td>P.S. 055 HENRY M. BOEHM</td><td>4/26/2022 12:00:00 AM</td><td>94.48</td>
+		</tr><tr>
+			<td>31R056</td><td>P.S. 56 THE LOUIS DESARIO SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>93.92</td>
+		</tr><tr>
+			<td>31R057</td><td>P.S. 057 HUBERT H. HUMPHREY</td><td>4/26/2022 12:00:00 AM</td><td>89.94</td>
+		</tr><tr>
+			<td>31R058</td><td>SPACE SHUTTLE COLUMBIA SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>92.25</td>
+		</tr><tr>
+			<td>31R059</td><td>THE HARBOR VIEW SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>92.24</td>
+		</tr><tr>
+			<td>31R060</td><td>P.S. 060 ALICE AUSTEN</td><td>4/26/2022 12:00:00 AM</td><td>91.42</td>
+		</tr><tr>
+			<td>31R061</td><td>I.S. 061 WILLIAM A MORRIS</td><td>4/26/2022 12:00:00 AM</td><td>88.79</td>
+		</tr><tr>
+			<td>31R062</td><td>THE KATHLEEN GRIMM SCHOOL FOR LEADERSHIP AND SUSTA</td><td>4/26/2022 12:00:00 AM</td><td>92.34</td>
+		</tr><tr>
+			<td>31R063</td><td>MARSH AVENUE SCHOOL FOR EXPEDITIONARY LEARNING</td><td>4/26/2022 12:00:00 AM</td><td>NS</td>
+		</tr><tr>
+			<td>31R064</td><td>GAYNOR MCCOWN EXPEDITIONARY LEARNING SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>89.17</td>
+		</tr><tr>
+			<td>31R065</td><td>P.S. 65 THE ACADEMY OF INNOVATIVE LEARNING</td><td>4/26/2022 12:00:00 AM</td><td>93.88</td>
+		</tr><tr>
+			<td>31R066</td><td>THE RICHMOND PRE K CENTER</td><td>4/26/2022 12:00:00 AM</td><td>84.16</td>
+		</tr><tr>
+			<td>31R068</td><td>PORT RICHMOND SCHOOL FOR VISIONARY LEARNING</td><td>4/26/2022 12:00:00 AM</td><td>93.12</td>
+		</tr><tr>
+			<td>31R069</td><td>P.S. 069 DANIEL D. TOMPKINS</td><td>4/26/2022 12:00:00 AM</td><td>95.13</td>
+		</tr><tr>
+			<td>31R072</td><td>I.S. 072 ROCCO LAURIE</td><td>4/26/2022 12:00:00 AM</td><td>87.97</td>
+		</tr><tr>
+			<td>31R074</td><td>P.S. 74 FUTURE LEADERS ELEMENTARY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>87.32</td>
+		</tr><tr>
+			<td>31R075</td><td>I.S. 075 FRANK D. PAULO</td><td>4/26/2022 12:00:00 AM</td><td>90.14</td>
+		</tr><tr>
+			<td>31R078</td><td>P.S. 78</td><td>4/26/2022 12:00:00 AM</td><td>88.26</td>
+		</tr><tr>
+			<td>31R080</td><td>THE MICHAEL J. PETRIDES SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>91.57</td>
+		</tr><tr>
+			<td>31R440</td><td>NEW DORP HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>81.30</td>
+		</tr><tr>
+			<td>31R445</td><td>PORT RICHMOND HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>77.92</td>
+		</tr><tr>
+			<td>31R450</td><td>CURTIS HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>80.39</td>
+		</tr><tr>
+			<td>31R455</td><td>TOTTENVILLE HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>85.76</td>
+		</tr><tr>
+			<td>31R460</td><td>SUSAN E. WAGNER HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>45.62</td>
+		</tr><tr>
+			<td>31R470</td><td>CONCORD HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>41.20</td>
+		</tr><tr>
+			<td>31R600</td><td>RALPH R. MCKEE CAREER AND TECHNICAL EDUCATION HIGH</td><td>4/26/2022 12:00:00 AM</td><td>68.73</td>
+		</tr><tr>
+			<td>31R605</td><td>STATEN ISLAND TECHNICAL HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>93.62</td>
+		</tr><tr>
+			<td>31R861</td><td>STATEN ISLAND SCHOOL OF CIVIC LEADERSHIP</td><td>4/26/2022 12:00:00 AM</td><td>93.61</td>
+		</tr><tr>
+			<td>32K045</td><td>P.S. I.S. 045 HORACE E. GREENE</td><td>4/26/2022 12:00:00 AM</td><td>92.14</td>
+		</tr><tr>
+			<td>32K075</td><td>P.S. 075 MAYDA CORTIELLA</td><td>4/26/2022 12:00:00 AM</td><td>90.94</td>
+		</tr><tr>
+			<td>32K086</td><td>P.S. 086 THE IRVINGTON</td><td>4/26/2022 12:00:00 AM</td><td>95.50</td>
+		</tr><tr>
+			<td>32K106</td><td>P.S. 106 EDWARD EVERETT HALE</td><td>4/26/2022 12:00:00 AM</td><td>90.70</td>
+		</tr><tr>
+			<td>32K116</td><td>P.S. 116 ELIZABETH L FARRELL</td><td>4/26/2022 12:00:00 AM</td><td>92.30</td>
+		</tr><tr>
+			<td>32K123</td><td>P.S. 123 SUYDAM</td><td>4/26/2022 12:00:00 AM</td><td>91.09</td>
+		</tr><tr>
+			<td>32K145</td><td>P.S. 145 ANDREW JACKSON</td><td>4/26/2022 12:00:00 AM</td><td>93.30</td>
+		</tr><tr>
+			<td>32K151</td><td>P.S. 151 LYNDON B. JOHNSON</td><td>4/26/2022 12:00:00 AM</td><td>96.48</td>
+		</tr><tr>
+			<td>32K162</td><td>J.H.S. 162 THE WILLOUGHBY</td><td>4/26/2022 12:00:00 AM</td><td>96.06</td>
+		</tr><tr>
+			<td>32K168</td><td>THE BROOKLYN SCHOOL FOR MATH AND RESEARCH</td><td>4/26/2022 12:00:00 AM</td><td>85.11</td>
+		</tr><tr>
+			<td>32K274</td><td>P.S. 274 KOSCIUSKO</td><td>4/26/2022 12:00:00 AM</td><td>91.52</td>
+		</tr><tr>
+			<td>32K291</td><td>J.H.S. 291 ROLAND HAYES</td><td>4/26/2022 12:00:00 AM</td><td>93.19</td>
+		</tr><tr>
+			<td>32K299</td><td>P.S. 299 THOMAS WARREN FIELD</td><td>4/26/2022 12:00:00 AM</td><td>95.81</td>
+		</tr><tr>
+			<td>32K347</td><td>I.S. 347 SCHOOL OF HUMANITIES</td><td>4/26/2022 12:00:00 AM</td><td>96.86</td>
+		</tr><tr>
+			<td>32K349</td><td>I.S. 349 MATH, SCIENCE   TECH.</td><td>4/26/2022 12:00:00 AM</td><td>96.42</td>
+		</tr><tr>
+			<td>32K376</td><td>P.S. 376</td><td>4/26/2022 12:00:00 AM</td><td>93.81</td>
+		</tr><tr>
+			<td>32K377</td><td>P.S. 377 ALEJANDRINA B. DE GAUTIER</td><td>4/26/2022 12:00:00 AM</td><td>89.37</td>
+		</tr><tr>
+			<td>32K383</td><td>J.H.S. 383 PHILIPPA SCHUYLER</td><td>4/26/2022 12:00:00 AM</td><td>92.98</td>
+		</tr><tr>
+			<td>32K384</td><td>P.S.  I.S. 384 FRANCES E. CARTER</td><td>4/26/2022 12:00:00 AM</td><td>88.49</td>
+		</tr><tr>
+			<td>32K403</td><td>ACADEMY FOR EXCELLENCE IN LEADERSHIP</td><td>4/26/2022 12:00:00 AM</td><td>81.81</td>
+		</tr><tr>
+			<td>32K545</td><td>EBC HIGH SCHOOL FOR PUBLIC SERVICE   BUSHWICK</td><td>4/26/2022 12:00:00 AM</td><td>76.24</td>
+		</tr><tr>
+			<td>32K549</td><td>THE BROOKLYN SCHOOL FOR SOCIAL JUSTICE</td><td>4/26/2022 12:00:00 AM</td><td>68.96</td>
+		</tr><tr>
+			<td>32K552</td><td>THE ACADEMY OF URBAN PLANNING AND ENGINEERING</td><td>4/26/2022 12:00:00 AM</td><td>78.66</td>
+		</tr><tr>
+			<td>32K554</td><td>ALL CITY LEADERSHIP SECONDARY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>NS</td>
+		</tr><tr>
+			<td>32K556</td><td>BUSHWICK LEADERS HIGH SCHOOL FOR ACADEMIC EXCELLEN</td><td>4/26/2022 12:00:00 AM</td><td>86.40</td>
+		</tr><tr>
+			<td>32K562</td><td>EVERGREEN MIDDLE SCHOOL FOR URBAN EXPLORATION</td><td>4/26/2022 12:00:00 AM</td><td>97.72</td>
+		</tr><tr>
+			<td>32K564</td><td>BUSHWICK COMMUNITY HIGH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>68.68</td>
+		</tr><tr>
+			<td>75K004</td><td>P.S. K004</td><td>4/26/2022 12:00:00 AM</td><td>84.09</td>
+		</tr><tr>
+			<td>75K036</td><td>P.S. 36</td><td>4/26/2022 12:00:00 AM</td><td>82.00</td>
+		</tr><tr>
+			<td>75K053</td><td>P.S. K053</td><td>4/26/2022 12:00:00 AM</td><td>85.05</td>
+		</tr><tr>
+			<td>75K077</td><td>P.S. K077</td><td>4/26/2022 12:00:00 AM</td><td>87.62</td>
+		</tr><tr>
+			<td>75K140</td><td>P.S. K140</td><td>4/26/2022 12:00:00 AM</td><td>83.63</td>
+		</tr><tr>
+			<td>75K141</td><td>P.S. K141</td><td>4/26/2022 12:00:00 AM</td><td>83.33</td>
+		</tr><tr>
+			<td>75K231</td><td>P.S. K231</td><td>4/26/2022 12:00:00 AM</td><td>92.02</td>
+		</tr><tr>
+			<td>75K368</td><td>P.S. 368</td><td>4/26/2022 12:00:00 AM</td><td>81.41</td>
+		</tr><tr>
+			<td>75K369</td><td>P.S. K369   COY L. COX SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>85.68</td>
+		</tr><tr>
+			<td>75K370</td><td>P.S. 370</td><td>4/26/2022 12:00:00 AM</td><td>92.11</td>
+		</tr><tr>
+			<td>75K371</td><td>P.S. 371   LILLIAN L. RASHKIS</td><td>4/26/2022 12:00:00 AM</td><td>70.14</td>
+		</tr><tr>
+			<td>75K372</td><td>P.S. 372  THE CHILDREN S SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>90.05</td>
+		</tr><tr>
+			<td>75K373</td><td>P.S. 373   BROOKLYN TRANSITION CENTER</td><td>4/26/2022 12:00:00 AM</td><td>84.84</td>
+		</tr><tr>
+			<td>75K396</td><td>SID MILLER ACADEMY</td><td>4/26/2022 12:00:00 AM</td><td>83.01</td>
+		</tr><tr>
+			<td>75K721</td><td>P.S. K721   BROOKLYN OCCUPATIONAL TRAINING CENTER</td><td>4/26/2022 12:00:00 AM</td><td>84.40</td>
+		</tr><tr>
+			<td>75K753</td><td>P.S. K753   SCHOOL FOR CAREER DEVELOPMENT</td><td>4/26/2022 12:00:00 AM</td><td>67.42</td>
+		</tr><tr>
+			<td>75K771</td><td>P.S. K771</td><td>4/26/2022 12:00:00 AM</td><td>84.39</td>
+		</tr><tr>
+			<td>75K811</td><td>P.S. K811 CONNIE LEKAS SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>78.04</td>
+		</tr><tr>
+			<td>75M035</td><td>P.S. 035</td><td>4/26/2022 12:00:00 AM</td><td>69.00</td>
+		</tr><tr>
+			<td>75M079</td><td>P.S. M079   HORAN SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>67.53</td>
+		</tr><tr>
+			<td>75M094</td><td>P.S. M094</td><td>4/26/2022 12:00:00 AM</td><td>84.61</td>
+		</tr><tr>
+			<td>75M138</td><td>P.S. 138</td><td>4/26/2022 12:00:00 AM</td><td>81.49</td>
+		</tr><tr>
+			<td>75M169</td><td>P.S. M169   ROBERT F. KENNEDY</td><td>4/26/2022 12:00:00 AM</td><td>79.14</td>
+		</tr><tr>
+			<td>75M226</td><td>P.S. M226</td><td>4/26/2022 12:00:00 AM</td><td>84.75</td>
+		</tr><tr>
+			<td>75M721</td><td>P.S. M721   MANHATTAN OCCUPATIONAL TRAINING CENTER</td><td>4/26/2022 12:00:00 AM</td><td>76.43</td>
+		</tr><tr>
+			<td>75M751</td><td>MANHATTAN SCHOOL FOR CAREER DEVELOPMENT</td><td>4/26/2022 12:00:00 AM</td><td>80.64</td>
+		</tr><tr>
+			<td>75M811</td><td>P.S. M811   MICKEY MANTLE SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>86.75</td>
+		</tr><tr>
+			<td>75Q004</td><td>P.S. Q004</td><td>4/26/2022 12:00:00 AM</td><td>88.25</td>
+		</tr><tr>
+			<td>75Q009</td><td>P.S. 009</td><td>4/26/2022 12:00:00 AM</td><td>85.41</td>
+		</tr><tr>
+			<td>75Q023</td><td>P.S. Q023   QUEENS CHILDREN CENTER</td><td>4/26/2022 12:00:00 AM</td><td>79.09</td>
+		</tr><tr>
+			<td>75Q075</td><td>ROBERT E. PEARY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>85.08</td>
+		</tr><tr>
+			<td>75Q177</td><td>P.S. Q177</td><td>4/26/2022 12:00:00 AM</td><td>88.13</td>
+		</tr><tr>
+			<td>75Q224</td><td>P.S. Q224</td><td>4/26/2022 12:00:00 AM</td><td>93.17</td>
+		</tr><tr>
+			<td>75Q233</td><td>P.S. Q233</td><td>4/26/2022 12:00:00 AM</td><td>86.26</td>
+		</tr><tr>
+			<td>75Q255</td><td>P.S. Q255</td><td>4/26/2022 12:00:00 AM</td><td>90.02</td>
+		</tr><tr>
+			<td>75Q256</td><td>P.S. Q256</td><td>4/26/2022 12:00:00 AM</td><td>74.28</td>
+		</tr><tr>
+			<td>75Q277</td><td>THE RIVERVIEW SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>84.49</td>
+		</tr><tr>
+			<td>75Q721</td><td>JOHN F. KENNEDY JR. SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>82.70</td>
+		</tr><tr>
+			<td>75Q752</td><td>QUEENS TRANSITION CENTER</td><td>4/26/2022 12:00:00 AM</td><td>72.31</td>
+		</tr><tr>
+			<td>75Q811</td><td>P.S. Q811</td><td>4/26/2022 12:00:00 AM</td><td>87.12</td>
+		</tr><tr>
+			<td>75Q993</td><td>P.S. Q993</td><td>4/26/2022 12:00:00 AM</td><td>82.73</td>
+		</tr><tr>
+			<td>75R025</td><td>SOUTH RICHMOND HIGH SCHOOL I.S. P.S. 25</td><td>4/26/2022 12:00:00 AM</td><td>76.90</td>
+		</tr><tr>
+			<td>75R037</td><td>THE DAVID MARQUIS SCHOOL OF THE ARTS</td><td>4/26/2022 12:00:00 AM</td><td>90.12</td>
+		</tr><tr>
+			<td>75R373</td><td>P.S. R373</td><td>4/26/2022 12:00:00 AM</td><td>90.39</td>
+		</tr><tr>
+			<td>75R721</td><td>THE RICHARD H. HUNGERFORD SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>89.09</td>
+		</tr><tr>
+			<td>75X010</td><td>P.S. X010</td><td>4/26/2022 12:00:00 AM</td><td>84.46</td>
+		</tr><tr>
+			<td>75X012</td><td>P.S. X012 LEWIS AND CLARK SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>78.59</td>
+		</tr><tr>
+			<td>75X017</td><td>P.S. X017</td><td>4/26/2022 12:00:00 AM</td><td>85.94</td>
+		</tr><tr>
+			<td>75X168</td><td>P.S. 168</td><td>4/26/2022 12:00:00 AM</td><td>84.17</td>
+		</tr><tr>
+			<td>75X176</td><td>P.S. X176</td><td>4/26/2022 12:00:00 AM</td><td>89.59</td>
+		</tr><tr>
+			<td>75X186</td><td>P186X WALTER J. DAMROSCH SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>79.51</td>
+		</tr><tr>
+			<td>75X188</td><td>P.S. X188</td><td>4/26/2022 12:00:00 AM</td><td>85.63</td>
+		</tr><tr>
+			<td>75X352</td><td>THE VIDA BOGART SCHOOL FOR ALL CHILDREN</td><td>4/26/2022 12:00:00 AM</td><td>83.00</td>
+		</tr><tr>
+			<td>75X469</td><td>P469X   THE BRONX SCHOOL FOR CONTINUOUS LEARNERS</td><td>4/26/2022 12:00:00 AM</td><td>80.30</td>
+		</tr><tr>
+			<td>75X596</td><td>P.S. X596</td><td>4/26/2022 12:00:00 AM</td><td>88.88</td>
+		</tr><tr>
+			<td>75X721</td><td>P.S. X721   STEPHEN MCSWEENEY SCHOOL</td><td>4/26/2022 12:00:00 AM</td><td>81.95</td>
+		</tr><tr>
+			<td>75X723</td><td>P.S. 723</td><td>4/26/2022 12:00:00 AM</td><td>81.04</td>
+		</tr><tr>
+			<td>75X754</td><td>J. M. RAPPORT SCHOOL CAREER DEVELOPMENT</td><td>4/26/2022 12:00:00 AM</td><td>52.87</td>
+		</tr><tr>
+			<td>75X811</td><td>P.S. X811</td><td>4/26/2022 12:00:00 AM</td><td>78.48</td>
+		</tr>
+	</table>
+</div>
