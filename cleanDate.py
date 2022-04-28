@@ -11,6 +11,4 @@ def cleanDate(df):
     copy['Date']= pd.to_datetime(
         ser,format='%Y-%m'
         ) +MonthEnd(1)
-    
     return copy.drop(columns = ['Year','Month'])
-    # return df

@@ -1,6 +1,6 @@
 import time
 import pandas as pd
-
+from boroughs import *
 start = time.time()
 
 
@@ -25,7 +25,7 @@ def createDataframe(file_name,year:int):
   cols= ['school_name','attendance_rate','graduation_rate','Borough','total_students']
   df = df[cols]
   df['year'] = str(year) # convert to string be to categorical instead of discrete data
-  return df.sort_values(by='Borough').reset_index()
+  return df.sort_values(by='Borough').reset_index(drop=True)
 
 # let's build a dictionary that maps each year to its respective dataframe
 hsData:dict= {
@@ -78,12 +78,12 @@ def plotHistogram(data:pd.DataFrame,year, colName, ylim):
     size='large'
   )
   sns.move_legend(histogram, "upper right",bbox_to_anchor=(1.1, 1))
-  plt.savefig(
-    f"graphs/{colName}{year}.png",
-    bbox_inches="tight",
-    dpi=300,
-    transparent=True
-    )
+  # plt.savefig(
+  #   f"graphs/{colName}{year}.png",
+  #   bbox_inches="tight",
+  #   dpi=300,
+  #   transparent=True
+  # )
   plt.close()
 
 
@@ -127,12 +127,12 @@ def plotAttendance(data:pd.DataFrame,year):
   
   sns.move_legend(ar, "upper right",bbox_to_anchor=(1.1, 1))
   
-  plt.savefig(
-    f"graphs/Attendance_Rates{year}.png",
-    bbox_inches="tight",
-    dpi=300,
-    transparent=True
-  )
+  # plt.savefig(
+  #   f"graphs/Attendance_Rates{year}.png",
+  #   bbox_inches="tight",
+  #   dpi=300,
+  #   transparent=True
+  # )
   plt.close()
 
 # use changes to record changes in linear regression
@@ -180,17 +180,19 @@ def plotScatter(
     .61,0.75,
     f'Slope: {round(slope,4)}'
     +f'\n Change: {round(changes[1],4)}\n'
-    +f'\n Change: {round(changes[0],4)}\n'
+    +f'\n Y-Intercept: {round(intercept,4)}'
+    +f'\n Change: {round(changes[0],4)}'
   )
   changes[0]= intercept
   changes[1]= slope
   
-  plt.savefig(
-    f"graphs/AttenvGrad{year}.png",
-    bbox_inches="tight",
-    dpi=300,
-    transparent=True
-  )
+  # plt.savefig(
+  #   f"graphs/AttenvGrad{year}.png",
+  #   bbox_inches="tight",
+  #   dpi=300,
+  #   transparent=True
+  # )
+  # plt.show()
   plt.close()
 
 # saves image of student distribution across boroughs
@@ -203,11 +205,11 @@ def studentPieChart(df: pd.DataFrame,year):
   colors= sns.color_palette('pastel')
   plt.pie(students,labels= boroughs,colors= colors, autopct='%0.0f%%')
   plt.title(f'Student Distribution {year}')
-  plt.savefig(
-    f"graphs/studentDistribution{year}.png",
-    bbox_inches="tight",
-    dpi=300,
-    transparent=True)
+  # plt.savefig(
+  #   f"graphs/studentDistribution{year}.png",
+  #   bbox_inches="tight",
+  #   dpi=300,
+  #   transparent=True)
   plt.close()
   
 
@@ -223,12 +225,28 @@ for data in hsData.values():
   studentPieChart(data,year)
   year+=1
 
-# # overall Graduation and Attendance
-# totalData= pd.DataFrame()
-# for data in hsData.values():
-#   totalData= pd.concat([totalData,data])
-
-# totalData= totalData.reset_index(drop=True)
-
+# overall Graduation and Attendance for each year
+totalData= pd.DataFrame()
+for year in range(2017,2022):
+  yearDF= hsData[year]
+  
+  # get yearly summary for each borough
+  annualBoros= pd.DataFrame()
+  for b in boroList:
+    yearBoro= yearDF.loc[yearDF['Borough']==b]
+    attAvg = yearBoro['attendance_rate'].mean()
+    gradAvg= yearBoro['graduation_rate'].mean()
+    annualBoros= pd.concat([
+      annualBoros,
+      pd.DataFrame({
+        'Borough':b,
+        'attendance_rate': attAvg,
+        'graduation_rate':gradAvg,
+        'year': year
+      },index=[0]) 
+    ])
+  annualBoros = annualBoros.reset_index(drop=True)
+  totalData= pd.concat([totalData,annualBoros])
+totalData= totalData.reset_index(drop=True)
 end = time.time()
 print(f"Runtime : {end - start}")

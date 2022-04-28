@@ -18,7 +18,6 @@ AvC= pd.merge(AttendanceDf,monthlyCases, how= 'outer', on ='Date')
 
 # impute missing values
 AvC= AvC.fillna(0).sort_values(by='Date').reset_index(drop=True)
-print(AvC)
 # collective covid and avg attendance cases per month
 
 import seaborn as sns
@@ -63,12 +62,12 @@ Att.set(
 Att.set_xlabel('Date', fontsize=20)
 Att.set_ylabel('Attendance Rates', fontsize=20)
 plt.legend()
-plt.savefig(
-  f"graphs/AttendanceTimeline.png",
-  bbox_inches="tight",
-  dpi=300,
-  transparent=True
-)
+# plt.savefig(
+#   f"graphs/AttendanceTimeline.png",
+#   bbox_inches="tight",
+#   dpi=300,
+#   transparent=True
+# )
 # plt.show()
 plt.close()
 
@@ -98,13 +97,13 @@ def covidScatter(covidDf,extraText:str= "withPrev"):
     f'Slope: {round(slope,4)}\nY-Intercept: {round(intercept,4)}'
   )
   plt.title( f"All Boroughs\nr= {round(covidDf['Cases'].corr(covidDf['Attendance%']),4)}")
-  plt.savefig(
-    f"graphs/covidAttendanceAll{extraText}.png",
-    bbox_inches="tight",
-    dpi=300,
-    transparent=True
-  )
-  # plt.show()
+  # plt.savefig(
+  #   f"graphs/covidAttendanceAll{extraText}.png",
+  #   bbox_inches="tight",
+  #   dpi=300,
+  #   transparent=True
+  # )
+  plt.show()
   plt.close()
   
   # plot each borough
@@ -120,8 +119,8 @@ def covidScatter(covidDf,extraText:str= "withPrev"):
       scatter_kws={'alpha':0.5}
     )
     cases.set(
-    xlim= (-1000, 45000),
-    ylim=(50, 100),
+      xlim= (-1000, 45000),
+      ylim=(50, 100),
     )
     slope, intercept = computeLinearReg(boroData,'Cases','Attendance%')
     
@@ -135,17 +134,18 @@ def covidScatter(covidDf,extraText:str= "withPrev"):
     )
     plt.title(f"{b}\n r ={round(boroData['Cases'].corr(boroData['Attendance%']),4)}")
     
-    plt.savefig(
-      f"graphs/covidAttendance{b}{extraText}.png",
-      bbox_inches="tight",
-      dpi=300,
-      transparent=True
-    )
-    # plt.show()
+    # plt.savefig(
+    #   f"graphs/covidAttendance{b}{extraText}.png",
+    #   bbox_inches="tight",
+    #   dpi=300,
+    #   transparent=True
+    # )
+    plt.show()
     plt.close()
 
+# scatter attendance based on covid
 covidScatter(covidAttendance)
 
+# scatter attendance based on covid (exclude where cases==0)
 covidDf= covidAttendance.loc[covidAttendance['Cases']!=0]
-# print(covidDf)
 covidScatter(covidDf, "")
