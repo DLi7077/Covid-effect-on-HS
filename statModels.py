@@ -22,7 +22,7 @@ import numpy as np
 # df =df.loc[df['Cases']!=0]
 from sklearn.metrics import mean_squared_error
 from sklearn.metrics import mean_absolute_error
-def createPolyReg(df, xCol, yCol,file_name,order=1,color= 'Blue'):
+def createPolyReg(df, xCol, yCol,file_name,order=1,save =True,color= 'Blue'):
   transformer = PolynomialFeatures(degree=order)
   X = transformer.fit_transform(df[[xCol]].values)
 
@@ -58,16 +58,21 @@ def createPolyReg(df, xCol, yCol,file_name,order=1,color= 'Blue'):
   
   mse =round(mean_squared_error(df[yCol],expected),4)
   mae =round(mean_absolute_error(df[yCol],expected),4)
+  
+  slope, intercept = computeLinearReg(df, xCol, yCol)
   plt.text(
     5000,60,
     f'Mean Squared Error: {mse}'+
-    f'\nMean Absolute Error: {mae}'
+    f'\nMean Absolute Error: {mae}'+
+    f'\nLinear:\nSlope: {round(slope,4)}\nY-Intercept: {round(intercept,4)}'
   )
-  
-  plt.savefig(
-    file_name,
-    bbox_inches="tight",
-    dpi=300,
-    transparent=True
-  )
+  if(save):
+    plt.savefig(
+      file_name,
+      bbox_inches="tight",
+      dpi=300,
+      transparent=True
+    )
+  if(not save):
+    plt.show()
   plt.close()

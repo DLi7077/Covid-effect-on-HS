@@ -71,39 +71,6 @@ plt.close()
 
 # covid vs attendance rate scatterplot
 def covidScatter(covidDf,extraText:str= "withPrev"):
-  # plot data for all boroughs
-  # plt.figure()
-  # cases= sns.scatterplot(
-  #   data= covidDf,
-  #   x='Cases',
-  #   y='Attendance%',
-  #   hue= 'Borough'
-  # )
-  # cases.set(
-  #   xlim=(-1000,45000),
-  #   ylim=(50, 100),
-  # )
-  # plt.legend(loc='lower left')
-  # slope, intercept = computeLinearReg(covidDf,'Cases','Attendance%')
-
-  # xVals= np.array(range(-1000,45000))
-  # transform= lambda x: x*slope +intercept
-  # yVals= transform(xVals)
-  # plt.plot(xVals,yVals)
-  
-  # plt.text(
-  #   20000,60,
-  #   f'Slope: {round(slope,4)}\nY-Intercept: {round(intercept,4)}'
-  # )
-  # plt.title( f"All Boroughs\nr= {round(covidDf['Cases'].corr(covidDf['Attendance%']),4)}")
-  # plt.savefig(
-  #   f'graphs/poly/covidAttendanceAll{extraText}order1.png',
-  #   bbox_inches="tight",
-  #   dpi=300,
-  #   transparent=True
-  # )
-  # plt.show()
-  # plt.close()
   for order in range (1,9):
     file_name= f'graphs/poly/covidAttendanceAll{extraText}order{order}.png'
     createPolyReg(covidDf,'Cases','Attendance%',file_name,order)
@@ -115,9 +82,9 @@ def covidScatter(covidDf,extraText:str= "withPrev"):
       file_name=f'graphs/poly/covidAttendance{b}{extraText}order{order}.png'
       createPolyReg(boroData,'Cases','Attendance%',file_name, order, boroColor[b])
 
-# scatter attendance based on covid
-covidScatter(covidAttendance)
+# # scatter attendance based on covid
+# covidScatter(covidAttendance)
 
-# scatter attendance based on covid (exclude where cases==0)
-covidDf= covidAttendance.loc[covidAttendance['Cases']!=0]
-covidScatter(covidDf, "")
+# # scatter attendance based on covid (exclude where cases==0)
+# covidDf= covidAttendance.loc[covidAttendance['Cases']!=0]
+# covidScatter(covidDf, "")

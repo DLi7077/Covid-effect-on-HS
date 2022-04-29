@@ -36,8 +36,6 @@ import re
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
-import seaborn as sns
-import matplotlib.pyplot as plt
 import numpy as np
 
 boroSet={
@@ -54,7 +52,13 @@ boroList=[
     'Manhattan',
     'Queens'
 ]
-
+boroColor= {
+	'Bronx':'Blue',
+	'Brooklyn':'Orange',
+	'Staten Island':'Green',
+	'Manhattan':'Red',
+	'Queens':'Purple'
+}
 """_summary_
 creates a monthly attendance dataframe by combining multiple csv files and cleaning up data
 returns df with cols:
@@ -81,6 +85,7 @@ def cleanDate(df):
 		return df.drop(columns = ['Year','Month'])
 
 # Monthly Attendance Data-----------------------------------------------------------
+print('Handling Monthly Attendance Data....\n')
 def attendanceDataframe():
 	def keyToBoro(boro:str)->str:
 			boroMap= {
@@ -292,6 +297,8 @@ queryBoro: filters dataframe for borough
 monthlyData: aggregates data into months
 """
 # create dataframe with covid Data
+print('Handling Covid Data....\n')
+
 def createCovidDataframe():
     file_name= 'data\COVID-19_Daily_Counts_of_Cases__Hospitalizations__and_Deaths.csv'
     df = pd.read_csv(file_name)
@@ -426,13 +433,14 @@ plt.xticks(rotation=45)
 #     dpi=300,
 #     transparent=True
 # )
-plt.show()
+# plt.show()
 plt.close()
 
 # -------Lienar/Polynomial Regression functions--------------------------------------------------------------------------------------------------------
 """_summary_
 	Computes Linear Regression of two series in a dataframe
 """
+print('Creating Regression Functions....\n')
 def computeLinearReg(df:pd.DataFrame,xCol,yCol):
   x= df[xCol]
   y= df[yCol]
@@ -488,10 +496,13 @@ def createPolyReg(df, xCol, yCol,file_name,order=1,color= 'Blue'):
   
   mse =round(mean_squared_error(df[yCol],expected),4)
   mae =round(mean_absolute_error(df[yCol],expected),4)
+  
+  slope, intercept = computeLinearReg(df, xCol, yCol)
   plt.text(
-    5000,60,
+    5000,40,
     f'Mean Squared Error: {mse}'+
-    f'\nMean Absolute Error: {mae}'
+    f'\nMean Absolute Error: {mae}'+
+    f'\nLinear:\nSlope: {round(slope,4)}\nY-Intercept: {round(intercept,4)}'
   )
   
   plt.savefig(
@@ -503,7 +514,7 @@ def createPolyReg(df, xCol, yCol,file_name,order=1,color= 'Blue'):
   plt.close()
 
 #-------Compare Attendance Rates with Graduation Rates--------------------------------------------------------------------------------
-
+print('Handling Attendance vs Graduation Comparison....\n')
 # The annual data is pretty clean
 # We can extract the needed info with some basic translation
 def createDataframe(file_name,year:int):
@@ -680,7 +691,7 @@ for data in hsData.values():
 totalData= totalData.reset_index(drop=True)
 
 #Compare Attendance Rates vs Cases------------------------------------------------------------------------------------
-
+print('Handling Attendance vs Covid Case Data....\n')
 # merge the covid and cases dataframe
 AttendanceDF= AttendanceDF.drop(columns=['Month'])
 monthlyCases= cleanDate(monthlyData(covidCases))
@@ -689,9 +700,6 @@ AvC= pd.merge(AttendanceDF,monthlyCases, how= 'outer', on ='Date')
 # impute missing values
 AvC= AvC.fillna(0).sort_values(by='Date').reset_index(drop=True)
 # collective covid and avg attendance cases per month
-
-import seaborn as sns
-import matplotlib.pyplot as plt
 
 
 # to make dataframe easier to work with
@@ -739,93 +747,23 @@ plt.legend()
 # )
 # plt.show()
 plt.close()
-
 # covid vs attendance rate scatterplot
 def covidScatter(covidDf,extraText:str= "withPrev"):
   # plot data for all boroughs
-  plt.figure()
-  cases= sns.scatterplot(
-    data= covidDf,
-    x='Cases',
-    y='Attendance%',
-    hue= 'Borough'
-  )
-  cases.set(
-    xlim=(-1000,45000),
-    ylim=(50, 100),
-  )
-  plt.legend(loc='lower left')
-  slope, intercept = computeLinearReg(covidDf,'Cases','Attendance%')
-
-  xVals= np.array(range(-1000,45000))
-  transform= lambda x: x*slope +intercept
-  yVals= transform(xVals)
-  plt.plot(xVals,yVals)
-  plt.text(
-    30000,60,
-    f'Slope: {round(slope,4)}\nY-Intercept: {round(intercept,4)}'
-  )
-  plt.title( f"All Boroughs\nr= {round(covidDf['Cases'].corr(covidDf['Attendance%']),4)}")
-  # plt.savefig(
-  #   f'graphs/covidAttendanceAll{extraText}.png',
-  #   bbox_inches="tight",
-  #   dpi=300,
-  #   transparent=True
-  # )
-  # plt.show()
   plt.close()
-  for order in range (2,9):
+  for order in range (1,9):
     file_name= f'graphs/poly/covidAttendanceAll{extraText}order{order}.png'
-    # createPolyReg(covidDf,'Cases','Attendance%',file_name,order)
+    createPolyReg(covidDf,'Cases','Attendance%',file_name,order)
   
-  
-  boroColor= {
-    'Bronx':'Blue',
-    'Brooklyn':'Orange',
-    'Staten Island':'Green',
-    'Manhattan':'Red',
-    'Queens':'Purple'
-	}
 	# plot each borough
   for b in boroList:
-    plt.figure()
     boroData= covidDf.loc[covidDf['Borough']==b]
-    cases= sns.regplot(
-      data= boroData,
-      x='Cases',
-      y='Attendance%',
-      color=boroColor[b],
-      x_jitter=500,
-      scatter_kws={'alpha':0.5}
-    )
-    cases.set(
-      xlim= (-1000, 45000),
-      ylim=(50, 100),
-    )
-    slope, intercept = computeLinearReg(boroData,'Cases','Attendance%')
     
-    xVals= np.array(range(-1000,45000))
-    transform= lambda x: x*slope +intercept
-    yVals= transform(xVals)
-    plt.plot(xVals,yVals)
-    plt.text(
-      0,60,
-      f'Slope: {round(slope,4)}\nY-Intercept: {round(intercept,4)}'
-    )
-    plt.title(f"{b}\n r ={round(boroData['Cases'].corr(boroData['Attendance%']),4)}")
-    
-    # plt.savefig(
-    #   f"graphs/covidAttendance{b}{extraText}.png",
-    #   bbox_inches="tight",
-    #   dpi=300,
-    #   transparent=True
-    # )
-    # plt.show()
     plt.close()
     # create polynomial regression
-    for order in range (2,9):
+    for order in range (1,9):
       file_name=f'graphs/poly/covidAttendance{b}{extraText}order{order}.png'
-      # createPolyReg(boroData,'Cases','Attendance%',file_name, order)
+      createPolyReg(boroData,'Cases','Attendance%',file_name, order,boroColor[b])
 
 # scatter attendance based on covid
 covidScatter(covidAttendance)
@@ -835,7 +773,7 @@ covidDf= covidAttendance.loc[covidAttendance['Cases']!=0]
 covidScatter(covidDf, "")
 
 # ------ Plotly Choropleth Map ----------------------------------------------------------
-
+print('Handling Choropleth Attendance Map....\n')
 import plotly.express as px
 import json
 
@@ -898,3 +836,184 @@ for year in range(2017, 2022):
   )
   # attFig.show()
 
+#-- Compare recent data with predicted values
+print('Handling Recent Attendance Comparison....\n')
+import os
+
+# Plan: Using recent data as a sample:
+# Calculate the mean attendance rate
+# Compare with historical monthly pattern
+
+recentHsData = pd.DataFrame()
+# list of highSchools. We need this bc they also slapped in middle school attendance
+file = pd.read_csv('data/2017_DOE_High_School_Directory.csv')
+def lowercase(schoolName:str)->str:
+  return schoolName.lower()
+highSchoolList= set(file['school_name'].apply(lowercase).tolist())
+
+for filename in os.listdir("new attendance"):
+  with open(os.path.join("new attendance", filename), 'r') as f:
+    df= pd.read_csv(f)
+    df= df.rename(columns={
+      'SCHOOL': 'school_code',
+      'SCHOOL NAME': 'school_name',
+      'ATTD DATE': 'Date',
+      '%ATTD': 'attendance_rate'
+    })
+     
+    # remove non numeric rows in col
+    # https://stackoverflow.com/questions/33961028/remove-non-numeric-rows-in-one-column-with-pandas
+    df =df[pd.to_numeric(df['attendance_rate'], errors='coerce').notnull()]
+    
+    # to_numeric
+    # https://stackoverflow.com/questions/15891038/change-column-type-in-pandas
+    df['attendance_rate'] = pd.to_numeric(df['attendance_rate'])
+    
+    # filter for only highschools
+    def isHighschool(schoolName:str)->bool:
+      schoolName = schoolName.lower()
+      for highschool in highSchoolList:
+        if(schoolName in highschool or highschool in schoolName):
+          return True
+      return False
+    
+    df= df.loc[df['school_name'].apply(isHighschool)].reset_index(drop=True)
+    
+    # get borough of the school
+    def keyToBoro(schoolCode:str)->str:
+      boroMap= {
+      'X':'Bronx',
+      'K':'Brooklyn',
+      'R':'Staten Island',
+      'M':'Manhattan',
+      'Q':'Queens'
+      }
+      return boroMap[schoolCode[2]]
+    
+    df['Borough'] = df['school_code'].apply(keyToBoro)
+    
+    # we know the date will be the month of april
+    df = df.drop(columns=['school_code','Date']) 
+    recentHsData= pd.concat([recentHsData,df]).reset_index(drop=True)
+    
+    
+# https://stackoverflow.com/questions/29583312/pandas-sum-of-duplicate-attributes
+
+# aggregate average attendance for sample 
+recentHsData['attendance_rate'] = recentHsData.groupby(
+  ['school_name','Borough']
+)['attendance_rate'].transform('mean')
+
+# remove dupes
+recentHsData = recentHsData.drop_duplicates(subset=['school_name'])
+recentHsData = recentHsData.sort_values(by='school_name').reset_index(drop=True)
+
+# clean up data for april of 2022
+cases = caseDF.loc[(caseDF['Date'].dt.month==4)&(caseDF['Date'].dt.year==2022)].drop(columns=['Date'])
+cases= cases.groupby('Borough')['Cases'].sum().reset_index()
+cases['Date'] = pd.to_datetime('4-30-2022')
+
+# merge data with april's covid data 
+recentHsData = recentHsData.merge(right = cases, on = 'Borough')
+recentHsData = recentHsData.rename(columns={
+  'attendance_rate': 'Attendance%'
+})
+# compare to previous data (all boroughs)
+# plot previous data (from attendance vs Covid)
+
+
+def plotComparison(covidAttendance,recentHsData,xCol='Cases', yCol='Attendance%', prev=""):
+  Past= covidAttendance
+  Data= recentHsData
+  plt.figure()
+  sns.regplot(
+    data=Past,
+    x=xCol,
+    y=yCol,
+    x_jitter=200,
+    scatter_kws={'alpha':0.3}
+  )
+  sns.regplot(
+    data=Data,
+    x=xCol,
+    y=yCol,
+    x_jitter=100,
+    scatter_kws={'alpha':0.069}
+  )
+  avgAttendace = Data[yCol].mean()
+  cases = Data[xCol].mean()
+
+  slope, intercept = computeLinearReg(Past, xCol, yCol)
+  expectedAtten = cases*slope + intercept
+  plt.text(
+    20000,60,
+    f'Correlation: {round(Past[xCol].corr(Past[yCol]),2)}'+
+    f'\nLinear Line:\nSlope: {round(slope,4)}\nY-Intercept: {round(intercept,4)}'+
+    f'\nExpected Attendance: {round(expectedAtten,2)}'+
+    f'\nActual Attendance: {round(avgAttendace,2)}({round(avgAttendace-expectedAtten,2)})'
+  )
+  plt.plot(cases,avgAttendace, marker="o", markersize=10, color = 'black')
+  plt.ylim(50,100)
+  plt.xlim(-1000,50000)
+  plt.savefig(
+    f'graphs/poly/extrapolate/All{prev}order1',
+    bbox_inches="tight",
+    dpi=300,
+    transparent=True
+  )
+  # plt.show()
+  plt.close()
+
+  # compare current data to preivous data (BOROUGHS)
+  for b in boroList:
+    plt.figure()
+    # plot previous data (from attendance vs Covid)
+    BoroPast= covidAttendance.loc[covidAttendance['Borough']==b]
+    boroData= recentHsData.loc[recentHsData['Borough']==b]
+    boroData =boroData.rename(columns={
+      'attendance_rate': 'Attendance%'
+    })
+    
+    sns.regplot(
+      data=BoroPast,
+      x='Cases',
+      y='Attendance%',
+      x_jitter=100,
+      color =boroColor[b],
+      scatter_kws={'alpha':0.3}
+    )
+    slope, intercept = computeLinearReg(BoroPast, 'Cases', 'Attendance%')
+
+    sns.regplot(
+      data=boroData,
+      x='Cases',
+      y='Attendance%',
+      x_jitter=100,
+      color =boroColor[b],
+      scatter_kws={'alpha':0.069}
+    )
+    avgAttendace = boroData['Attendance%'].mean()
+    cases = boroData['Cases'].mean()
+    expectedAtten = cases*slope + intercept
+    plt.text(
+      20000,60,
+      f'Correlation: {round(BoroPast[xCol].corr(BoroPast[yCol]),2)}'+
+      f'\nLinear Line:\nSlope: {round(slope,4)}\nY-Intercept: {round(intercept,4)}'+
+      f'\nExpected Attendance: {round(expectedAtten,2)}'+
+      f'\nActual Attendance: {round(avgAttendace,2)}({round(avgAttendace-expectedAtten,2)})'
+    )
+    plt.plot(cases,avgAttendace, marker="o", markersize=10, color = 'black')
+    plt.ylim(50,100)
+    plt.xlim(-1000,50000)
+    plt.savefig(
+      f'graphs/poly/extrapolate/{b}{prev}order1',
+      bbox_inches="tight",
+      dpi=300,
+      transparent=True
+    )
+    # plt.show()
+    plt.close()
+
+plotComparison(covidAttendance, recentHsData,'Cases','Attendance%',prev='withPrev')
+noCases = covidAttendance.loc[covidAttendance['Cases']!=0]
+plotComparison(noCases, recentHsData,'Cases','Attendance%')

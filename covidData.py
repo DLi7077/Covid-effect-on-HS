@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import re
 from boroughs import *
+from cleanDate import *
 
 # create dataframe with covid Data
 def createDataFrame():
@@ -131,11 +132,11 @@ casePlot = sns.lineplot(
 casePlot.set(yscale='log')
 plt.title('New Cases by Day')
 plt.xticks(rotation=45)
-plt.savefig(
-    "graphs/CovidCasesDaily.png",
-    bbox_inches="tight",
-    dpi=300,
-    transparent=True
-)
+# plt.savefig(
+#     "graphs/CovidCasesDaily.png",
+#     bbox_inches="tight",
+#     dpi=300,
+#     transparent=True
+# )
 # plt.show()
 plt.close()
