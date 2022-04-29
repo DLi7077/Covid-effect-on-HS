@@ -1,19 +1,59 @@
 """
+Name:		Devin Li
+Email:  devinl7077@gmail.com
 Resources:
+
 accessing groupby object
 https://stackoverflow.com/questions/14734533/how-to-access-pandas-groupby-dataframe-by-key
+
 groupby month and year
 https://stackoverflow.com/questions/26646191/pandas-groupby-month-and-year
+
+end of month datetime
+https://stackoverflow.com/questions/37354105/find-the-end-of-the-month-of-a-pandas-dataframe-series
+
 to_numeric
 https://pandas.pydata.org/docs/reference/api/pandas.to_numeric.html
+
+dataframe concatenation
+https://pandas.pydata.org/docs/reference/api/pandas.concat.html
+
+plotly documentation
+https://plotly.com/python/mapbox-county-choropleth/
+
+sort dataframe
+https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.sort_values.html
+
+polynomial regression
+http://www.textbook.ds100.org/ch/20/feature_polynomial.html
+
+Title:      Highschool Education vs Covid
+URL:        https://dli7077.github.io/highschool_covid/
 """
 
 import pandas as pd
-from boroughs import *
 import re
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
+import seaborn as sns
+import matplotlib.pyplot as plt
+import numpy as np
+
+boroSet={
+    'Bronx',
+    'Brooklyn',
+    'Staten Island',
+    'Manhattan',
+    'Queens'
+}
+boroList=[
+    'Bronx',
+    'Brooklyn',
+    'Staten Island',
+    'Manhattan',
+    'Queens'
+]
 
 """_summary_
 creates a monthly attendance dataframe by combining multiple csv files and cleaning up data
@@ -40,6 +80,7 @@ def cleanDate(df):
 		
 		return df.drop(columns = ['Year','Month'])
 
+# Monthly Attendance Data-----------------------------------------------------------
 def attendanceDataframe():
 	def keyToBoro(boro:str)->str:
 			boroMap= {
@@ -388,7 +429,7 @@ plt.xticks(rotation=45)
 plt.show()
 plt.close()
 
-# ------------------------------------------------------------------------------------------------------------------------------
+# -------Lienar/Polynomial Regression functions--------------------------------------------------------------------------------------------------------
 """_summary_
 	Computes Linear Regression of two series in a dataframe
 """
@@ -403,13 +444,72 @@ def computeLinearReg(df:pd.DataFrame,xCol,yCol):
   
   return slope, yIntercept
 
-# Compare Attendance Rates with Graduation Rates--------------------------------------------------------------------------------
+"""_summary_
+	Creates Polynomail Regression of two series in a dataframe
+	Saves the figure
+"""
+from sklearn.linear_model import LinearRegression
+from sklearn.preprocessing import PolynomialFeatures
+from sklearn.metrics import mean_squared_error
+from sklearn.metrics import mean_absolute_error
+def createPolyReg(df, xCol, yCol,file_name,order=1,color= 'Blue'):
+  transformer = PolynomialFeatures(degree=order)
+  X = transformer.fit_transform(df[[xCol]].values)
+
+  clf = LinearRegression(fit_intercept=False)
+  clf.fit(X, df[yCol])
+  if('All' in file_name):
+    sns.lmplot(
+      data=df,
+      x=xCol,
+      y=yCol,
+      fit_reg= False,
+      hue= 'Borough',
+      scatter_kws={'alpha':0.5}
+    )
+  else:
+    sns.regplot(
+      data=df,
+      x=xCol,
+      y=yCol,
+      x_jitter=500,
+      color= color,
+      scatter_kws={'alpha':0.5}
+    )
+  xs = np.linspace(0,50000).reshape(-1, 1)
+  ys = clf.predict(transformer.transform(xs))
+  plt.ylim(30,150)
+  
+  plt.plot(xs, ys)
+  plt.title(f'Covid Cases vs Attendance Rate (Degree {order})')
+  
+  vals = np.arange(0,len(df)).reshape(-1, 1)
+  expected= clf.predict(transformer.transform(vals))
+  
+  mse =round(mean_squared_error(df[yCol],expected),4)
+  mae =round(mean_absolute_error(df[yCol],expected),4)
+  plt.text(
+    5000,60,
+    f'Mean Squared Error: {mse}'+
+    f'\nMean Absolute Error: {mae}'
+  )
+  
+  plt.savefig(
+    file_name,
+    bbox_inches="tight",
+    dpi=300,
+    transparent=True
+  )
+  plt.close()
+
+#-------Compare Attendance Rates with Graduation Rates--------------------------------------------------------------------------------
 
 # The annual data is pretty clean
 # We can extract the needed info with some basic translation
 def createDataframe(file_name,year:int):
 	df = pd.read_csv(file_name)
 	
+	# returns borough based on 3rd character
 	def charToBoro(dbn:str):
 		boroMap = {
 			'K': 'Brooklyn',
@@ -580,10 +680,10 @@ for data in hsData.values():
 totalData= totalData.reset_index(drop=True)
 
 #Compare Attendance Rates vs Cases------------------------------------------------------------------------------------
+
 # merge the covid and cases dataframe
 AttendanceDF= AttendanceDF.drop(columns=['Month'])
 monthlyCases= cleanDate(monthlyData(covidCases))
-# print(monthlyCases)
 AvC= pd.merge(AttendanceDF,monthlyCases, how= 'outer', on ='Date')
 
 # impute missing values
@@ -616,8 +716,7 @@ covidAttendance= covidAttendance.reset_index(drop= True)
   
 # Attendance Timeline
 covidAttendance= covidAttendance.dropna()
-covidAttendance= covidAttendance.loc[covidAttendance['Attendance%']!=0]
-print(covidAttendance)
+covidAttendance= covidAttendance.loc[covidAttendance['Attendance%']!=0].reset_index(drop=True)
 
 plt.figure()
 Att= sns.scatterplot(
@@ -668,15 +767,26 @@ def covidScatter(covidDf,extraText:str= "withPrev"):
   )
   plt.title( f"All Boroughs\nr= {round(covidDf['Cases'].corr(covidDf['Attendance%']),4)}")
   # plt.savefig(
-  #   f"graphs/covidAttendanceAll{extraText}.png",
+  #   f'graphs/covidAttendanceAll{extraText}.png',
   #   bbox_inches="tight",
   #   dpi=300,
   #   transparent=True
   # )
-  plt.show()
+  # plt.show()
   plt.close()
+  for order in range (2,9):
+    file_name= f'graphs/poly/covidAttendanceAll{extraText}order{order}.png'
+    # createPolyReg(covidDf,'Cases','Attendance%',file_name,order)
   
-  # plot each borough
+  
+  boroColor= {
+    'Bronx':'Blue',
+    'Brooklyn':'Orange',
+    'Staten Island':'Green',
+    'Manhattan':'Red',
+    'Queens':'Purple'
+	}
+	# plot each borough
   for b in boroList:
     plt.figure()
     boroData= covidDf.loc[covidDf['Borough']==b]
@@ -710,8 +820,12 @@ def covidScatter(covidDf,extraText:str= "withPrev"):
     #   dpi=300,
     #   transparent=True
     # )
-    plt.show()
+    # plt.show()
     plt.close()
+    # create polynomial regression
+    for order in range (2,9):
+      file_name=f'graphs/poly/covidAttendance{b}{extraText}order{order}.png'
+      # createPolyReg(boroData,'Cases','Attendance%',file_name, order)
 
 # scatter attendance based on covid
 covidScatter(covidAttendance)
@@ -719,3 +833,68 @@ covidScatter(covidAttendance)
 # scatter attendance based on covid (exclude where cases==0)
 covidDf= covidAttendance.loc[covidAttendance['Cases']!=0]
 covidScatter(covidDf, "")
+
+# ------ Plotly Choropleth Map ----------------------------------------------------------
+
+import plotly.express as px
+import json
+
+boroughLocations = json.load(open('Borough Boundaries.geojson'))
+
+# overall Graduation and Attendance for each year
+totalData= pd.DataFrame()
+for year in range(2017,2022):
+  yearDF= hsData[year]
+  
+  # get yearly summary for each borough
+  annualBoros= pd.DataFrame()
+  for b in boroList:
+    yearBoro= yearDF.loc[yearDF['Borough']==b]
+    attAvg = yearBoro['attendance_rate'].mean()
+    gradAvg= yearBoro['graduation_rate'].mean()
+    annualBoros= pd.concat([
+      annualBoros,
+      pd.DataFrame({
+        'Borough':b,
+        'attendance_rate': attAvg,
+        'graduation_rate':gradAvg,
+        'year': year
+      },index=[0]) 
+    ])
+  annualBoros = annualBoros.reset_index(drop=True)
+  totalData= pd.concat([totalData,annualBoros])
+totalData= totalData.reset_index(drop=True)
+
+for year in range(2017, 2022):
+  df = totalData.loc[totalData['year']==year]
+  
+  # map annual graduation
+  gradFig = px.choropleth_mapbox(
+    df,
+    geojson=boroughLocations,
+    locations= 'Borough',
+    featureidkey="properties.boro_name",
+    color= 'graduation_rate',
+    color_continuous_scale='GnBu',
+    range_color=(.69, .90),
+    mapbox_style="carto-positron",
+    zoom=9.7, center = {"lat": 40.7128, "lon": -74.0060},
+    title=f'{year} Average Graduation Rate'
+  )
+  # gradFig.show()
+  
+  # map annual attendance rate
+  attFig = px.choropleth_mapbox(
+    df,
+    geojson=boroughLocations,
+    locations= 'Borough',
+    featureidkey="properties.boro_name",
+    color= 'attendance_rate',
+    color_continuous_scale='GnBu',
+    range_color=(.84, .91),
+    mapbox_style="carto-positron",
+    zoom=9.7, center = {"lat": 40.7128, "lon": -74.0060},
+    title=f'{year} Average Attendance Rate'
+  )
+  # attFig.show()
+

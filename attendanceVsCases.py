@@ -5,7 +5,7 @@ compares cases with boro attendance on a scatter plot. saves graphs as png image
 import pandas as pd
 from attendance import AttendanceDf
 from covidData import *
-from statModels import computeLinearReg
+from statModels import *
 from cleanDate import *
 from boroughs import *
 import numpy as np
@@ -13,7 +13,6 @@ import numpy as np
 # merge the covid and cases dataframe
 AttendanceDf= AttendanceDf.drop(columns=['Month'])
 monthlyCases= cleanDate(monthlyData(covidCases))
-# print(monthlyCases)
 AvC= pd.merge(AttendanceDf,monthlyCases, how= 'outer', on ='Date')
 
 # impute missing values
@@ -46,8 +45,7 @@ covidAttendance= covidAttendance.reset_index(drop= True)
   
 # Attendance Timeline
 covidAttendance= covidAttendance.dropna()
-covidAttendance= covidAttendance.loc[covidAttendance['Attendance%']!=0]
-print(covidAttendance)
+covidAttendance= covidAttendance.loc[covidAttendance['Attendance%']!=0].reset_index(drop=True)
 
 plt.figure()
 Att= sns.scatterplot(
@@ -74,74 +72,48 @@ plt.close()
 # covid vs attendance rate scatterplot
 def covidScatter(covidDf,extraText:str= "withPrev"):
   # plot data for all boroughs
-  plt.figure()
-  cases= sns.scatterplot(
-    data= covidDf,
-    x='Cases',
-    y='Attendance%',
-    hue= 'Borough'
-  )
-  cases.set(
-    xlim=(-1000,45000),
-    ylim=(50, 100),
-  )
-  plt.legend(loc='lower left')
-  slope, intercept = computeLinearReg(covidDf,'Cases','Attendance%')
+  # plt.figure()
+  # cases= sns.scatterplot(
+  #   data= covidDf,
+  #   x='Cases',
+  #   y='Attendance%',
+  #   hue= 'Borough'
+  # )
+  # cases.set(
+  #   xlim=(-1000,45000),
+  #   ylim=(50, 100),
+  # )
+  # plt.legend(loc='lower left')
+  # slope, intercept = computeLinearReg(covidDf,'Cases','Attendance%')
 
-  xVals= np.array(range(-1000,45000))
-  transform= lambda x: x*slope +intercept
-  yVals= transform(xVals)
-  plt.plot(xVals,yVals)
-  plt.text(
-    30000,60,
-    f'Slope: {round(slope,4)}\nY-Intercept: {round(intercept,4)}'
-  )
-  plt.title( f"All Boroughs\nr= {round(covidDf['Cases'].corr(covidDf['Attendance%']),4)}")
+  # xVals= np.array(range(-1000,45000))
+  # transform= lambda x: x*slope +intercept
+  # yVals= transform(xVals)
+  # plt.plot(xVals,yVals)
+  
+  # plt.text(
+  #   20000,60,
+  #   f'Slope: {round(slope,4)}\nY-Intercept: {round(intercept,4)}'
+  # )
+  # plt.title( f"All Boroughs\nr= {round(covidDf['Cases'].corr(covidDf['Attendance%']),4)}")
   # plt.savefig(
-  #   f"graphs/covidAttendanceAll{extraText}.png",
+  #   f'graphs/poly/covidAttendanceAll{extraText}order1.png',
   #   bbox_inches="tight",
   #   dpi=300,
   #   transparent=True
   # )
-  plt.show()
-  plt.close()
+  # plt.show()
+  # plt.close()
+  for order in range (1,9):
+    file_name= f'graphs/poly/covidAttendanceAll{extraText}order{order}.png'
+    createPolyReg(covidDf,'Cases','Attendance%',file_name,order)
   
   # plot each borough
   for b in boroList:
-    plt.figure()
     boroData= covidDf.loc[covidDf['Borough']==b]
-    cases= sns.regplot(
-      data= boroData,
-      x='Cases',
-      y='Attendance%',
-      color=boroColor[b],
-      x_jitter=500,
-      scatter_kws={'alpha':0.5}
-    )
-    cases.set(
-      xlim= (-1000, 45000),
-      ylim=(50, 100),
-    )
-    slope, intercept = computeLinearReg(boroData,'Cases','Attendance%')
-    
-    xVals= np.array(range(-1000,45000))
-    transform= lambda x: x*slope +intercept
-    yVals= transform(xVals)
-    plt.plot(xVals,yVals)
-    plt.text(
-      0,60,
-      f'Slope: {round(slope,4)}\nY-Intercept: {round(intercept,4)}'
-    )
-    plt.title(f"{b}\n r ={round(boroData['Cases'].corr(boroData['Attendance%']),4)}")
-    
-    # plt.savefig(
-    #   f"graphs/covidAttendance{b}{extraText}.png",
-    #   bbox_inches="tight",
-    #   dpi=300,
-    #   transparent=True
-    # )
-    plt.show()
-    plt.close()
+    for order in range (1,9):
+      file_name=f'graphs/poly/covidAttendance{b}{extraText}order{order}.png'
+      createPolyReg(boroData,'Cases','Attendance%',file_name, order, boroColor[b])
 
 # scatter attendance based on covid
 covidScatter(covidAttendance)

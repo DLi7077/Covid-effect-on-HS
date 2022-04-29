@@ -201,7 +201,6 @@ for i,row in AttendanceDf['Month'].iteritems():
     monthSet.remove(row)
 
 # add each missing month
-print(monthSet)
 for m in monthSet:
   newRow = {}
   for b in boroSet:
@@ -218,20 +217,18 @@ for m in monthSet:
   AttendanceDf= pd.concat([AttendanceDf,newRow])
 
 AttendanceDF= AttendanceDf.sort_values(by= ['Month','Date']).reset_index(drop=True)
-print(AttendanceDF)
 # finally done. Data is cleaned and now  we have each borough's avg attendance rate per month
 # Unfortunately, this is only from 2018- to Oct 2021, with a missing chunk in 2020 due to attendance not being taken during covid
 
-import seaborn as sns
-import matplotlib.pyplot as plt
-timeline = AttendanceDF['Date'].tolist()
-for b in boroList:
-  boroRates= AttendanceDF[f'{b} Attendance%'].tolist()
-  boroRates= np.array(boroRates, dtype=np.double)
-  boroRates[boroRates==0] = np.nan
-  print(boroRates)
-  sns.scatterplot(
-		x=timeline,
-		y=boroRates
-	)
-plt.show()
+# import seaborn as sns
+# import matplotlib.pyplot as plt
+# timeline = AttendanceDF['Date'].tolist()
+# for b in boroList:
+#   boroRates= AttendanceDF[f'{b} Attendance%'].tolist()
+#   boroRates= np.array(boroRates, dtype=np.double)
+#   boroRates[boroRates==0] = np.nan
+#   sns.scatterplot(
+# 		x=timeline,
+# 		y=boroRates
+# 	)
+# plt.show()
