@@ -60,31 +60,32 @@ Att.set(
 Att.set_xlabel('Date', fontsize=20)
 Att.set_ylabel('Attendance Rates', fontsize=20)
 plt.legend()
-# plt.savefig(
-#   f"graphs/AttendanceTimeline.png",
-#   bbox_inches="tight",
-#   dpi=300,
-#   transparent=True
-# )
+plt.xticks(rotation = 45)
+plt.savefig(
+  f"graphs/AttendanceTimeline.png",
+  bbox_inches="tight",
+  dpi=300,
+  transparent=True
+)
 # plt.show()
 plt.close()
 
-# covid vs attendance rate scatterplot
-def covidScatter(covidDf,extraText:str= "withPrev"):
-  for order in range (1,9):
-    file_name= f'graphs/poly/covidAttendanceAll{extraText}order{order}.png'
-    createPolyReg(covidDf,'Cases','Attendance%',file_name,order)
+# # covid vs attendance rate scatterplot
+# def covidScatter(covidDf,extraText:str= "withPrev"):
+#   for order in range (1,9):
+#     file_name= f'graphs/poly/covidAttendanceAll{extraText}order{order}.png'
+#     createPolyReg(covidDf,'Cases','Attendance%',file_name,order)
   
-  # plot each borough
-  for b in boroList:
-    boroData= covidDf.loc[covidDf['Borough']==b]
-    for order in range (1,9):
-      file_name=f'graphs/poly/covidAttendance{b}{extraText}order{order}.png'
-      createPolyReg(boroData,'Cases','Attendance%',file_name, order, boroColor[b])
+#   # plot each borough
+#   for b in boroList:
+#     boroData= covidDf.loc[covidDf['Borough']==b]
+#     for order in range (1,9):
+#       file_name=f'graphs/poly/covidAttendance{b}{extraText}order{order}.png'
+#       createPolyReg(boroData,'Cases','Attendance%',file_name, order, boroColor[b])
 
-# # scatter attendance based on covid
-# covidScatter(covidAttendance)
+# # # scatter attendance based on covid
+# # covidScatter(covidAttendance)
 
-# # scatter attendance based on covid (exclude where cases==0)
-# covidDf= covidAttendance.loc[covidAttendance['Cases']!=0]
-# covidScatter(covidDf, "")
+# # # scatter attendance based on covid (exclude where cases==0)
+# # covidDf= covidAttendance.loc[covidAttendance['Cases']!=0]
+# # covidScatter(covidDf, "")

@@ -1,9 +1,7 @@
 """
 Name:		Devin Li
 Email:  devinl7077@gmail.com
-Resources:
-
-accessing groupby object
+Resources: accessing groupby object
 https://stackoverflow.com/questions/14734533/how-to-access-pandas-groupby-dataframe-by-key
 
 groupby month and year
@@ -27,7 +25,34 @@ https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.sort_values.html
 polynomial regression
 http://www.textbook.ds100.org/ch/20/feature_polynomial.html
 
-Title:      Highschool Education vs Covid
+saving plot cuts off labels
+https://stackoverflow.com/questions/6774086/how-to-adjust-padding-with-cutoff-or-overlapping-labels
+
+saving plot as image
+https://www.marsja.se/how-to-save-a-seaborn-plot-as-a-file-e-g-png-pdf-eps-tiff/
+
+customizing plot
+https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Python_Seaborn_Cheat_Sheet.pdf
+
+add text to seaborn plot
+https://stackoverflow.com/questions/41511334/adding-text-to-each-subplot-in-seaborn
+
+pie chart
+https://www.delftstack.com/howto/seaborn/seaborn-pie-chart/
+
+hue histplots
+https://seaborn.pydata.org/generated/seaborn.histplot.html
+
+aggregate duplicates
+https://stackoverflow.com/questions/29583312/pandas-sum-of-duplicate-attributes
+
+remove non numeric rows in col
+https://stackoverflow.com/questions/33961028/remove-non-numeric-rows-in-one-column-with-pandas
+
+col to_numeric conversion
+https://stackoverflow.com/questions/15891038/change-column-type-in-pandas
+
+Title:      An Attempt to Measure Covid's Effect on Highschool Education
 URL:        https://dli7077.github.io/highschool_covid/
 """
 
@@ -500,6 +525,7 @@ def createPolyReg(df, xCol, yCol,file_name,order=1,color= 'Blue'):
   slope, intercept = computeLinearReg(df, xCol, yCol)
   plt.text(
     5000,40,
+    f'Correlation: {round(df[xCol].corr(df[yCol]),2)}\n'
     f'Mean Squared Error: {mse}'+
     f'\nMean Absolute Error: {mae}'+
     f'\nLinear:\nSlope: {round(slope,4)}\nY-Intercept: {round(intercept,4)}'
@@ -637,7 +663,7 @@ def plotScatter(
 		changes[1]=0
 	plt.text(
 		.61,0.75,
-		f'Slope: {round(slope,4)}'
+		f'Slope: {round(slope,4)}\n'
 		+f'\n Change: {round(changes[1],4)}\n'
 		+f'\n Y-Intercept: {round(intercept,4)}'
 		+f'\n Change: {round(changes[0],4)}'
@@ -645,12 +671,12 @@ def plotScatter(
 	changes[0]= intercept
 	changes[1]= slope
 	
-	# plt.savefig(
-	#   f"graphs/AttenvGrad{year}.png",
-	#   bbox_inches="tight",
-	#   dpi=300,
-	#   transparent=True
-	# )
+	plt.savefig(
+	  f"graphs/AttenvGrad{year}.png",
+	  bbox_inches="tight",
+	  dpi=300,
+	  transparent=True
+	)
 	# plt.show()
 	plt.close()
 
@@ -700,7 +726,6 @@ AvC= pd.merge(AttendanceDF,monthlyCases, how= 'outer', on ='Date')
 # impute missing values
 AvC= AvC.fillna(0).sort_values(by='Date').reset_index(drop=True)
 # collective covid and avg attendance cases per month
-
 
 # to make dataframe easier to work with
 # we'll create a borough category
@@ -861,12 +886,8 @@ for filename in os.listdir("new attendance"):
       '%ATTD': 'attendance_rate'
     })
      
-    # remove non numeric rows in col
-    # https://stackoverflow.com/questions/33961028/remove-non-numeric-rows-in-one-column-with-pandas
     df =df[pd.to_numeric(df['attendance_rate'], errors='coerce').notnull()]
     
-    # to_numeric
-    # https://stackoverflow.com/questions/15891038/change-column-type-in-pandas
     df['attendance_rate'] = pd.to_numeric(df['attendance_rate'])
     
     # filter for only highschools
@@ -897,7 +918,6 @@ for filename in os.listdir("new attendance"):
     recentHsData= pd.concat([recentHsData,df]).reset_index(drop=True)
     
     
-# https://stackoverflow.com/questions/29583312/pandas-sum-of-duplicate-attributes
 
 # aggregate average attendance for sample 
 recentHsData['attendance_rate'] = recentHsData.groupby(
@@ -947,7 +967,7 @@ def plotComparison(covidAttendance,recentHsData,xCol='Cases', yCol='Attendance%'
   expectedAtten = cases*slope + intercept
   plt.text(
     20000,60,
-    f'Correlation: {round(Past[xCol].corr(Past[yCol]),2)}'+
+    f'Correlation: {round(Past[xCol].corr(Past[yCol]),2)}\n'+
     f'\nLinear Line:\nSlope: {round(slope,4)}\nY-Intercept: {round(intercept,4)}'+
     f'\nExpected Attendance: {round(expectedAtten,2)}'+
     f'\nActual Attendance: {round(avgAttendace,2)}({round(avgAttendace-expectedAtten,2)})'
@@ -997,7 +1017,7 @@ def plotComparison(covidAttendance,recentHsData,xCol='Cases', yCol='Attendance%'
     expectedAtten = cases*slope + intercept
     plt.text(
       20000,60,
-      f'Correlation: {round(BoroPast[xCol].corr(BoroPast[yCol]),2)}'+
+      f'Correlation: {round(BoroPast[xCol].corr(BoroPast[yCol]),2)}\n'+
       f'\nLinear Line:\nSlope: {round(slope,4)}\nY-Intercept: {round(intercept,4)}'+
       f'\nExpected Attendance: {round(expectedAtten,2)}'+
       f'\nActual Attendance: {round(avgAttendace,2)}({round(avgAttendace-expectedAtten,2)})'
@@ -1014,6 +1034,6 @@ def plotComparison(covidAttendance,recentHsData,xCol='Cases', yCol='Attendance%'
     # plt.show()
     plt.close()
 
-plotComparison(covidAttendance, recentHsData,'Cases','Attendance%',prev='withPrev')
+plotComparison(covidAttendance, recentHsData,'Cases','Attendance%',prev='wPrev')
 noCases = covidAttendance.loc[covidAttendance['Cases']!=0]
 plotComparison(noCases, recentHsData,'Cases','Attendance%')
