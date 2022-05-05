@@ -6,7 +6,8 @@ start = time.time()
 
 def charToBoro(dbn:str):
   boroMap = {
-    'K': 'Brooklsyn',
+    'dK': 'Brooklsyn',
+    'K': 'Brooklyn',
     'R': 'Staten Island',
     'Q': 'Queens',
     'X': 'Bronx',
