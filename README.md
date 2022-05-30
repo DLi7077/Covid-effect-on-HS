@@ -2,6 +2,7 @@
 Intro to Data Science side project
 
 ### website: -> https://dli7077.github.io/highschool_covid/
+### website code : ->https://github.com/DLi7077/highschool_covid
 
 ## A script intended for 1-time use that generates graphs and linear models for highschool data compared to covid-19 cases
 
